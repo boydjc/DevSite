@@ -1,0 +1,20 @@
+body {
+    background-color: #4cb6ba;
+}
+
+div {
+    border: 2px solid black;
+    width: 100%;
+}
+
+#header {
+    height: 40px;
+}
+
+#siteBody {
+    height: 100px;
+}
+
+#footer {
+    height: 40px;
+}
