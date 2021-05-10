@@ -1,9 +1,16 @@
 body {
-    background-color: #2f3638;
+    background-color: #6d8dbf;
 }
 
 #header {
     border: 2px solid black;
-    height: 30px;
+    width: 100%;
+    height: 400px;
+}
 
+#profilePic {
+	border: 5px solid black;
+	border-radius: 180px;
+	margin-left: 40%;
+	margin-top: 2%;
 }
