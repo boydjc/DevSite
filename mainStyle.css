@@ -60,3 +60,25 @@ body {
     animation-delay: 1.1s;
     animation-fill-mode: backwards;
 }
+
+#navBar div {
+    margin-top: 1em;
+}
+
+#navBar a {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#homeLink {
+    margin-left: 5em;
+    float: left;
+}
+
+#otherLinks {
+    margin-left: 53em;
+}
+
+#otherLinks a {
+    padding-right: 1em;
+}
