@@ -29,4 +29,12 @@ body {
     transform-origin: 50% 50%; 
 }
 
+#profilePicCont {
+    border: 2px solid #FFFF00;
+    width: 35em;
+    height: 20em;
+}
 
+#profilePic {
+    border-radius: 9em;
+}
