@@ -4,13 +4,25 @@
     from {
         transform: scale(1);
 	border: 2px solid #FFFFFF;
+	border-radius: 0em;
     }
 
     to   {
 	transform: scale(0);
 	border: 0px solid #FFFFFF;
+	border-radius: 15em;
     }
 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 body {
@@ -32,9 +44,14 @@ body {
 #profilePicCont {
     border: 2px solid #FFFF00;
     width: 35em;
-    height: 20em;
+    height: 22.5em;
 }
 
 #profilePic {
-    border-radius: 9em;
+    border-radius: 11em;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+
 }
