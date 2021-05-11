@@ -1,10 +1,16 @@
 /*Animations*/
 
 @keyframes shrinkExpand {
-    from {width: 100%;
-	  height: 630px;}
-    to   {width: 0%;
-	  height: 0px;}
+    from {
+        transform: scale(1);
+	border: 2px solid #FFFFFF;
+    }
+
+    to   {
+	transform: scale(0);
+	border: 0px solid #FFFFFF;
+    }
+
 }
 
 body {
@@ -13,10 +19,14 @@ body {
 
 #mainCont {
     border: 2px solid #FFFFFF;
-    width: 100%;
-    height: 630px;
+    width: 84em;
+    height: 39.5em;
     animation-name: shrinkExpand;
-    animation-duration: 0.7s;
+    animation-duration: 0.5s;
     animation-iteration-count: 2;
     animation-direction: alternate;
+    animation-fill-mode: backwards;
+    transform-origin: 50% 50%; 
 }
+
+
