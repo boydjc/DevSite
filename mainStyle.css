@@ -108,3 +108,12 @@ body {
     width: 32em;
     height: 11.7em;
 }
+
+#disc ul {
+    list-style-type: none;
+}
+
+#disc li {
+    font-size: 2em;
+    padding-bottom: 0.6em;
+}
