@@ -53,13 +53,21 @@ $(document).ready(function(){
 	$("#greeting h1").text("Joshua Boyd");
 	// Create profile picture div
 	$("#mainCont").append(
-	    '<div id="profilePicCont"><img src="joshFancyNew.jpg" id="profilePic" alt="fancy.jpg" height=300 width=307></div>'
+	    `<div id="profilePicCont">
+		<img src="joshFancyNew.jpg" id="profilePic" alt="fancy.jpg" height=300 width=307>
+	     </div>`
 	);
 	$("#mainCont").append(
 	    '<div id="greeting"><h1>Joshua Boyd</h1></div>'
 	);
 	$("#mainCont").append(
-	    '<div id="disc"><ul><li id="listOne">Software Developer</li><li id="listTwo">Programming Enthusiast</li><li id="listThree">Computer Nerd</li></ul></div>'
+	   `<div id="disc">
+	        <ul>
+		    <li id="listOne">Software Developer</li>
+		    <li id="listTwo">Programming Enthusiast</li>
+		    <li id="listThree">Computer Nerd</li>
+		</ul>
+	    </div>`
 	);
     }
 
