@@ -1,3 +1,6 @@
 $(document).ready(function(){
-    alert("Testing");
+    $("#navBar a" ).click(function(event){
+	event.preventDefault();
+	$("#mainCont").addClass("mainContAnim");
+    });
 });

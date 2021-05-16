@@ -44,16 +44,19 @@ body {
     background-color: #2c2c2c;
 }
 
-#mainCont {
-    border: 2px solid #FFFFFF;
-    width: 83.5em;
-    height: 39em;
+.mainContAnim {
     animation-name: shrinkExpand;
     animation-duration: 0.5s;
     animation-iteration-count: 2;
     animation-direction: alternate;
     animation-fill-mode: backwards;
-    transform-origin: 50% 50%; 
+    transform-origin: 50% 50%;
+}
+
+#mainCont {
+    border: 2px solid #FFFFFF;
+    width: 83.5em;
+    height: 39em;
 }
 
 #navBar {
