@@ -63,32 +63,14 @@ body {
 }
 
 #mainCont {
-    /*border: 2px solid #FFFFFF;*/
+    border: 2px solid #FFFFFF;
     width: 83.5em;
     height: 39em;
 }
 
 #navBar {
     height: 4em;
-   /*border: 2px dashed #FF0000;*/
-}
-
-#profilePicCont {
-   /*border: 2px solid #FFFF00;*/
-    width: 32em;
-    height: 22.5em;
-    float: left;
-
-}
-
-#profilePic {
-    margin-left: 6em;
-    margin-top: 2em;
-    border-radius: 11em;
-    animation-name: fadeIn;
-    animation-duration: 0.8s;
-    animation-delay: 1.1s;
-    animation-fill-mode: backwards;
+    border: 2px dashed #FF0000;
 }
 
 #navBar div {
@@ -107,6 +89,7 @@ body {
     color: red;
 }
 
+
 #homeLink {
     margin-left: 5em;
     float: left;
@@ -120,8 +103,29 @@ body {
     padding-right: 1em;
 }
 
+
+/* Home page style */
+
+#profilePicCont {
+    border: 2px solid #FFFF00;
+    width: 32em;
+    height: 22.5em;
+    float: left;
+
+}
+
+#profilePic {
+    margin-left: 6em;
+    margin-top: 2em;
+    border-radius: 11em;
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-delay: 1.1s;
+    animation-fill-mode: backwards;
+}
+
 #greeting {
-    /*border: 2px solid #0000FF;*/
+    border: 2px solid #0000FF;
     float: right;
     width: 51em;
     height: 34.5em;
@@ -136,8 +140,12 @@ body {
     animation-fill-mode: backwards;
 }
 
+#greeting table {
+    border: 2px solid black;
+}
+
 #disc {
-    /*border: 2px dotted #5cFFcc;*/
+    border: 2px dotted #5cFFcc;
     float: left;
     width: 32em;
     height: 11.7em;
