@@ -6,7 +6,11 @@
 	<link rel="stylesheet" href="mainStyle.css">
     </head>
     <body>
-	<div id="mainCont">
+	<!-- Testing Video Background -->
+	<video autoplay muted loop id="videoBg">
+	    <source src="assets/codingVideo.mp4" type="video/mp4">
+	</video>
+	<div id="mainCont" class="overlay-content">
 	    <div id="navBar">
 		<div id="homeLink">
 	            <a href="index.html" alt="home">Home</a>
@@ -21,46 +25,36 @@
 	    </div>
 	    <div id="profilePicCont">
 		    <h1>Joshua Boyd</h1>
-		    <img src="joshFancyNew.jpg" id="profilePic"
+		    <img src="assets/joshFancyNew.jpg" id="profilePic"
 		    alt="fancy.jpg" height=260 width=267>
 	    </div>
 	    <div id="greeting">
 		<h2>Skills</h2>
 		<ol>
+		    <hr>
 		    <li class="skillListHeader">Front End
+			<hr>
 		        <ul>
 		            <li class="skillListItem">HTML</li>
 		            <li class="skillListItem">CSS</li>
 		            <li class="skillListItem">JavaScript</li>
 		        </ul>
-			<ul>
-			    <li>
-			        <img src="html5Logo.png" width="61" height="66">
-			    </li>
-			    <li>CSS LOGO</li>
-			    <li>JavaScript LOGO</li>
-			</ul>
 		    </li>
+		    <hr>
 		    <li class="skillListHeader">Back End
+			<hr>
 		        <ul>
 		            <li class="skillListItem">Python</li>
 			    <li class="skillListItem">Java</li>
 		            <li class="skillListItem">C++</li>
 		        </ul>
-			<ul>
-			    <li>Python Logo</li>
-			    <li>Java Logo</li>
-			    <li>C++ Logo</li>
-			</ul>
 		    </li>
+		    <hr>
 		    <li class="skillListHeader">Miscellaneous
+			<hr>
 		        <ul>
 			    <li class="skillListItem">SQL</li>
 			    <li class="skillListItem">Linux</li>
-			</ul>
-			<ul>
-			    <li>SQL LOGO</li>
-			    <li>Linux LOGO</li>
 			</ul>
 		    </li>
 		</ol>
