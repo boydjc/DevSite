@@ -114,9 +114,19 @@ body {
 
 }
 
+#profilePicCont h1 {
+    font-size: 3em;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    animation-delay: 1.2s;    
+    animation-fill-mode: backwards;
+}
+
+
 #profilePic {
-    margin-left: 6em;
-    margin-top: 2em;
+    margin-left: 7.5em;
+    margin-top: -2em;
     border-radius: 11em;
     animation-name: fadeIn;
     animation-duration: 0.8s;
@@ -131,25 +141,16 @@ body {
     height: 34.5em;
 }
 
-#greeting h1 {
-    font-size: 4em;
-    text-align: center;
-    animation-name: fadeIn;
-    animation-duration: 0.7s;
-    animation-delay: 1.2s;    
-    animation-fill-mode: backwards;
-}
-
 #greeting h2 {
     font-size: 2em;
     margin-left: 1em;
-    margin-top: -1.5em;
     text-decoration: underline;
 }
 
 #greeting ol {
     margin-top: -1em;
     margin-left: 4em;
+    list-style-type: none;
 }
 
 ol ul {
@@ -158,6 +159,7 @@ ol ul {
 
 ol ul li {
     display: inline;
+    padding-right: 1em;
 }
 
 .skillListHeader {
@@ -166,8 +168,7 @@ ol ul li {
 }
 
 .skillListItem {
-    font-size: 0.7em;
-    padding-bottom: 0.5em;
+    font-size: 1em;
 }
 
 #disc {
