@@ -84,7 +84,7 @@ body {
 
 #navBar {
     height: 4em;
-   /* border: 2px dashed #FF0000;*/
+    border: 2px dashed #FF0000;
 }
 
 #navBar div {
@@ -120,7 +120,7 @@ body {
 /* Home page style */
 
 #profilePicCont {
-   /* border: 2px solid #FFFF00;*/
+    border: 2px solid #FFFF00;
     width: 32em;
     height: 22.5em;
     float: left;
@@ -148,7 +148,7 @@ body {
 }
 
 #greeting {
-   /* border: 2px solid #0000FF;*/
+    border: 2px solid #0000FF;
     float: right;
     width: 51em;
     height: 34.5em;
@@ -187,7 +187,7 @@ ol ul li {
 }
 
 #disc {
-   /* border: 2px dotted #5cFFcc;*/
+    border: 2px dotted #5cFFcc;
     float: left;
     width: 32em;
     height: 11.7em;
@@ -202,6 +202,7 @@ ol ul li {
     text-align: center;
     padding-bottom: 0.6em;
     margin-right: 1.5em;
+    color: #FFFFFF;
 }
 
 #discListOne {
