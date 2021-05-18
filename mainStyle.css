@@ -95,12 +95,12 @@ body {
     font-size: 2em;
     text-decoration: none;
     transition: font-size 0.5s;
-    color: #FFFFFF;
+    color: #888888;
 }
 
 #navBar a:hover {
     font-size: 2.4em;
-    color: red;
+    color: #FFFFFF;
 }
 
 #homeLink {
@@ -159,6 +159,10 @@ body {
     color: #FFFFFF;
     margin-left: 1em;
     text-decoration: underline;
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    animation-delay: 3.5s;
+    animation-fill-mode: backwards;
 }
 
 #greeting ol {
