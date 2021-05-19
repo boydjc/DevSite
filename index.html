@@ -6,66 +6,36 @@
 	<link rel="stylesheet" href="mainStyle.css">
     </head>
     <body>
+	<div id="videoOverlay"></div>
 	<video autoplay muted loop id="videoBg" oncontextmenu="return false;">
-	    <source src="assets/codingVideo.mp4" type="video/mp4">
+	<source src="assets/codingVideo.mp4" type="video/mp4">
 	</video>
-	<div id="videoDivOverlay">
-	    <div id="mainCont" class="overlay-content">
-	        <div id="navBar">
-		    <div id="homeLink">
-	                <a href="index.html" alt="home">Home</a>
-		    </div>
+	<div id="mainCont" class="overlay-content">
+	    <div id="navBar">
+	        <div id="homeLink">
+	            <a href="index.html" alt="home">Home</a>
+                 </div>
 
-		    <div id="otherLinks">
-		        <a href="index.html" alt="about">About</a>
-		        <a href="index.html" alt="resume">Resume</a>
-		        <a href="index.html" alt="blog">Blog</a>
-		        <a href="index.html" alt="contact">Contact</a>
-		    </div>
-	        </div>
-	        <div id="profilePicCont">
-		        <h1>Joshua Boyd</h1>
-		        <img src="assets/joshFancyNew.jpg" id="profilePic"
-		        alt="fancy.jpg" height=260 width=267>
-	        </div>
-	        <div id="greeting">
-		    <h2>Skills</h2>
-		    <ol>
-		        <hr>
-		        <li class="skillListHeader">Front End
-			    <hr>
-		            <ul>
-		                <li class="skillListItem">HTML</li>
-		                <li class="skillListItem">CSS</li>
-		                <li class="skillListItem">JavaScript</li>
-		            </ul>
-		        </li>
-		        <hr>
-		        <li class="skillListHeader">Back End
-			    <hr>
-		            <ul>
-		                <li class="skillListItem">Python</li>
-			        <li class="skillListItem">Java</li>
-		                <li class="skillListItem">C++</li>
-		            </ul>
-		        </li>
-		        <hr>
-		        <li class="skillListHeader">Miscellaneous
-			    <hr>
-		            <ul>
-			        <li class="skillListItem">SQL</li>
-			        <li class="skillListItem">Linux</li>
-			    </ul>
-		        </li>
-		    </ol>
-	        </div>
-	        <div id="disc">
-		    <ul>
-		        <li id="discListOne">Software Developer</li>
-		        <li id="discListTwo">Programming Enthusiast</li>
-		        <li id="discListThree">Computer Nerd</li>
-		    </ul>
-	        </div>
+		<div id="otherLinks">
+		    <a href="index.html" alt="about">About</a>
+		    <a href="index.html" alt="resume">Resume</a>
+		    <a href="index.html" alt="contact">Contact</a>
+		</div>
+	    </div>
+	    <div id="profilePicCont">
+		    <h1>Joshua Boyd</h1>
+		    <img src="assets/joshFancyNew.jpg" id="profilePic"
+		    alt="fancy.jpg" height=260 width=267>
+	    </div>
+	    <div id="skills">
+
+	    </div>
+	    <div id="disc">
+		<ul>
+		    <li id="discListOne">Software Developer</li>
+		    <li id="discListTwo">Programming Enthusiast</li>
+		    <li id="discListThree">Computer Nerd</li>
+		</ul>
 	    </div>
 	</div>
     </body>
