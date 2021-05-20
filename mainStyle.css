@@ -26,6 +26,18 @@
     to { opacity: 1; }
 }
 
+@keyframes slideInTop {
+    from {
+        transform: translate(0, -2em);
+	opacity: 0;	
+    }
+
+    to {
+        transform: translate(0, 0);
+	opacity: 1;
+    }
+}
+
 @keyframes slideInLeft {
     from {
         transform: translate(-2em, 0);
@@ -186,6 +198,10 @@ body {
 
 #skills h2 {
     font-size: 2.5em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
 }
 
 #skills h3 {
@@ -229,6 +245,62 @@ body {
     padding-bottom: 1em;
     color: #FFFFFF;
     font-size: 1.3em;
+}
+
+#frontEndOne {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+#frontEndTwo {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: backwards;
+}
+
+#frontEndThree {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
+#backEndOne {
+   animation-name: slideInTop;
+   animation-duration: 1s;
+   animation-delay: 2.2s;
+   animation-fill-mode: backwards;
+}
+
+#backEndTwo {
+   animation-name: slideInTop;
+   animation-duration: 1s;
+   animation-delay: 2.4s;
+   animation-fill-mode: backwards;
+}
+
+#backEndThree {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: backwards;
+}
+
+#otherOne {
+   animation-name: slideInTop;
+   animation-duration: 1s;
+   animation-delay: 2.4s;
+   animation-fill-mode: backwards;
+}
+
+#otherTwo {
+   animation-name: slideInTop;
+   animation-duration: 1s;
+   animation-delay: 2.6s;
+   animation-fill-mode: backwards;
 }
 
 #disc {
