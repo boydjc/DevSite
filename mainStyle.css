@@ -38,6 +38,18 @@
     }
 }
 
+@keyframes slideInBottom {
+    from {
+	transform: translate(0, 2em);
+	opacity: 0;
+    }
+
+    to {
+	transform: translate(0, 0);
+	opacity: 1;
+    }
+}
+
 /* End animations */
 
 #videoOverlay {
@@ -181,11 +193,33 @@ body {
     text-decoration: underline;
 }
 
+#frontEndSkills h3 {
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+}
+
+#backEndSkills h3 {
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 1.5s;
+}
+
+#otherSkills h3 {
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+}
+
 #skills div {
     border: 2px solid #00FFFF;
-    height: 27.3em;
+    height: 15em;
     width: 18em;
     float: left;
+    margin-top: -2em;
 }
 
 #skills li {
