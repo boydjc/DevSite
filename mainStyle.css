@@ -178,13 +178,23 @@ body {
 
 #skills h3 {
     font-size: 1.7em;
+    text-decoration: underline;
 }
 
 #skills div {
     border: 2px solid #00FFFF;
     height: 27.3em;
-    width: 17.9em;
-    display: inline-block;
+    width: 18em;
+    float: left;
+}
+
+#skills li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 1.8em;
+    padding-bottom: 1em;
+    color: #FFFFFF;
+    font-size: 1.3em;
 }
 
 #disc {
