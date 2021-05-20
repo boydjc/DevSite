@@ -243,12 +243,35 @@ body {
     animation-delay: 2s;
 }
 
-#skills div {
+#frontEndSkills,#backEndSkills,#otherSkills {
     border: 2px solid #00FFFF;
     height: 15em;
     width: 18em;
     float: left;
     margin-top: -2em;
+}
+
+#videoControl {
+    border: 2px solid #00FFFF;
+    font-size: 2em;
+    height: 5em;
+    width: 10em;
+    float: left;
+    color: #FFFFFF;
+}
+
+#videoControl p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.5s;
+}
+
+#videoControl p a:visited {
+    color: #FFFFFF;
+}
+
+#videoControl p a:hover {
+    color: #FF0000;
 }
 
 #skills li {
