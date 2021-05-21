@@ -38,6 +38,17 @@ $(document).ready(function(){
 	    // animation in milliseconds.
     });
 
+    // stop the video background when the play arrow is clicked
+    $("#videoControl a").click(function(event) {
+	event.preventDefault();
+	
+	if($("#videoBg").get(0).paused) {
+	    $("#videoBg").get(0).play();
+	}else{
+	    $("#videoBg").get(0).pause();
+	}
+    });
+
     
     // removes web elements depending on what page we are currently on
     function removeContent() {
