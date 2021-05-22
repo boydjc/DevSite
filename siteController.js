@@ -45,11 +45,11 @@ $(document).ready(function(){
 	if($("#videoBg").get(0).paused) {
 	    $("#videoBg").get(0).play();
 	    $("#videoControl p").text("Pause Background");
-	    $("#videoControl a").text("\u25B6");
+	    $("#videoControl a").text("\u2B1B");
 	}else{
 	    $("#videoBg").get(0).pause();
 	    $("#videoControl p").text("Play Background");
-            $("#videoControl a").text("\u2B1B");
+	    $("#videoControl a").text("\u25B6");
 	    // change the stop button to a play button
 	    
 	}
