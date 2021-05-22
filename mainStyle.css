@@ -259,6 +259,7 @@ body {
     float: left;
     color: #FFFFFF;
     text-decoration: none;
+    margin-top: 7.2em;
 }
 
 #videoControl p {
@@ -332,17 +333,25 @@ body {
 }
 
 #otherOne {
-   animation-name: slideInTop;
-   animation-duration: 1s;
-   animation-delay: 2.4s;
-   animation-fill-mode: backwards;
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: backwards;
 }
 
 #otherTwo {
-   animation-name: slideInTop;
-   animation-duration: 1s;
-   animation-delay: 2.6s;
-   animation-fill-mode: backwards;
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: backwards;
+}
+
+#otherSiteLinks {
+    border: 2px solid #FF0000; 
+    height: 2.5em;
+    width: 2.5em;
+    margin-top: 11.5em;
+    float: right;
 }
 
 #disc {
