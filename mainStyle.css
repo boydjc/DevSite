@@ -105,6 +105,7 @@
 body {
     background-color: #2c2c2c;
     font-family: CormorantGaramond;
+    overflow-y: hidden;
 }
 
 /* used by the javascript to pause the main container animation
@@ -126,14 +127,14 @@ body {
 }
 
 #mainCont {
-    /*border: 2px solid #FFFFFF;*/
+    border: 2px solid #FFFFFF;
     width: 83.5em;
     height: 39em;
 }
 
 #navBar {
     height: 4em;
-    /*border: 2px dashed #FF0000;*/
+    border: 2px dashed #FF0000;
 }
 
 #navBar div {
@@ -178,7 +179,7 @@ body {
 #profilePicCont h1 {
     color: #FFFFFF;
     font-size: 3em;
-    margin-left: 2.5em;
+    margin-left: 2.7em;
     animation-name: fadeIn;
     animation-duration: 0.7s;
     animation-delay: 1.2s;    
@@ -253,13 +254,17 @@ body {
 
 #videoControl {
     border: 2px solid #00FFFF;
-    font-size: 1.5em;
+    font-size: 1em;
     height: 2.5em;
     width: 8.5em;
     float: left;
     color: #FFFFFF;
     text-decoration: none;
-    margin-top: 7.2em;
+    margin-top: 11.5em;
+    animation-name: slideInBottom;
+    animation-delay: 2.6s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
 }
 
 #videoControl p {
@@ -312,17 +317,17 @@ body {
 }
 
 #backEndOne {
-   animation-name: slideInTop;
-   animation-duration: 1s;
-   animation-delay: 2.2s;
-   animation-fill-mode: backwards;
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: backwards;
 }
 
 #backEndTwo {
-   animation-name: slideInTop;
-   animation-duration: 1s;
-   animation-delay: 2.4s;
-   animation-fill-mode: backwards;
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: backwards;
 }
 
 #backEndThree {
@@ -347,11 +352,15 @@ body {
 }
 
 #otherSiteLinks {
-    border: 2px solid #FF0000; 
+    border: 2px solid #FF0000;
     height: 2.5em;
     width: 2.5em;
     margin-top: 11.5em;
     float: right;
+    animation-name: slideInBottom;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: backwards;
 }
 
 #disc {
