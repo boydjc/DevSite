@@ -253,24 +253,30 @@ body {
 
 #videoControl {
     border: 2px solid #00FFFF;
-    font-size: 2em;
-    height: 5em;
-    width: 10em;
+    font-size: 1.5em;
+    height: 2.5em;
+    width: 8.5em;
     float: left;
     color: #FFFFFF;
-}
-
-#videoControl p a {
     text-decoration: none;
+}
+
+#videoControl p {
+    display: inline-block;
+}
+
+#videoControl a {
     color: #FFFFFF;
+    font-size: 1.2em;
     transition: color 0.5s;
+    text-decoration: none;
 }
 
-#videoControl p a:visited {
+#videoControl a:visited {
     color: #FFFFFF;
 }
 
-#videoControl p a:hover {
+#videoControl a:hover {
     color: #FF0000;
 }
 
