@@ -173,3 +173,29 @@ body {
 #otherLinks a {
     padding-right: 1em;
 }
+
+#videoControl {
+    border: 2px solid #00FFFF;
+    height: 2.5em;
+    width: 8.5em;
+    color: #FFFFFF;
+    text-decoration: none;
+    animation-name: slideInBottom;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+}
+
+#videoControl p {
+    display: inline-block;
+}
+
+#videoControl a {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+#videoControl a:hover {
+    color: #FF0000;
+}

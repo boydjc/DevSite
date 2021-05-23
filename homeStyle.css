@@ -82,32 +82,9 @@
 }
 
 #videoControl {
-    border: 2px solid #00FFFF;
-    height: 2.5em;
-    width: 8.5em;
     float: left;
-    color: #FFFFFF;
-    text-decoration: none;
     margin-top: 8em;
-    animation-name: slideInBottom;
     animation-delay: 2.6s;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
-}
-
-#videoControl p {
-    display: inline-block;
-}
-
-#videoControl a {
-    font-size: 1.2em;
-    color: #FFFFFF;
-    transition: color 0.5s;
-    text-decoration: none;
-}
-
-#videoControl a:hover {
-   color: #FF0000; 
 }
 
 #skills li {
