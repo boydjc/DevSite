@@ -3,6 +3,7 @@
     width: 29em;
     margin-top: 3em;
     margin-left: 5em;
+    float: left;
     animation-name: slideInLeft;
     animation-duration: 1.5s;
     animation-delay: 0.3s;
@@ -12,4 +13,14 @@
 #aboutPicCont img {
     -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+#aboutWriteUp {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    border: 2px solid #00FF00;
+    width: 40em;
+    float: right;
+    margin-top: 5em;
+    text-align: center;
 }
