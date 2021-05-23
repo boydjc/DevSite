@@ -62,29 +62,62 @@ $(document).ready(function(){
             $("#profilePicCont").remove();
 	    $("#greeting").remove();
 	    $("#disc").remove();
+	    $("#skills").remove();
 	}
     }
 
     // changes the page to the home content
     function changeToHome() {
-	$("#greeting h1").text("Joshua Boyd");
 	// Create profile picture div
 	$("#mainCont").append(
 	    `<div id="profilePicCont">
-		<img src="joshFancyNew.jpg" id="profilePic" alt="fancy.jpg" height=300 width=307>
+	        <h1>Joshua Boyd</h1>
+		<img src="assets/joshFancyNew.jpg" id="profilePic" alt="fancy.jpg" height=260 width=267">
+	     </div>
+	     <div id="skills">
+	         <h2>Skills</h2>
+		 <div id="frontEndSkills">
+		     <h3>Front End</h3>
+		     <ul>
+		         <li id="frontEndOne">HTML</li>
+			 <li id="frontEndTwo">CSS</li>
+			 <li id="frontEndThree">JavaScript</li>
+		     </ul>
+		 </div>
+		 <div id="backEndSkills">
+		     <h3>Back End</h3>
+		     <ul>
+		         <li id="backEndOne">Python</li>
+			 <li id="backEndTwo">C++</li>
+			 <li id="backEndThree">Java</li>
+		     </ul>
+		 </div>
+		 <div id="otherSkills">
+		     <h3>Other</h3>
+		     <ul>
+		         <li id="otherOne">SQL</li>
+			 <li id="otherTwo">Linux</li>
+		     </ul>
+		 </div>
+		 <div id="videoControl">
+		     <a href="none" alt="pause video">\u2B1B</a>
+		     <p>
+		         Pause Background
+	 	     </p>
+		 </div>
+		 <div id="otherSiteLinks">
+		     <a href="https://www.github.com/boydjc">
+		         <img src="assets/githubIcon.png" alt="githubIcon.png" height=40 width=40>
+		     </a>
+		 </div>
+	     </div>
+	     <div id="disc">
+	         <ul>
+		     <li id="discListOne">Software Developer</li>
+		     <li id="discListTwo">Programming Enthusiast</li>
+		     <li id="discListThree">Computer Nerd</li>
+		 </ul>
 	     </div>`
-	);
-	$("#mainCont").append(
-	    '<div id="greeting"><h1>Joshua Boyd</h1></div>'
-	);
-	$("#mainCont").append(
-	   `<div id="disc">
-	        <ul>
-		    <li id="listOne">Software Developer</li>
-		    <li id="listTwo">Programming Enthusiast</li>
-		    <li id="listThree">Computer Nerd</li>
-		</ul>
-	    </div>`
 	);
     }
 
