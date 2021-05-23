@@ -125,10 +125,6 @@ $(document).ready(function(){
     function changeToAbout() {
     }
 
-    // changes the page to the blog content
-    function changeToBlog() {
-    }
-
     function changeToResume() {
     }
 
