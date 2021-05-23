@@ -2,7 +2,7 @@
     border: 2px solid #0000FF;
     width: 29em;
     margin-top: 3em;
-    margin-left: 5em;
+    margin-left: 3em;
     float: left;
     animation-name: slideInLeft;
     animation-duration: 1.5s;
@@ -22,5 +22,10 @@
     width: 40em;
     float: right;
     margin-top: 5em;
+    margin-right: 1em;
     text-align: center;
+    animation-name: slideInBottom;
+    animation-duration: 1.3s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
 }
