@@ -1,0 +1,231 @@
+#profilePicCont {
+    border: 2px solid #FFFF00;
+    width: 28em;
+    height: 22.5em;
+    float: left;
+}
+
+#profilePicCont h1 {
+    color: #FFFFFF;
+    font-size: 3em;
+    margin-left: 2.7em;
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    animation-delay: 1.2s;
+    animation-fill-mode: backwards;
+}
+
+#profilePic {
+    margin-left: 7.5em;
+    margin-top: -2em;
+    border-radius: 11em;
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-delay: 1.1s;
+    animation-fill-mode: backwards;
+}
+
+#skills {
+    border: 2px solid #0000FF;
+    float: right;
+    width: 55em;
+    height: 34.5em;
+}
+
+#skills h2,h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-right: 0.5em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    margin-top: 2em;
+}
+
+#skills h3 {
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+
+#frontEndSkills h3 {
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+}
+
+#backEndSkills h3 {
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 1.5s;
+}
+
+#otherSkills h3 {
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+}
+
+#frontEndSkills,#backEndSkills,#otherSkills {
+    border: 2px solid #00FFFF;
+    height: 15em;
+    width: 18em;
+    float: left;
+    margin-top: -1em;
+}
+
+#videoControl {
+    border: 2px solid #00FFFF;
+    font-size: 1em;
+    height: 2.5em;
+    width: 8.5em;
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 8em;
+    animation-name: slideInBottom;
+    animation-delay: 2.6s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+
+#videoControl p {
+    display: inline-block;
+}
+
+#videoControl a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+#videoControl a:visited {
+    color: #FFFFFF;
+}
+
+#videoControl a:hover {
+    color: #FF0000;
+}
+
+#skills li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 1.8em;
+    padding-bottom: 1em;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+
+#frontEndOne {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+#frontEndTwo {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: backwards;
+}
+
+#frontEndThree {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
+#backEndOne {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: backwards;
+}
+
+#backEndTwo {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: backwards;
+}
+
+#backEndThree {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: backwards;
+}
+
+#otherOne {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: backwards;
+}
+
+#otherTwo {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: backwards;
+}
+
+#otherSiteLinks {
+    border: 2px solid #FF0000;
+    height: 2.5em;
+    width: 2.5em;
+    margin-top: 7.8em;
+    float: right;
+    animation-name: slideInBottom;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: backwards;
+}
+
+#disc {
+    border: 2px dotted #5CFFCC;
+}
+
+#disc ul {
+    list-style-type: none;
+}
+
+#disc li {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 1em;
+    padding-bottom: 0.6em;
+    color: #FFFFFF;
+}
+
+#discListOne {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#discListTwo {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+#discListThree {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
