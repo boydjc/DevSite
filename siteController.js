@@ -63,6 +63,10 @@ $(document).ready(function(){
 	    $("#greeting").remove();
 	    $("#disc").remove();
 	    $("#skills").remove();
+	}else if(currentPage == "About") {
+	    $("#aboutPicCont").remove();
+	    $("#aboutWriteUp").remove();
+	    $("#videoControl").remove();
 	}
     }
 
@@ -123,6 +127,41 @@ $(document).ready(function(){
 
     // changes the page to the about content
     function changeToAbout() {
+	$("#mainCont").append(
+	`<div id="aboutPicCont">
+	    <img src="assets/joshCold.png" alt="josh cold" height=445 width=461>
+	 </div>
+	 <div id="aboutWriteUp">
+	     <p>My interest in programming began with a trip to the bookstore one
+	     day with my grandmother when I was around 11 years old. While browsing
+	     the technology section, I stumbled upon a book titled 'C++ For 
+	     Dummies'. I had no idea what a programming language was, but I had 
+	     grown up playing computer games so the code in the book intrigued me.
+	     Shortly after convincing my grandmother to buy the book, I was writing
+	     my first "Hello World." program. Fast forawrding to the present,
+	     I now hold a Bachelor's Degree in Computer Science from the 
+	     University of Maryland. I am also currently pursuing my graudate 
+	     degree in Computer Science and Software Engineering at Auburn 
+	     University. In particular, my research interests are Artificial 
+	     Intelligence, Distribured Computing, and Cryptography. I also think
+	     that the human brain is just as extraordinay as any intelligent
+	     machine. Additionally, I find the philosophy of <a href="
+	     https://www.humanityplus.org/" class="hyperLinks" alt="
+	     humanityplus.org">Transumanism</a> facinating and would love to 
+	     someday contribute to the idea of bluring the line between man and
+	     machine.</p>
+
+	     <p>Want to collaborate on a project? Need an extra programmer for a 
+	     particular task? Maybe you just want to say hi? Feel free to reach 
+	     out and let me know you stopped by!</p>
+	 </div>
+	 <div id="videoControl">
+	     <a href="none" alt="pause video">\u2B1B</a>
+	     <p>
+		Pause Background
+	     </p>
+	 </div>`
+	);
     }
 
     function changeToResume() {

@@ -183,6 +183,7 @@ body {
     animation-name: slideInBottom;
     animation-fill-mode: backwards;
     animation-duration: 1s;
+    float: right;
 }
 
 #videoControl p {
