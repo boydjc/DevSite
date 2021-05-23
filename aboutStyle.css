@@ -1,0 +1,15 @@
+#aboutPicCont {
+    border: 2px solid #0000FF;
+    width: 29em;
+    margin-top: 3em;
+    margin-left: 5em;
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+#aboutPicCont img {
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}

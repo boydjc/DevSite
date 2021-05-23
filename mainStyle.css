@@ -40,7 +40,7 @@
 
 @keyframes slideInLeft {
     from {
-        transform: translate(-2em, 0);
+        transform: translate(-3em, 0);
 	opacity: 0;
     }
 
