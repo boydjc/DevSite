@@ -101,18 +101,14 @@
 }
 
 #videoControl a {
-    color: #FFFFFF;
     font-size: 1.2em;
+    color: #FFFFFF;
     transition: color 0.5s;
     text-decoration: none;
 }
 
-#videoControl a:visited {
-    color: #FFFFFF;
-}
-
 #videoControl a:hover {
-    color: #FF0000;
+   color: #FF0000; 
 }
 
 #skills li {

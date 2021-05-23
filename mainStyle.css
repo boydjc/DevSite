@@ -96,6 +96,20 @@
     position: relative;
 }
 
+.hyperLinks {
+    color: #FFFFFF;
+    transition: color 0.5s;
+}
+
+.hyperLinks:hover {
+    color: #FF0000;
+}
+
+.hyperLinks:visited {
+    color: #FF0099;
+    transition: color 1s;
+}
+
 body {
     background-color: #2c2c2c;
     font-family: CormorantGaramond;
