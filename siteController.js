@@ -63,10 +63,15 @@ $(document).ready(function(){
 	    $("#greeting").remove();
 	    $("#disc").remove();
 	    $("#skills").remove();
+	    $("#videoControl").remove();
+	    $("#otherSiteLinks").remove();
+	    $("#copyRightInfo").remove();
 	}else if(currentPage == "About") {
 	    $("#aboutPicCont").remove();
 	    $("#aboutWriteUp").remove();
 	    $("#videoControl").remove();
+	    $("#otherSiteLinks").remove();
+	    $("#copyRightInfo").remove();
 	}
     }
 
@@ -121,6 +126,10 @@ $(document).ready(function(){
 		     </a>
 		 </div>
 
+		 <div id="copyRightInfo">
+		     <p>Copyright \u00A9 Joshua Boyd 2021</p>
+		 </div>
+
 	     </div>
 
 	     <div id="disc">
@@ -168,7 +177,17 @@ $(document).ready(function(){
 	     <p>
 		Pause Background
 	     </p>
+	 </div>
+
+	 <div id="otherSiteLinks">
+	    <a href="https://www.github.com/boydjc">
+	        <img src="assets/githubIcon.png" alt="githubIcon.png">
+	    </a>
+	 </div>
+	 <div id="copyRightInfo">
+	     <p>Copyright \u00A9 Joshua Boyd 2021</p>
 	 </div>`
+
 	);
     }
 
