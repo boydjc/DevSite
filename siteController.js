@@ -41,8 +41,6 @@ $(document).ready(function(){
     // stop the video background when the play arrow is clicked
     $(document).on('click', '#videoControl a', function(event) {
 	event.preventDefault();
-
-	alert("CLICKED");
 	
 	if($("#videoBg").get(0).paused) {
 	    $("#videoBg").get(0).play();
