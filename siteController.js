@@ -32,24 +32,6 @@ $(document).ready(function(){
 	              // animation in milliseconds.
         }
     });
-
-    // stop the video background when the play arrow is clicked
-    $(document).on('click', '#videoControl a', function(event) {
-	event.preventDefault();
-	
-	if($("#videoBg").get(0).paused) {
-	    $("#videoBg").get(0).play();
-	    $("#videoControl p").text("Pause Background");
-	    $("#videoControl a").text("\u2B1B");
-	}else{
-	    $("#videoBg").get(0).pause();
-	    $("#videoControl p").text("Play Background");
-	    $("#videoControl a").text("\u25B6");
-	    // change the stop button to a play button
-	    
-	}
-    });
-
     
     // removes web elements depending on what page we are currently on
     function removeContent() {
@@ -58,13 +40,11 @@ $(document).ready(function(){
 	    $("#greeting").remove();
 	    $("#disc").remove();
 	    $("#skills").remove();
-	    $("#videoControl").remove();
 	    $("#otherSiteLinks").remove();
 	    $("#copyRightInfo").remove();
 	}else if(currentPage == "About") {
 	    $("#aboutPicCont").remove();
 	    $("#aboutWriteUp").remove();
-	    $("#videoControl").remove();
 	    $("#otherSiteLinks").remove();
 	    $("#copyRightInfo").remove();
 	}
@@ -107,14 +87,6 @@ $(document).ready(function(){
 			 <li id="otherTwo">Linux</li>
 		     </ul>
 		 </div>
-
-		 <div id="videoControl">
-		     <a href="#" alt="pause video">\u2B1B</a>
-		     <p>
-		         Pause Background
-	 	     </p>
-		 </div>
-
 		 <div id="otherSiteLinks">
 		     <a href="https://www.github.com/boydjc">
 		         <img src="assets/githubIcon.png" alt="githubIcon.png" height=40 width=40>
@@ -166,12 +138,6 @@ $(document).ready(function(){
 	     <p>Want to collaborate on a project? Need an extra programmer for a 
 	     particular task? Maybe you just want to say hi? Feel free to reach 
 	     out and let me know you stopped by!</p>
-	 </div>
-	 <div id="videoControl">
-	     <a href="#" alt="pause video">\u2B1B</a>
-	     <p>
-		Pause Background
-	     </p>
 	 </div>
 
 	 <div id="otherSiteLinks">
