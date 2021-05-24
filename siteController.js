@@ -39,8 +39,10 @@ $(document).ready(function(){
     });
 
     // stop the video background when the play arrow is clicked
-    $("#videoControl a").click(function(event) {
+    $(document).on('click', '#videoControl a', function(event) {
 	event.preventDefault();
+
+	alert("CLICKED");
 	
 	if($("#videoBg").get(0).paused) {
 	    $("#videoBg").get(0).play();
@@ -78,8 +80,10 @@ $(document).ready(function(){
 	        <h1>Joshua Boyd</h1>
 		<img src="assets/joshFancyNew.jpg" id="profilePic" alt="fancy.jpg" height=260 width=267">
 	     </div>
+
 	     <div id="skills">
 	         <h2>Skills</h2>
+
 		 <div id="frontEndSkills">
 		     <h3>Front End</h3>
 		     <ul>
@@ -88,6 +92,7 @@ $(document).ready(function(){
 			 <li id="frontEndThree">JavaScript</li>
 		     </ul>
 		 </div>
+
 		 <div id="backEndSkills">
 		     <h3>Back End</h3>
 		     <ul>
@@ -96,6 +101,7 @@ $(document).ready(function(){
 			 <li id="backEndThree">Java</li>
 		     </ul>
 		 </div>
+
 		 <div id="otherSkills">
 		     <h3>Other</h3>
 		     <ul>
@@ -103,18 +109,22 @@ $(document).ready(function(){
 			 <li id="otherTwo">Linux</li>
 		     </ul>
 		 </div>
+
 		 <div id="videoControl">
-		     <a href="none" alt="pause video">\u2B1B</a>
+		     <a href="#" alt="pause video">\u2B1B</a>
 		     <p>
 		         Pause Background
 	 	     </p>
 		 </div>
+
 		 <div id="otherSiteLinks">
 		     <a href="https://www.github.com/boydjc">
 		         <img src="assets/githubIcon.png" alt="githubIcon.png" height=40 width=40>
 		     </a>
 		 </div>
+
 	     </div>
+
 	     <div id="disc">
 	         <ul>
 		     <li id="discListOne">Software Developer</li>
@@ -132,22 +142,22 @@ $(document).ready(function(){
 	    <img src="assets/joshCold.png" alt="josh cold" height=445 width=461>
 	 </div>
 	 <div id="aboutWriteUp">
-	     <p>My interest in programming began with a trip to the bookstore one
-	     day with my grandmother when I was around 11 years old. While browsing
+	     <p>My interest in programming began at age 11 with a trip to the bookstore one
+	     day with my grandmother. While browsing
 	     the technology section, I stumbled upon a book titled 'C++ For 
 	     Dummies'. I had no idea what a programming language was, but I had 
 	     grown up playing computer games so the code in the book intrigued me.
 	     Shortly after convincing my grandmother to buy the book, I was writing
-	     my first "Hello World." program. Fast forawrding to the present,
+	     my first "Hello World." program. Fast forwarding to the present,
 	     I now hold a Bachelor's Degree in Computer Science from the 
-	     University of Maryland. I am also currently pursuing my graudate 
+	     University of Maryland. I am also currently pursuing my graduate 
 	     degree in Computer Science and Software Engineering at Auburn 
 	     University. In particular, my research interests are Artificial 
-	     Intelligence, Distribured Computing, and Cryptography. I also think
-	     that the human brain is just as extraordinay as any intelligent
+	     Intelligence, Distributed Computing, and Cryptography. I also think
+	     that the human brain is just as extraordinary as any intelligent
 	     machine. Additionally, I find the philosophy of <a href="
 	     https://www.humanityplus.org/" class="hyperLinks" alt="
-	     humanityplus.org">Transumanism</a> facinating and would love to 
+	     humanityplus.org">Transhumanism</a> fascinating and would love to 
 	     someday contribute to the idea of bluring the line between man and
 	     machine.</p>
 
@@ -156,7 +166,7 @@ $(document).ready(function(){
 	     out and let me know you stopped by!</p>
 	 </div>
 	 <div id="videoControl">
-	     <a href="none" alt="pause video">\u2B1B</a>
+	     <a href="#" alt="pause video">\u2B1B</a>
 	     <p>
 		Pause Background
 	     </p>
