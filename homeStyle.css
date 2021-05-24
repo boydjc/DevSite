@@ -75,7 +75,7 @@
 
 #frontEndSkills,#backEndSkills,#otherSkills {
     border: 2px solid #00FFFF;
-    height: 15em;
+    height: 20em;
     width: 18em;
     float: left;
     margin-top: -1em;
@@ -155,7 +155,7 @@
     border: 2px solid #FF0000;
     height: 2.5em;
     width: 2.5em;
-    margin-top: 7.8em;
+    margin-top: 2.5em;
     float: left;
     animation-name: slideInBottom;
     animation-duration: 1s;
