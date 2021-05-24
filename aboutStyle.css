@@ -28,10 +28,4 @@
     animation-duration: 1.3s;
     animation-delay: 0.7s;
     animation-fill-mode: backwards;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#videoControl {
-    margin-top: 2.5em;
-    animation-delay: 1.6s;
 }

@@ -69,33 +69,6 @@
     src: url(assets/CormorantGaramond-Regular.ttf);
 }
 
-#videoOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000088;
-    opacity: 0.5;
-    z-index: 0;
-}
-
-#videoBg {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    z-index: -1;
-}
-
-.overlay-content {
-    position: relative;
-}
-
 .hyperLinks {
     color: #FFFFFF;
     transition: color 0.5s;
@@ -169,40 +142,13 @@ body {
     padding-right: 1em;
 }
 
-#videoControl {
-    /*border: 2px solid #00FFFF;*/
-    height: 2.5em;
-    width: 8.5em;
-    color: #FFFFFF;
-    margin-right: 1em;
-    text-decoration: none;
-    animation-name: slideInBottom;
-    animation-fill-mode: backwards;
-    animation-duration: 1s;
-    float: right;
-}
-
-#videoControl p {
-    display: inline-block;
-}
-
-#videoControl a {
-    font-size: 1.2em;
-    color: #FFFFFF;
-    transition: color 0.5s;
-    text-decoration: none;
-}
-
-#videoControl a:hover {
-    color: #FF0000;
-}
-
 #otherSiteLinks {
     /*border: 2px solid #FF0000;*/
     height: 2.5em;
     width: 3em;
     margin-top: 2.5em;
-    float: left;
+    margin-right: 2em;
+    float: right;
     animation-name: slideInBottom;
     animation-duration: 1s;
     animation-delay: 1.7s;
@@ -212,7 +158,7 @@ body {
 #copyRightInfo {
     color: #FFFFFF;
     font-size: 1em;
-    margin-left: 15em;
+    margin-left: 19em;
     margin-top: 2.5em;
     float: left;
     animation-name: slideInBottom;

@@ -1,8 +1,12 @@
 #profilePicCont {
-    /*border: 2px solid #FFFF00;*/
+    border-right: 2px solid #FFFFFF;
     width: 28em;
     height: 22.5em;
     float: left;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
 }
 
 #profilePicCont h1 {
@@ -81,11 +85,6 @@
     margin-top: -1em;
 }
 
-#videoControl {
-    margin-top: 8em;
-    animation-delay: 2.6s;
-}
-
 #skills li {
     list-style-type: none;
     text-align: center;
@@ -153,9 +152,14 @@
 
 #disc {
     /*border: 2px dotted #5CFFCC;*/
+    border-right: 2px solid #FFFFFF;
     width: 28em;
     height: 10em;
     margin-top: 22.5em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
 }
 
 #disc ul {
