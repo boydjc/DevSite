@@ -1,5 +1,5 @@
 #aboutPicCont {
-    border: 2px solid #0000FF;
+    /*border: 2px solid #0000FF;*/
     width: 29em;
     margin-top: 3em;
     margin-left: 3em;
@@ -18,7 +18,7 @@
 #aboutWriteUp {
     color: #FFFFFF;
     font-size: 1.2em;
-    border: 2px solid #00FF00;
+    /*border: 2px solid #00FF00;*/
     width: 40em;
     float: right;
     margin-top: 5em;
@@ -28,6 +28,7 @@
     animation-duration: 1.3s;
     animation-delay: 0.7s;
     animation-fill-mode: backwards;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #videoControl {
