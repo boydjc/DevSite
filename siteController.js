@@ -3,39 +3,34 @@ $(document).ready(function(){
     var currentPage = "Home";
 
     $("#navBar a" ).click(function(event){
-	event.preventDefault();
-	$("#mainCont").addClass("mainContAnim");
-	// pause the animation
-	setTimeout(function() {
-	    $("#mainCont").addClass("pauseAnimation");
-	    if($(event.target).text() == "Home") {
-		removeContent();
-		changeToHome();
-		currentPage = "Home";
-	    }else if($(event.target).text() == "About") {
-		removeContent();
-		changeToAbout();
-		currentPage = "About";
-	    }else if($(event.target).text() == "Resume") {
-		removeContent();
-		changeToResume();
-		currentPage = "Resume";
-	    }else if($(event.target).text() == "Blog") {
-		removeContent();
-		changeToBlog();
-		currentPage = "Blog";
-	    }else if($(event.target).text() == "Contact") {
-		removeContent();
-		changeToContact();
-		currentPage = "Contact";
-	    }
+		
+	if($(event.target).text() != "Resume"){
+	    event.preventDefault();
+	    $("#mainCont").addClass("mainContAnim");
+	    // pause the animation
+	    setTimeout(function() {
+	        $("#mainCont").addClass("pauseAnimation");
+	        if($(event.target).text() == "Home") {
+		    removeContent();
+		    changeToHome();
+		    currentPage = "Home";
+	        }else if($(event.target).text() == "About") {
+		    removeContent();
+		    changeToAbout();
+		    currentPage = "About";
+	        }else if($(event.target).text() == "Contact") {
+		    removeContent();
+		    changeToContact();
+		    currentPage = "Contact";
+	        } 
 
-	    $("#mainCont").removeClass("pauseAnimation");
-	}, 500);
-	setTimeout(function() {
-	    $("#mainCont").removeClass("mainContAnim");
-	}, 1500); // This second parameter number is the duration of the
-	    // animation in milliseconds.
+	        $("#mainCont").removeClass("pauseAnimation");
+	    }, 500);
+	    setTimeout(function() {
+	        $("#mainCont").removeClass("mainContAnim");
+	    }, 1500); // This second parameter number is the duration of the
+	              // animation in milliseconds.
+        }
     });
 
     // stop the video background when the play arrow is clicked
@@ -189,9 +184,6 @@ $(document).ready(function(){
 	 </div>`
 
 	);
-    }
-
-    function changeToResume() {
     }
 
     // changes the page to the contact content
