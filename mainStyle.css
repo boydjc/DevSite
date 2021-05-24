@@ -130,14 +130,14 @@ body {
 }
 
 #mainCont {
-    border: 2px solid #FFFFFF;
+    /*border: 2px solid #FFFFFF;*/
     width: 83.5em;
     height: 39em;
 }
 
 #navBar {
     height: 4em;
-    border: 2px dashed #FF0000;
+    /8border: 2px dashed #FF0000;*/
 }
 
 #navBar div {
@@ -170,10 +170,11 @@ body {
 }
 
 #videoControl {
-    border: 2px solid #00FFFF;
+    /*border: 2px solid #00FFFF;*/
     height: 2.5em;
     width: 8.5em;
     color: #FFFFFF;
+    margin-right: 1em;
     text-decoration: none;
     animation-name: slideInBottom;
     animation-fill-mode: backwards;
@@ -194,4 +195,28 @@ body {
 
 #videoControl a:hover {
     color: #FF0000;
+}
+
+#otherSiteLinks {
+    /*border: 2px solid #FF0000;*/
+    height: 2.5em;
+    width: 3em;
+    margin-top: 2.5em;
+    float: left;
+    animation-name: slideInBottom;
+    animation-duration: 1s;
+    animation-delay: 1.7s;
+    animation-fill-mode: backwards;
+}
+
+#copyRightInfo {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-left: 15em;
+    margin-top: 2.5em;
+    float: left;
+    animation-name: slideInBottom;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
 }
