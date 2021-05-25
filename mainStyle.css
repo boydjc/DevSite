@@ -79,7 +79,7 @@
 }
 
 body {
-    background-color: #2c2c2c;
+    background-image: url("assets/testTwo.svg");
     font-family: CormorantGaramond;
     overflow-y: hidden;
 }
