@@ -110,7 +110,7 @@ body {
 
 #navBar {
     height: 4em;
-    /8border: 2px dashed #FF0000;*/
+    /*border: 2px dashed #FF0000;*/
 }
 
 #navBar div {
@@ -135,11 +135,11 @@ body {
 }
 
 #otherLinks {
-    margin-left: 57em;
+    margin-left: 51em;
 }
 
 #otherLinks a {
-    padding-right: 1em;
+    padding-right: 2em;
 }
 
 #otherSiteLinks {

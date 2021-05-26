@@ -10,7 +10,7 @@
 
     function getRandom
 
-    <rect x="0" y="0" width="20" height="20" fill="#2c2c2c" stroke="blue" 
+    <rect x="0" y="0" width="5" height="5" fill="#2c2c2c" stroke="blue" 
           stroke-width="0.05"/>
 
 
@@ -67,41 +67,49 @@
 
         <!-- Network Segments -->
 
-        <g id="networkSegOne" transform="rotate(0)">
+        <g id="networkSegOne" transform="rotate(0) translate(0,0)">
             <animateTransform attributeName="transform" attributeType="XML"
             type="rotate" keyTimes="0;0.5;1" values="0,0.2,0.2;20,0.2,0.2;0,0.2,0.2;" dur="10"
             repeatCount="indefinite"/>
+
+            <animateTransform attributeName="transform" attributeType="XML"
+            type="translate" keyTimes="0;0.5;1" values="0,0;0.2,0.2;0,0;" dur="10"
+            repeatCount="indefinite" additive="sum"/>
             <use xlink:href="#networkLink"/>
             <use xlink:href="#networkNodeOne"/>
         </g>
 
         <g id="networkSegTwo" transform="rotate(0) translate(0,0)">
-            <animateTransform attributeName="transform" attributeType="XML"
+            <!--<animateTransform attributeName="transform" attributeType="XML"
             type="rotate" keyTimes="0;0.5;1" values="0,0.2,0.2;20,0.2,0.2;0,0.2,0.2;" dur="10"
             repeatCount="indefinite"/>
 
             <animateTransform attributeName="transform" attributeType="XML"
             type="translate" keyTimes="0;0.5;1" values="0,0;0.1,0.12;0,0" dur="10"
-            repeatCount="indefinite" additive="sum"/>
+            repeatCount="indefinite" additive="sum"/>-->
        
             <use xlink:href="#networkLink" 
             transform="translate(0,0.1) scale(1.11,1)"/>
             <use xlink:href="#networkNodeTwo"/>
         </g>
 
-        <g id="networkSegThree">
+        <g id="networkSegThree" transform="translate(0,0) rotate(0)">
 	    <animateTransform attributeName="transform" attributeType="XML"
-            type="translate" keyTimes="0;0.5;1" values="0,0;0.2,0.05;0,0" dur="10"
+            type="translate" keyTimes="0;0.5;1" values="0,0;0.4,-0.05;0,0" dur="10"
             repeatCount="indefinite"/>
+            
+            <animateTransform attributeName="transform" attributeType="XML"
+            type="rotate" keyTimes="0;0.5;1" values="0,0.1,0.1;-10,0.1,0.1;0,0.1,0.1;"
+            dur="10" repeatCount="indefinite" additive="sum"/>
             <use xlink:href="#networkLink"
             transform="translate(0,0.2)"/>
             <use xlink:href="#networkNodeThree"/>
         </g>
 
         <g id="networkSegFour" transform="translate(0,0)">
-            <animateTransform attributeName="transform" attributeType="XML"
+            <!--<animateTransform attributeName="transform" attributeType="XML"
             type="translate" keyTimes="0;0.5;1" values="0,0;0.2,-0.31;0,0" dur="10"
-            repeatCount="indefinite"/>
+            repeatCount="indefinite"/>-->
             <use xlink:href="#networkLink"
             transform="translate(0,0.3) scale(0.97,1)"/>
             <use xlink:href="#networkNodeFour"/>
@@ -109,17 +117,21 @@
 
 	<g id="networkSegFive" transform="rotate(0)">	
             <animateTransform attributeName="transform" attributeType="XML"
-            type="rotate" keyTimes="0;0.5;1" values="0,0.4,0.4;-25,0.4,0.4;0,0.4,0.4"
+            type="rotate" keyTimes="0;0.5;1" values="0,0.8,0.8;-10,0.8,0.8;0,0.8,0.8"
             dur="10" repeatCount="indefinite"/>
+            
+            <!--<animateTransform attributeName="transform" attributeType="XML"
+            type="translate" keyTimes="0;0.5;1" values="0,0;-0.25,-0.7;0,0;"
+            dur="10" repeatCount="indefinite" additive="sum"/>-->
             <use xlink:href="#networkLink"
             transform="translate(0,0.4)"/>
             <use xlink:href="#networkNodeFive"/>
         </g>
 
         <g id="networkSegSix" transform="translate(0,0)">
-            <animateTransform attributeName="transform" attributeType="XML"
+           <!-- <animateTransform attributeName="transform" attributeType="XML"
             type="translate" keyTimes="0;0.5;1" values="0,0;-0.33,-0.2;0,0;"
-            dur="10" repeatCount="indefinite"/>
+            dur="10" repeatCount="indefinite"/>-->
             <use xlink:href="#networkNodeSix"/>
         </g>
 
