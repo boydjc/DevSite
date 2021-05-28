@@ -110,7 +110,7 @@ body {
 
 #navBar {
     height: 4em;
-    /*border: 2px dashed #FF0000;*/
+    border-bottom: 2px solid #FFFFFF;
 }
 
 #navBar div {
