@@ -3,8 +3,8 @@
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="160px" height="212px"
-    viewBox="0 0 1.6 2.12"
+    width="200px" height="200px"
+    viewBox="0 0 2 2"
     preserveAspectRatio="xMidYMid">
 
     <rect x="0" y="0" width="3" height="3" fill="#2c2c2c" stroke="none" 
@@ -15,9 +15,11 @@
 
 	<!-- Network components -->
 
-        <g id="networkLink">
-            <line x1="0.2" y1="0.2" x2="0.8" y2="0.2" 
-            stroke="#888888" stroke-width="0.02"/>
+        <g id="square" stroke="#888888" stroke-width="0.02">
+	    <line x1="0.1" y1="0.1" x2="0.4" y2="0.1" />
+            <line x1="0.11" y1="0.1" x2="0.11" y2="0.4" />
+            <line x1="0.39" y1="0.1" x2="0.39" y2="0.4" />
+            <line x1="0.1" y1="0.4" x2="0.4" y2="0.4" />
         </g>
 
         <g id="networkNodeOne" fill="#888888">
@@ -71,13 +73,7 @@
 
     </defs>
 
-    <use xlink:href="#networkNodeOne"/>
-    <use xlink:href="#networkNodeTwo"/>
-    <use xlink:href="#networkNodeThree"/>
-    <use xlink:href="#networkNodeFour"/>
-    <use xlink:href="#networkNodeFive"/>
 
-
-   
-
+    <use xlink:href="#square" />
+  
 </svg>
