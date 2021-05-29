@@ -17,6 +17,7 @@
     animation-duration: 0.7s;
     animation-delay: 0.5s;
     animation-fill-mode: backwards;
+    text-shadow: 3px 2px 2px #000000;
 }
 
 #profilePic {
@@ -39,6 +40,7 @@
 #skills h2,h3 {
     color: #FFFFFF;
     text-align: center;
+    text-shadow: 3px 2px 2px #000000;
 }
 
 #skills h2 {
@@ -53,7 +55,6 @@
 
 #skills h3 {
     font-size: 1.7em;
-    text-decoration: underline;
 }
 
 #frontEndSkills h3 {
@@ -86,7 +87,6 @@
 }
 
 #skills li {
-    list-style-type: none;
     text-align: center;
     margin-right: 1.8em;
     padding-bottom: 1em;
@@ -99,6 +99,14 @@
     animation-duration: 1s;
     animation-delay: 2s;
     animation-fill-mode: backwards;
+}
+
+#frontEndOne:nth-child(1){
+    list-style-image: url('assets/html5Icon.png');
+}
+
+#frontEndTwo:nth-child(2){
+    list-style-image: url('assets/cssIcon.png');
 }
 
 #frontEndTwo {
