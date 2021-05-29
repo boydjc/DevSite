@@ -80,7 +80,7 @@
 
 body {
     background-color; #000000;
-    background-image: linear-gradient(#2c2c2c 97%, #AAAAAA);
+    background-image: linear-gradient(#2c2c2c 91%, #AAAAAA);
     background-attachment: fixed;
     font-family: CormorantGaramond;
     overflow-y: hidden;
@@ -112,7 +112,6 @@ body {
 
 #navBar {
     height: 4em;
-    /*border-bottom: 2px solid #FFFFFF;*/
 }
 
 #navBar div {
@@ -122,15 +121,12 @@ body {
 #navBar a {
     font-size: 2em;
     text-decoration: none;
-    transition: font-size 0.5s;
     color: #888888;
     float: left;
-    border: 2px solid #FFFFFF;
-    border-radius: 2em;
-    padding: 0.1em;
 }
 
 #navBar a:hover {
+    text-shadow: 4px 4px 10px yellow;
     color: #FFFFFF;
 }
 
@@ -139,7 +135,7 @@ body {
 }
 
 #otherLinks {
-    margin-left: 51em;
+    margin-left: 53em;
 }
 
 #otherLinks a {
