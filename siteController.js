@@ -42,17 +42,23 @@ $(document).ready(function(){
 	    $("#skills").remove();
 	    $("#otherSiteLinks").remove();
 	    $("#copyRightInfo").remove();
+	    $("#homeLink a").removeClass("navBarCurrent");
+	    $("#homeLink a").addClass("navBarNotCurrent");
 	}else if(currentPage == "About") {
 	    $("#aboutPicCont").remove();
 	    $("#aboutWriteUp").remove();
 	    $("#otherSiteLinks").remove();
 	    $("#copyRightInfo").remove();
+	    $("#otherLinks a:nth-child(1)").removeClass("navBarCurrent");
+	    $("#otherLinks a:nth-child(1)").addClass("navBarNotCurrent");
+	}else if(currentPage == "Contact") {
+            $("#otherLinks a:nth-child(3)").removeClass("navBarCurrent");
+	    $("#otherLinks a:nth-child(3)").addClass("navBarNotCurrent");
 	}
     }
 
     // changes the page to the home content
     function changeToHome() {
-	// Create profile picture div
 	$("#mainCont").append(
 	    `<div id="profilePicCont">
 	        <h1>Joshua Boyd</h1>
@@ -107,6 +113,9 @@ $(document).ready(function(){
 		 </ul>
 	     </div>`
 	);
+
+	$("#homeLink a").addClass("navBarCurrent");
+
     }
 
     // changes the page to the about content
@@ -150,9 +159,12 @@ $(document).ready(function(){
 	 </div>`
 
 	);
+
+	$("otherLinks a:nth-child(1)").addClass("navBarCurrent");
     }
 
     // changes the page to the contact content
     function changeToContact() {
+	$("otherLinks a:nth-child(3)").addClass("navBarCurrent");
     }
 });
