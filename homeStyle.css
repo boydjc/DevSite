@@ -1,5 +1,5 @@
 #profilePicCont {
-    border-right: 2px solid #FFFFFF;
+    border-right: 2px solid #AAAAAA;
     width: 28em;
     height: 22.5em;
     float: left;
@@ -12,7 +12,7 @@
 #profilePicCont h1 {
     color: #FFFFFF;
     font-size: 3em;
-    margin-left: 2.7em;
+    margin-left: 3em;
     animation-name: fadeIn;
     animation-duration: 0.7s;
     animation-delay: 0.5s;
@@ -21,7 +21,7 @@
 }
 
 #profilePic {
-    margin-left: 7.5em;
+    margin-left: 8.5em;
     margin-top: -2em;
     border-radius: 11em;
     animation-name: fadeIn;
@@ -88,7 +88,6 @@
 
 #skills li {
     text-align: center;
-    margin-right: 1.8em;
     padding-bottom: 1em;
     color: #FFFFFF;
     font-size: 1.3em;
@@ -101,12 +100,8 @@
     animation-fill-mode: backwards;
 }
 
-#frontEndOne:nth-child(1){
+#frontEndOne:nth-child(1) {
     list-style-image: url('assets/html5Icon.png');
-}
-
-#frontEndTwo:nth-child(2){
-    list-style-image: url('assets/cssIcon.png');
 }
 
 #frontEndTwo {
@@ -116,11 +111,20 @@
     animation-fill-mode: backwards;
 }
 
+#frontEndTwo:nth-child(2) { 
+    list-style-image: url('assets/cssIcon.png');
+}
+
+
 #frontEndThree {
     animation-name: slideInTop;
     animation-duration: 1s;
     animation-delay: 2.5s;
     animation-fill-mode: backwards;
+}
+
+#frontEndThree:nth-child(3) {
+    list-style-image: url('assets/jsIcon.png');
 }
 
 #backEndOne {
@@ -130,11 +134,19 @@
     animation-fill-mode: backwards;
 }
 
+#backEndOne:nth-child(1) {
+    list-style-image: url('assets/pythonIcon.png');
+}
+
 #backEndTwo {
     animation-name: slideInTop;
     animation-duration: 1s;
     animation-delay: 2.4s;
     animation-fill-mode: backwards;
+}
+
+#backEndTwo:nth-child(2) {
+    list-style-image: url('assets/cPlusPlusIcon.png');
 }
 
 #backEndThree {
@@ -144,11 +156,19 @@
     animation-fill-mode: backwards;
 }
 
+#backEndThree:nth-child(3) {
+    list-style-image: url('assets/javaIcon.png');
+}
+
 #otherOne {
     animation-name: slideInTop;
     animation-duration: 1s;
     animation-delay: 2.4s;
     animation-fill-mode: backwards;
+}
+
+#otherOne:nth-child(1) {
+    list-style-image: url('assets/databaseIcon.png');
 }
 
 #otherTwo {
@@ -158,8 +178,12 @@
     animation-fill-mode: backwards;
 }
 
+#otherTwo:nth-child(2) {
+    list-style-image: url('assets/linuxIcon.png');
+}
+
 #disc {
-    border-right: 2px solid #FFFFFF;
+    border-right: 2px solid #AAAAAA;
     width: 28em;
     height: 10em;
     margin-top: 22.5em;
