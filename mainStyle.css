@@ -128,13 +128,21 @@ body {
 #navBar a {
     font-size: 2em;
     text-decoration: none;
-    color: #888888;
-    text-shadow: 3px 2px 2px #000000;
-    transition: text-shadow 0.2s;
     float: left;
 }
 
 #navBar a:hover {
+    text-shadow: 0px 0px 10px #45A29E;
+    color: #FFFFFF;
+}
+
+.navBarNotCurrent {
+    text-shadow: 3px 2px 2px #000000;
+    transition: text-shadow 0.2s;
+    color: #888888;
+}
+
+.navBarCurrent {
     text-shadow: 0px 0px 10px #45A29E;
     color: #FFFFFF;
 }
