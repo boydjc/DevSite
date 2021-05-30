@@ -49,11 +49,11 @@ $(document).ready(function(){
 	    $("#aboutWriteUp").remove();
 	    $("#otherSiteLinks").remove();
 	    $("#copyRightInfo").remove();
-	    $("#otherLinks a:nth-child(1)").removeClass("navBarCurrent");
-	    $("#otherLinks a:nth-child(1)").addClass("navBarNotCurrent");
+	    $("#otherLinks a:eq(0)").removeClass("navBarCurrent");
+	    $("#otherLinks a:eq(0)").addClass("navBarNotCurrent");
 	}else if(currentPage == "Contact") {
-            $("#otherLinks a:nth-child(3)").removeClass("navBarCurrent");
-	    $("#otherLinks a:nth-child(3)").addClass("navBarNotCurrent");
+            $("#otherLinks a:eq(2)").removeClass("navBarCurrent");
+	    $("#otherLinks a:eq(2)").addClass("navBarNotCurrent");
 	}
     }
 
@@ -160,11 +160,11 @@ $(document).ready(function(){
 
 	);
 
-	$("otherLinks a:nth-child(1)").addClass("navBarCurrent");
+	$("#otherLinks a:eq(0)").addClass("navBarCurrent");
     }
 
     // changes the page to the contact content
     function changeToContact() {
-	$("otherLinks a:nth-child(3)").addClass("navBarCurrent");
+	$("#otherLinks a:eq(2)").addClass("navBarCurrent");
     }
 });
