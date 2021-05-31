@@ -1,12 +1,12 @@
 #leftCont {
     float: left;
+    border: 2px solid #00FF00;
 }
 
 #profilePicCont {
-    border-right: 2px solid #AAAAAA;
+    border: 2px solid #AAAAAA;
     width: 28em;
-    height: 22.5em;
-    float: left;
+    height: 20.5em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-delay: 0.5s;
@@ -16,6 +16,7 @@
 #profilePicCont h1 {
     color: #FFFFFF;
     font-size: 3em;
+    margin-top: -0.05em;
     margin-left: 3em;
     animation-name: fadeIn;
     animation-duration: 0.7s;
@@ -34,250 +35,10 @@
     animation-fill-mode: backwards;
 }
 
-#skills {
-    border: 2px solid #0000FF;
-    float: right;
-    width: 55em;
-    height: 32.3em;
-}
-
-#skills h2,h3 {
-    color: #FFFFFF;
-    text-align: center;
-    text-shadow: 3px 2px 2px #000000;
-}
-
-#skills h2 {
-    font-size: 2.5em;
-    margin-right: 0.5em;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-delay: 0.7s;
-    animation-fill-mode: backwards;
-    margin-top: 2em;
-}
-
-#skills h3 {
-    font-size: 1.7em;
-}
-
-#frontEndSkills h3 {
-    animation-name: slideInBottom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-    animation-delay: 0.7s;
-}
-
-#backEndSkills h3 {
-    animation-name: slideInBottom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-    animation-delay: 1.2s;
-}
-
-#otherSkills h3 {
-    animation-name: slideInBottom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-    animation-delay: 1.7s;
-}
-
-#frontEndSkills,#backEndSkills,#otherSkills {
-    /*border: 2px solid #00FFFF;*/
-    height: 20em;
-    width: 18em;
-    float: left;
-    margin-top: -2em;
-}
-
-#frontEndOnePie {
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    background: yellowgreen;
-}
-
-#skills li {
-    text-align: center;
-    padding-bottom: 1em;
-    color: #FFFFFF;
-    font-size: 1.3em;
-}
-
-#frontEndOne {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-fill-mode: backwards;
-    margin-top: -1em;
-}
-
-#frontEndOne:nth-child(1) {
-    list-style-image: url('assets/html5Icon.png');
-}
-
-#frontEndOne ul {
-    margin-left: -3em;
-}
-
-#frontEndOne ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#frontEndTwo {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.2s;
-    animation-fill-mode: backwards;
-    margin-top: -1em;
-}
-
-#frontEndTwo ul {
-    margin-left: -3em;
-}
-
-#frontEndTwo ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#frontEndTwo:nth-child(2) { 
-    list-style-image: url('assets/cssIcon.png');
-}
-
-#frontEndThree {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.5s;
-    animation-fill-mode: backwards;
-    margin-top: -1em;
-}
-
-#frontEndThree ul {
-    margin-left: -3em;
-}
-
-#frontEndThree ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-
-#frontEndThree:nth-child(3) {
-    list-style-image: url('assets/jsIcon.png');
-}
-
-#backEndOne {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.2s;
-    animation-fill-mode: backwards;
-    margin-top: -0.7em;
-}
-
-#backEndOne ul {
-    margin-left: -4em;
-}
-
-#backEndOne ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#backEndOne:nth-child(1) {
-    list-style-image: url('assets/pythonIcon.png');
-}
-
-#backEndTwo {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.4s;
-    animation-fill-mode: backwards;
-    margin-top: -1.2em;
-}
-
-#backEndTwo ul {
-    margin-left: -4em;
-}
-
-#backEndTwo ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#backEndTwo:nth-child(2) {
-    list-style-image: url('assets/cPlusPlusIcon.png');
-}
-
-#backEndThree {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.6s;
-    animation-fill-mode: backwards;
-    margin-top: -2em;
-}
-
-#backEndThree ul {
-    margin-left: -4em;
-}
-
-#backEndThree ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#backEndThree:nth-child(3) {
-    list-style-image: url('assets/javaIcon.png');
-}
-
-#otherOne {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.4s;
-    animation-fill-mode: backwards;
-    margin-top: -0.7em;
-}
-
-#otherOne ul {
-    margin-left: -4em;
-}
-
-#otherOne ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#otherOne:nth-child(1) {
-    list-style-image: url('assets/databaseIcon.png');
-}
-
-#otherTwo {
-    animation-name: slideInTop;
-    animation-duration: 1s;
-    animation-delay: 2.6s;
-    animation-fill-mode: backwards;
-    margin-top: -2.2em;
-}
-
-#otherTwo ul {
-    margin-left: -4em;
-}
-
-#otherTwo ul li {
-    list-style-image: none;
-    display: inline-block;
-}
-
-#otherTwo:nth-child(2) {
-    list-style-image: url('assets/linuxIcon.png');
-}
-
 #disc {
     border-right: 2px solid #AAAAAA;
-    width: 28em;
-    height: 10em;
-    margin-top: 22.5em;
+    height: 12em;
+    margin-top: -1em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: backwards;
@@ -315,5 +76,46 @@
     animation-duration: 1.5s;
     animation-delay: 2.2s;
     animation-fill-mode: backwards;
+}
+
+#rightCont {
+    float: left;
+    border: 2px solid #FF0000;
+    height: 32.7em;
+}
+
+#skills {
+    border: 2px solid #0000FF;
+    width: 27em;
+    height: 32.5em;
+    float: left;
+}
+
+#skills ul li {
+    display: inline-block;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 2px #000000;
+    margin-right: 2em;
+    margin-top: -1em;
+    font-size: 1.2em;
+}
+
+#skills h2, #projects h2 {
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 3px 2px 2px #000000;
+    font-size: 2.5em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+    margin-top: 0.3em;
+}
+
+#projects {
+    width: 27em;
+    height: 32.5em;
+    float: right;
+    border: 2px solid 
 }
 
