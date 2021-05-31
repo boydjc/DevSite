@@ -40,18 +40,17 @@ $(document).ready(function(){
 	    $("#greeting").remove();
 	    $("#disc").remove();
 	    $("#skills").remove();
-	    $("#otherSiteLinks").remove();
-	    $("#copyRightInfo").remove();
+	    $("#footer").remove();
 	    $("#homeLink a").removeClass("navBarCurrent");
 	    $("#homeLink a").addClass("navBarNotCurrent");
 	}else if(currentPage == "About") {
 	    $("#aboutPicCont").remove();
 	    $("#aboutWriteUp").remove();
-	    $("#otherSiteLinks").remove();
-	    $("#copyRightInfo").remove();
+	    $("#footer").remove();
 	    $("#otherLinks a:eq(0)").removeClass("navBarCurrent");
 	    $("#otherLinks a:eq(0)").addClass("navBarNotCurrent");
 	}else if(currentPage == "Contact") {
+	    $("#footer").remove();
             $("#otherLinks a:eq(2)").removeClass("navBarCurrent");
 	    $("#otherLinks a:eq(2)").addClass("navBarNotCurrent");
 	}
@@ -60,119 +59,119 @@ $(document).ready(function(){
     // changes the page to the home content
     function changeToHome() {
 	$("#mainCont").append(
-	    `<div id="profilePicCont">
-	        <h1>Joshua Boyd</h1>
-		<img src="assets/joshFancyNew.jpg" id="profilePic" alt="fancy.jpg" height=260 width=267">
+	    `<div id="leftCont">
+		<div id="profilePicCont">
+		    <h1>Joshua Boyd</h1>
+		    <img src="assets/joshFancyNew.jpg" id="profilePic"
+		    alt="fancy.jpg" height=260 width=267>
+		</div>
+		<div id="disc">
+		    <ul>
+		        <li id="discListOne">Software Developer</li>
+			<li id="discListTwo">Programming Enthusiast</li>
+			<li id="discListThree">Computer Nerd</li>
+		    </ul>
+		</div>
 	     </div>
-
-	     <div id="skills">
-	         <h2>Skills</h2>
-
-		 <div id="frontEndSkills">
-		     <h3>Front End</h3>
-		     <ul>
-		         <li id="frontEndOne">
-			     HTML
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-			     </ul>
-			 </li>
-			 <li id="frontEndTwo">
-			     CSS
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-			     </ul>
-			 </li>
-			 <li id="frontEndThree">
-			     JavaScript
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-			     </ul>
-			 </li>
-		     </ul>
+	     <div id="rightCont">
+	         <div id="skills">
+		     <h2>Skills</h2>
+		     <div id="frontEndSkills">
+		         <h3>Front End</h3>
+			 <ul>
+			     <li id="frontEndOne">
+			         HTML
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				 </ul>
+			     </li>
+			     <li id="frontEndTwo">
+			         CSS
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				 </ul>
+			     </li>
+			     <li id="frontEndThree">
+			         JavaScript
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				 </ul>
+			     </li>
+			 </ul>
+		     </div>
+		     <div id="backEndSkills">
+		         <h3>Back End</h3>
+			 <ul>
+			     <li id="backEndOne">
+			         Python
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/halfStar.png"></li>
+				 </ul>
+			     </li>
+			     <li id="backEndTwo">
+			         C++
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/halfStar.png"></li>
+				 </ul>
+			     </li>
+			     <li id="backEndThree">
+			         Java
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/halfStar.png"></li>
+				 </ul>
+			     </li>
+			 </ul>
+		     </div>
+		     <div id="otherSkills">
+		         <h3>Other</h3>
+			 <ul>
+			     <li id="otherOne">
+			         SQL
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				 </ul>
+			     </li>
+			     <li id="otherTwo">
+			         Linux
+				 <ul>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/star.png"></li>
+				     <li><img src="assets/halfStar.png"></li>
+				 </ul>
+			     </li>
+			 </ul>
+		     </div>
 		 </div>
-
-		 <div id="backEndSkills">
-		     <h3>Back End</h3>
-		     <ul>
-		         <li id="backEndOne">
-			     Python
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/halfStar.png"></li>
-			     </ul>
-			 </li>
-			 <li id="backEndTwo">
-			     C++
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/halfStar.png"></li>
-			     </ul>
-			 </li>
-			 <li id="backEndThree">
-			     Java
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/halfStar.png"></li>
-			     </ul>
-			 </li>
-		     </ul>
-		 </div>
-
-		 <div id="otherSkills">
-		     <h3>Other</h3>
-		     <ul>
-		         <li id="otherOne">
-			     SQL
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-			     </ul>
-			 </li>
-			 <li id="otherTwo">
-			     Linux
-			     <ul>
-			         <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/star.png"></li>
-				 <li><img src="assets/halfStar.png"></li>
-			     </ul>
-			 </li>
-		     </ul>
-		 </div>
-		 <div id="otherSiteLinks">
+	     </div>
+	     <div id="footer">
+	         <div id="otherSiteLinks">
 		     <a href="https://www.github.com/boydjc">
 		         <img src="assets/githubIcon.png" alt="githubIcon.png" height=40 width=40>
 		     </a>
 		 </div>
-
 		 <div id="copyRightInfo">
-		     <p>Copyright \u00A9 Joshua Boyd 2021</p>
+		     <p>Copyright &#169; Joshua Boyd 2021</p>
 		 </div>
-
-	     </div>
-
-	     <div id="disc">
-	         <ul>
-		     <li id="discListOne">Software Developer</li>
-		     <li id="discListTwo">Programming Enthusiast</li>
-		     <li id="discListThree">Computer Nerd</li>
-		 </ul>
 	     </div>`
 	);
 
@@ -210,14 +209,15 @@ $(document).ready(function(){
 	     particular task? Maybe you just want to say hi? Feel free to reach 
 	     out and let me know you stopped by!</p>
 	 </div>
-
-	 <div id="otherSiteLinks">
-	    <a href="https://www.github.com/boydjc">
-	        <img src="assets/githubIcon.png" alt="githubIcon.png">
-	    </a>
-	 </div>
-	 <div id="copyRightInfo">
-	     <p>Copyright \u00A9 Joshua Boyd 2021</p>
+	 <div id="footer">
+	     <div id="otherSiteLinks">
+	         <a href="https://www.github.com/boydjc">
+	             <img src="assets/githubIcon.png" alt="githubIcon.png" height=40 width=40>
+	         </a>
+	     </div>
+	     <div id="copyRightInfo">
+	         <p>Copyright &#169; Joshua Boyd 2021</p>
+	     </div>
 	 </div>`
 
 	);

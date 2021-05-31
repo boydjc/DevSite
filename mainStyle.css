@@ -162,9 +162,9 @@ body {
 #otherSiteLinks {
     /*border: 2px solid #FF0000;*/
     height: 2.5em;
-    margin-top: 2.5em;
     margin-right: 2em;
     float: right;
+    margin-top: 0.4em;
     animation-name: slideInBottom;
     animation-duration: 1s;
     animation-delay: 1.7s;
@@ -174,12 +174,18 @@ body {
 #copyRightInfo {
     color: #FFFFFF;
     font-size: 1em;
-    margin-left: 19em;
-    margin-top: 2.5em;
+    margin-left: 34em;
     float: left;
+    margin-top: -0.2em;
     animation-name: slideInBottom;
     animation-duration: 1s;
     animation-delay: 1.5s;
     animation-fill-mode: backwards;
     text-shadow: 3px 2px 2px #000000;
+}
+
+#footer {
+    border: 2px dashed yellow;
+    width: 100%;
+    float: left;
 }
