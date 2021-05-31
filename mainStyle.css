@@ -181,4 +181,5 @@ body {
     animation-duration: 1s;
     animation-delay: 1.5s;
     animation-fill-mode: backwards;
+    text-shadow: 3px 2px 2px #000000;
 }
