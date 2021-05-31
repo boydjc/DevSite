@@ -83,7 +83,14 @@
     height: 20em;
     width: 18em;
     float: left;
-    margin-top: -1em;
+    margin-top: -2em;
+}
+
+#frontEndOnePie {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: yellowgreen;
 }
 
 #skills li {
@@ -98,10 +105,20 @@
     animation-duration: 1s;
     animation-delay: 2s;
     animation-fill-mode: backwards;
+    margin-top: -1em;
 }
 
 #frontEndOne:nth-child(1) {
     list-style-image: url('assets/html5Icon.png');
+}
+
+#frontEndOne ul {
+    margin-left: -3em;
+}
+
+#frontEndOne ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #frontEndTwo {
@@ -109,19 +126,39 @@
     animation-duration: 1s;
     animation-delay: 2.2s;
     animation-fill-mode: backwards;
+    margin-top: -1em;
+}
+
+#frontEndTwo ul {
+    margin-left: -3em;
+}
+
+#frontEndTwo ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #frontEndTwo:nth-child(2) { 
     list-style-image: url('assets/cssIcon.png');
 }
 
-
 #frontEndThree {
     animation-name: slideInTop;
     animation-duration: 1s;
     animation-delay: 2.5s;
     animation-fill-mode: backwards;
+    margin-top: -1em;
 }
+
+#frontEndThree ul {
+    margin-left: -3em;
+}
+
+#frontEndThree ul li {
+    list-style-image: none;
+    display: inline-block;
+}
+
 
 #frontEndThree:nth-child(3) {
     list-style-image: url('assets/jsIcon.png');
@@ -132,6 +169,16 @@
     animation-duration: 1s;
     animation-delay: 2.2s;
     animation-fill-mode: backwards;
+    margin-top: -0.7em;
+}
+
+#backEndOne ul {
+    margin-left: -4em;
+}
+
+#backEndOne ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #backEndOne:nth-child(1) {
@@ -143,6 +190,16 @@
     animation-duration: 1s;
     animation-delay: 2.4s;
     animation-fill-mode: backwards;
+    margin-top: -1.2em;
+}
+
+#backEndTwo ul {
+    margin-left: -4em;
+}
+
+#backEndTwo ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #backEndTwo:nth-child(2) {
@@ -154,6 +211,16 @@
     animation-duration: 1s;
     animation-delay: 2.6s;
     animation-fill-mode: backwards;
+    margin-top: -2em;
+}
+
+#backEndThree ul {
+    margin-left: -4em;
+}
+
+#backEndThree ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #backEndThree:nth-child(3) {
@@ -165,6 +232,16 @@
     animation-duration: 1s;
     animation-delay: 2.4s;
     animation-fill-mode: backwards;
+    margin-top: -0.7em;
+}
+
+#otherOne ul {
+    margin-left: -4em;
+}
+
+#otherOne ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #otherOne:nth-child(1) {
@@ -176,6 +253,16 @@
     animation-duration: 1s;
     animation-delay: 2.6s;
     animation-fill-mode: backwards;
+    margin-top: -2.2em;
+}
+
+#otherTwo ul {
+    margin-left: -4em;
+}
+
+#otherTwo ul li {
+    list-style-image: none;
+    display: inline-block;
 }
 
 #otherTwo:nth-child(2) {
