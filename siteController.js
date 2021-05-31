@@ -86,6 +86,7 @@ $(document).ready(function(){
 			         <li><img src="assets/star.png"></li>
 				 <li><img src="assets/star.png"></li>
 				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
 			     </ul>
 			 </li>
 			 <li id="frontEndThree">
