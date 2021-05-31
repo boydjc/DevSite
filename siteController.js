@@ -71,26 +71,87 @@ $(document).ready(function(){
 		 <div id="frontEndSkills">
 		     <h3>Front End</h3>
 		     <ul>
-		         <li id="frontEndOne">HTML</li>
-			 <li id="frontEndTwo">CSS</li>
-			 <li id="frontEndThree">JavaScript</li>
+		         <li id="frontEndOne">
+			     HTML
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+			     </ul>
+			 </li>
+			 <li id="frontEndTwo">
+			     CSS
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+			     </ul>
+			 </li>
+			 <li id="frontEndThree">
+			     JavaScript
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+			     </ul>
+			 </li>
 		     </ul>
 		 </div>
 
 		 <div id="backEndSkills">
 		     <h3>Back End</h3>
 		     <ul>
-		         <li id="backEndOne">Python</li>
-			 <li id="backEndTwo">C++</li>
-			 <li id="backEndThree">Java</li>
+		         <li id="backEndOne">
+			     Python
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/halfStar.png"></li>
+			     </ul>
+			 </li>
+			 <li id="backEndTwo">
+			     C++
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/halfStar.png"></li>
+			     </ul>
+			 </li>
+			 <li id="backEndThree">
+			     Java
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/halfStar.png"></li>
+			     </ul>
+			 </li>
 		     </ul>
 		 </div>
 
 		 <div id="otherSkills">
 		     <h3>Other</h3>
 		     <ul>
-		         <li id="otherOne">SQL</li>
-			 <li id="otherTwo">Linux</li>
+		         <li id="otherOne">
+			     SQL
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+			     </ul>
+			 </li>
+			 <li id="otherTwo">
+			     Linux
+			     <ul>
+			         <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/star.png"></li>
+				 <li><img src="assets/halfStar.png"></li>
+			     </ul>
+			 </li>
 		     </ul>
 		 </div>
 		 <div id="otherSiteLinks">
