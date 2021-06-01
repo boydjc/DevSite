@@ -1,10 +1,10 @@
 #leftCont {
     float: left;
-    border: 2px solid #00FF00;
+    border-right: 2px solid #FFFFFF;
 }
 
 #profilePicCont {
-    border: 2px solid #AAAAAA;
+    /*border: 2px solid #AAAAAA;*/
     width: 28em;
     height: 20.5em;
     animation-name: fadeIn;
@@ -36,7 +36,7 @@
 }
 
 #disc {
-    border-right: 2px solid #AAAAAA;
+    /*border-right: 2px solid #AAAAAA;*/
     height: 12em;
     margin-top: -1em;
     animation-name: fadeIn;
@@ -80,15 +80,47 @@
 
 #rightCont {
     float: left;
-    border: 2px solid #FF0000;
+    /*border: 2px solid #FF0000;*/
     height: 32.7em;
 }
 
 #skills {
-    border: 2px solid #0000FF;
+    /*border: 2px solid #0000FF;*/
     width: 27em;
     height: 32.5em;
     float: left;
+}
+
+.skillFrontOne {
+    list-style-image: url('assets/html5Icon.png');
+}
+
+.skillFrontTwo {
+    list-style-image: url('assets/cssIcon.png');
+}
+
+.skillFrontThree {
+    list-style-image: url('assets/jsIcon.png');
+}
+
+.skillBackOne {
+    list-style-image: url('assets/pythonIcon.png');
+}
+
+.skillBackTwo {
+    list-style-image: url('assets/cPlusPlusIcon.png');
+}
+
+.skillBackThree {
+    list-style-image: url('assets/javaIcon.png');
+}
+
+.skillOtherOne {
+    list-style-image: url('assets/databaseIcon.png');
+}
+
+.skillOtherTwo {
+    list-style-image: url('assets/linuxIcon.png');
 }
 
 #skills ul li {
@@ -102,9 +134,10 @@
 #skillCont ul li {
     display: list-item;
     margin-top: 0em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     color: #FFFFFF;
     font-size: 1.2em;
+    margin-left: 2em;
 }
 
 #skills a {
@@ -132,17 +165,19 @@
     width: 27em;
     height: 32.5em;
     float: right; 
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
 }
 
 #projectEleCont {
-    border: 2px dotted #FFFFFF;
+    /*border: 2px dotted #FFFFFF;*/
     overflow-y: auto;
     height: 27.5em;
     margin-top: -1em;
 }
 
 .projectElement {
-    border: 2px dashed #00FFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
 .projectElement h3 {

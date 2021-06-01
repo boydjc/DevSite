@@ -55,9 +55,9 @@ $(document).ready(function(){
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
-		    <li>HTML</li>
-		    <li>CSS</li>
-		    <li>JavaScript</li>
+		    <li class="skillFrontOne">HTML</li>
+		    <li class="skillFrontTwo">CSS</li>
+		    <li class="skillFrontThree">JavaScript</li>
 		 </ul>
 		`
 	    );
@@ -68,9 +68,9 @@ $(document).ready(function(){
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
-		    <li>Python</li>
-		    <li>C++</li>
-		    <li>Java</li>
+		    <li class="skillBackOne">Python</li>
+		    <li class="skillBackTwo">C++</li>
+		    <li class="skillBackThree">Java</li>
 		 </ul>`
 	    );
 	    $("#skills ul li h3 a:eq(1)").addClass("navBarCurrent");
@@ -80,8 +80,8 @@ $(document).ready(function(){
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
-		    <li>SQL</li>
-		    <li>Linux</li>
+		    <li class="skillOtherOne">SQL</li>
+		    <li class="skillOtherTwo">Linux</li>
 		 </ul>`
 	    );
 	    $("#skills ul li h3 a:eq(2)").addClass("navBarCurrent");
@@ -150,9 +150,9 @@ $(document).ready(function(){
 		     </ul>
 		     <div id="skillCont">
 			<ul>
-			    <li>HTML</li>
-			    <li>CSS</li>
-			    <li>JavaScript</li>
+			    <li class="skillFrontOne">HTML</li>
+			    <li class="skillFrontTwo">CSS</li>
+			    <li class="skillFrontThree">JavaScript</li>
 			</ul>
 		     </div>
 		 </div>

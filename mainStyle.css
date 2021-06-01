@@ -119,6 +119,7 @@ body {
 
 #navBar {
     height: 4em;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 #navBar div {
