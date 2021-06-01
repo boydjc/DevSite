@@ -93,11 +93,14 @@
 
 #skills ul li {
     display: inline-block;
-    color: #FFFFFF;
     text-shadow: 3px 2px 2px #000000;
     margin-right: 2em;
     margin-top: -1em;
     font-size: 1.2em;
+}
+
+#skills a {
+    text-decoration: none;
 }
 
 #skills h2, #projects h2 {
@@ -115,7 +118,31 @@
 #projects {
     width: 27em;
     height: 32.5em;
-    float: right;
-    border: 2px solid 
+    float: right; 
+}
+
+#projectEleCont {
+    border: 2px dotted #FFFFFF;
+    overflow-y: auto;
+    height: 27.5em;
+    margin-top: -1em;
+}
+
+.projectElement {
+    border: 2px dashed #00FFFF;
+}
+
+.projectElement h3 {
+    color: #FFFFFF;
+    text-shadow: 3px 2px 2px #000000;
+    font-size: 1.4em;
+    margin-left: 1em;
+}
+
+.projectElement p {
+    color: #FFFFFF;
+    text-align: center;
+    width: 24em;
+    margin-left: 1em;
 }
 
