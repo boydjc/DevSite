@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     var currentSkillList = "front";
 
-    $("#skills ul li a").click(function(event){	
+    $(document).on('click','#skills ul li a', function(event){	
 	if(currentSkillList == "front"){
 	    $("#skills ul li h3 a:eq(0)").removeClass("navBarCurrent");
 	    $("#skills ul li h3 a:eq(0)").addClass("navBarNotCurrent");
@@ -93,10 +93,8 @@ $(document).ready(function(){
     // removes web elements depending on what page we are currently on
     function removeContent() {
 	if(currentPage == "Home") {
-            $("#profilePicCont").remove();
-	    $("#greeting").remove();
-	    $("#disc").remove();
-	    $("#skills").remove();
+            $("#leftCont").remove();
+	    $("#rightCont").remove();
 	    $("#footer").remove();
 	    $("#homeLink a").removeClass("navBarCurrent");
 	    $("#homeLink a").addClass("navBarNotCurrent");
@@ -133,90 +131,70 @@ $(document).ready(function(){
 	     <div id="rightCont">
 	         <div id="skills">
 		     <h2>Skills</h2>
-		     <div id="frontEndSkills">
-		         <h3>Front End</h3>
-			 <ul>
-			     <li id="frontEndOne">
-			         HTML
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				 </ul>
-			     </li>
-			     <li id="frontEndTwo">
-			         CSS
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				 </ul>
-			     </li>
-			     <li id="frontEndThree">
-			         JavaScript
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				 </ul>
-			     </li>
-			 </ul>
+		     <ul>
+		         <li>
+			     <h3>
+			         <a href="#" class="navBarCurrent">Front End</a>
+			     </h3>
+			 </li>
+		         <li>
+			     <h3>
+			         <a href="#" class="navBarNotCurrent">Back End</a>
+			     </h3>
+			 </li>
+			 <li>
+			     <h3>
+			         <a href="#" class="navBarNotCurrent">Other</a>
+			     </h3>
+			 </li>
+		     </ul>
+		     <div id="skillCont">
+			<ul>
+			    <li>HTML</li>
+			    <li>CSS</li>
+			    <li>JavaScript</li>
+			</ul>
 		     </div>
-		     <div id="backEndSkills">
-		         <h3>Back End</h3>
-			 <ul>
-			     <li id="backEndOne">
-			         Python
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/halfStar.png"></li>
-				 </ul>
-			     </li>
-			     <li id="backEndTwo">
-			         C++
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/halfStar.png"></li>
-				 </ul>
-			     </li>
-			     <li id="backEndThree">
-			         Java
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/halfStar.png"></li>
-				 </ul>
-			     </li>
-			 </ul>
-		     </div>
-		     <div id="otherSkills">
-		         <h3>Other</h3>
-			 <ul>
-			     <li id="otherOne">
-			         SQL
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				 </ul>
-			     </li>
-			     <li id="otherTwo">
-			         Linux
-				 <ul>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/star.png"></li>
-				     <li><img src="assets/halfStar.png"></li>
-				 </ul>
-			     </li>
-			 </ul>
+		 </div>
+		 <div id="projects">
+		     <h2>Projects</h2>
+		     <div id="projectEleCont">
+		         <div class="projectElement">
+		             <h3>Project Title</h3>
+			     <p>This is a description of a project that I made
+			        This is a description of a project that I made
+			        This is a descroption of a project that I made
+			        This ia a description of a project that I made
+			        This is a description of a project that I made
+			     </p>
+			 </div>
+			 <div class="projectElement">
+		             <h3>Project Title</h3>
+			     <p>This is a description of a project that I made
+			        This is a description of a project that I made
+			        This is a descroption of a project that I made
+			        This ia a description of a project that I made
+			        This is a description of a project that I made
+			     </p>
+			 </div>
+			<div class="projectElement">
+		             <h3>Project Title</h3>
+			     <p>This is a description of a project that I made
+			        This is a description of a project that I made
+			        This is a descroption of a project that I made
+			        This ia a description of a project that I made
+			        This is a description of a project that I made
+			     </p>
+			 </div>
+			 <div class="projectElement">
+		             <h3>Project Title</h3>
+			     <p>This is a description of a project that I made
+			        This is a description of a project that I made
+			        This is a descroption of a project that I made
+			        This ia a description of a project that I made
+			        This is a description of a project that I made
+			     </p>
+			 </div>
 		     </div>
 		 </div>
 	     </div>
