@@ -32,6 +32,63 @@ $(document).ready(function(){
 	              // animation in milliseconds.
         }
     });
+
+    /* The code below control what the user sees when clicking 
+     * the skill links.
+     */
+
+    var currentSkillList = "front";
+
+    $("#skills ul li a").click(function(event){	
+	if(currentSkillList == "front"){
+	    $("#skills ul li h3 a:eq(0)").removeClass("navBarCurrent");
+	    $("#skills ul li h3 a:eq(0)").addClass("navBarNotCurrent");
+	}else if(currentSkillList == "back") {
+            $("#skills ul li h3 a:eq(1)").removeClass("navBarCurrent");
+	    $("#skills ul li h3 a:eq(1)").addClass("navBarNotCurrent");
+	}else if(currentSkillList == "other") {
+	    $("#skills ul li h3 a:eq(2)").removeClass("navBarCurrent");
+	    $("#skills ul li h3 a:eq(2)").addClass("navBarNotCurrent");
+	}
+
+	if($(event.target).text() == "Front End") {
+	    $("#skillCont ul").remove()
+	    $("#skillCont").append(
+	        `<ul>
+		    <li>HTML</li>
+		    <li>CSS</li>
+		    <li>JavaScript</li>
+		 </ul>
+		`
+	    );
+	    $("#skills ul li h3 a:eq(0)").addClass("navBarCurrent");
+	    $("#skills ul li h3 a:eq(0)").removeClass("navBarNotCurrent");
+	    currentSkillList = "front";
+	}else if($(event.target).text() == "Back End") { 
+	    $("#skillCont ul").remove()
+	    $("#skillCont").append(
+	        `<ul>
+		    <li>Python</li>
+		    <li>C++</li>
+		    <li>Java</li>
+		 </ul>`
+	    );
+	    $("#skills ul li h3 a:eq(1)").addClass("navBarCurrent");
+	    $("#skills ul li h3 a:eq(1)").removeClass("navBarNotCurrent");
+	    currentSkillList = "back";
+	}else if($(event.target).text() == "Other") {
+	    $("#skillCont ul").remove()
+	    $("#skillCont").append(
+	        `<ul>
+		    <li>SQL</li>
+		    <li>Linux</li>
+		 </ul>`
+	    );
+	    $("#skills ul li h3 a:eq(2)").addClass("navBarCurrent");
+	    $("#skills ul li h3 a:eq(2)").removeClass("navBarNotCurrent");
+	    currentSkillList = "other";
+	}
+    });
     
     // removes web elements depending on what page we are currently on
     function removeContent() {

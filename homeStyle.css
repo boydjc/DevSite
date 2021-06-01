@@ -99,8 +99,21 @@
     font-size: 1.2em;
 }
 
+#skillCont ul li {
+    display: list-item;
+    margin-top: 0em;
+    padding-bottom: 2em;
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
 #skills a {
     text-decoration: none;
+}
+
+#skills a:hover {
+    text-shadow: 0px 0px 10px #45A29E;
+    color: #FFFFFF;
 }
 
 #skills h2, #projects h2 {
