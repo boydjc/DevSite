@@ -140,6 +140,27 @@
     margin-left: 2em;
 }
 
+#skillCont ul li:nth-child(1) {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.2s;
+}
+
+#skillCont ul li:nth-child(2) {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.4s;
+}
+
+#skillCont ul li:nth-child(3) {
+    animation-name: slideInTop;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.6s;
+}
+
 #skills a {
     text-decoration: none;
 }
