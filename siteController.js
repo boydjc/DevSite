@@ -94,6 +94,7 @@ $(document).ready(function(){
     function removeContent() {
 	if(currentPage == "Home") {
             $("#leftCont").remove();
+	    $("#middleCont").remove();
 	    $("#rightCont").remove();
 	    $("#footer").remove();
 	    $("#homeLink a").removeClass("navBarCurrent");
@@ -128,7 +129,7 @@ $(document).ready(function(){
 		    </ul>
 		</div>
 	     </div>
-	     <div id="rightCont">
+	     <div id="middleCont">
 	         <div id="skills">
 		     <h2>Skills</h2>
 		     <ul>
@@ -156,6 +157,8 @@ $(document).ready(function(){
 			</ul>
 		     </div>
 		 </div>
+	     </div>
+	     <div id="rightCont">
 		 <div id="projects">
 		     <h2>Projects</h2>
 		     <div id="projectEleCont">
@@ -211,6 +214,7 @@ $(document).ready(function(){
 	);
 
 	$("#homeLink a").addClass("navBarCurrent");
+	currentSkillList = "front";
 
     }
 

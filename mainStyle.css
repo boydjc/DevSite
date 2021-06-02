@@ -165,7 +165,6 @@ body {
     height: 2.5em;
     margin-right: 2em;
     float: right;
-    margin-top: 0.4em;
     animation-name: slideInBottom;
     animation-duration: 1s;
     animation-delay: 1.7s;
@@ -175,7 +174,7 @@ body {
 #copyRightInfo {
     color: #FFFFFF;
     font-size: 1em;
-    margin-left: 34em;
+    margin-left: 36em;
     float: left;
     margin-top: -0.2em;
     animation-name: slideInBottom;
