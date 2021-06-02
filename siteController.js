@@ -55,9 +55,15 @@ $(document).ready(function(){
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
-		    <li class="skillFrontOne">HTML</li>
-		    <li class="skillFrontTwo">CSS</li>
-		    <li class="skillFrontThree">JavaScript</li>
+		    <li class="skillFrontOne">HTML
+			<img src="assets/htmlProgBar.svg"/>
+		    </li>
+		    <li class="skillFrontTwo">CSS
+			<img src="assets/cssProgBar.svg"/>
+		    </li>
+		    <li class="skillFrontThree">JavaScript
+			<img src="assets/jsProgBar.svg"/>
+		    </li>
 		 </ul>
 		`
 	    );
@@ -68,9 +74,15 @@ $(document).ready(function(){
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
-		    <li class="skillBackOne">Python</li>
-		    <li class="skillBackTwo">C++</li>
-		    <li class="skillBackThree">Java</li>
+		    <li class="skillBackOne">Python
+		    	<img src="assets/pythonProgBar.svg"/>
+		    </li>
+		    <li class="skillBackTwo">C++
+			<img src="assets/cPlusPlusProgBar.svg"/>
+		    </li>
+		    <li class="skillBackThree">Java
+			<img src="assets/javaProgBar.svg"/>
+		    </li>
 		 </ul>`
 	    );
 	    $("#skills ul li h3 a:eq(1)").addClass("navBarCurrent");
@@ -80,8 +92,12 @@ $(document).ready(function(){
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
-		    <li class="skillOtherOne">SQL</li>
-		    <li class="skillOtherTwo">Linux</li>
+		    <li class="skillOtherOne">SQL
+			<img src="assets/sqlProgBar.svg"/>
+		    </li>
+		    <li class="skillOtherTwo">Linux
+			<img src="assets/linuxProgBar.svg"/>
+		    </li>
 		 </ul>`
 	    );
 	    $("#skills ul li h3 a:eq(2)").addClass("navBarCurrent");
@@ -151,9 +167,15 @@ $(document).ready(function(){
 		     </ul>
 		     <div id="skillCont">
 			<ul>
-			    <li class="skillFrontOne">HTML</li>
-			    <li class="skillFrontTwo">CSS</li>
-			    <li class="skillFrontThree">JavaScript</li>
+			    <li class="skillFrontOne">HTML
+				<img src="assets/htmlProgBar.svg"/>
+			    </li>
+			    <li class="skillFrontTwo">CSS
+				<img src="assets/cssProgBar.svg"/>
+			    </li>
+			    <li class="skillFrontThree">JavaScript
+				<img src="assets/jsProgBar.svg"/>
+			    </li>
 			</ul>
 		     </div>
 		 </div>
