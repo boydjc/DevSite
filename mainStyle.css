@@ -160,6 +160,11 @@ body {
 }
 
 @media screen and (max-width:768px) {
+
+    #homeLink {
+        margin-left: -1em;
+    }
+ 
     #otherLinks {
         margin-left: 2em;
     }
