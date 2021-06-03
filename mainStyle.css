@@ -152,9 +152,17 @@ body {
     margin-left: 5em;
 }
 
-#otherLinks {
-    margin-left: 53em;
+@media screen and (max-width:1366px) {
+    #otherLinks {
+        margin-left: 53em;
+    }
 }
+
+@media screen and (max-width:768px) {
+    #otherLinks {
+        margin-left: 2em;
+    }
+}    
 
 #otherLinks a {
     margin-right: 1.8em;
