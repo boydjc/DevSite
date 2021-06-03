@@ -111,11 +111,6 @@ body {
     transform-origin: 50% 50%;
 }
 
-#mainCont {
-    /*border: 2px solid #FFFFFF;*/
-    width: 83.5em;
-    height: 39em;
-}
 
 #navBar {
     height: 4em;
@@ -151,6 +146,12 @@ body {
 /* desktop site */
 @media screen and (max-width:1366px) {
 
+    #mainCont {
+    /*border: 2px solid #FFFFFF;*/
+    width: 83.5em;
+    height: 39em;
+    }
+
     #navBar a {
         font-size: 2em;
     }
@@ -166,6 +167,12 @@ body {
  
 /* mobile site */
 @media screen and (max-width:768px) {
+
+    #mainCont {
+    /*border: 2px solid #FFFFFF;*/
+    width: 45em;
+    height: 39em;
+    }
 
     #navBar a {
         font-size: 1.2em;
