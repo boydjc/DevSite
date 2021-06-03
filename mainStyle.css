@@ -148,11 +148,12 @@ body {
     color: #FFFFFF;
 }
 
-#homeLink {
-    margin-left: 5em;
-}
-
 @media screen and (max-width:1366px) {
+
+    #homeLink {
+        margin-left: 5em;
+    }
+
     #otherLinks {
         margin-left: 53em;
     }
