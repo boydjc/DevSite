@@ -1,5 +1,8 @@
 #leftCont {
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     /*border: 2px solid #FFFFFF;*/
 }
 
@@ -188,6 +191,9 @@
 
 #rightCont {
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     /*border: 2px solid #FFDD00;*/
     height: 33em;
     width: 27em;
@@ -196,7 +202,10 @@
 #projects {
     width: 27em;
     height: 32.5em;
-    float: right; 
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
    /* border-top: 2px solid #FFFFFF;*/
 }
 
