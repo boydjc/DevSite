@@ -51,22 +51,29 @@ $(document).ready(function(){
 	    $("#skills ul li h3 a:eq(2)").addClass("navBarNotCurrent");
 	}
 
+	/* the 'v=Math.random()' added to the svg url makes the browser think that there is new 
+	 * version of the svg and prevents the browser from loading the svg from cache memory. 
+	 * The purpose of this is so that when the user clicks back and forth between skill lists
+	 * the animations will replay*/
+
 	if($(event.target).text() == "Front End") {
 	    $("#skillCont ul").remove()
 	    $("#skillCont").append(
 	        `<ul>
 		    <li class="skillFrontOne">HTML
-			<img src="assets/htmlProgBar.svg"/>
-		    </li>
-		    <li class="skillFrontTwo">CSS
-			<img src="assets/cssProgBar.svg"/>
-		    </li>
+			<img src="assets/htmlProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `<li class="skillFrontTwo">CSS
+			<img src="assets/cssProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `
 		    <li class="skillFrontThree">JavaScript
-			<img src="assets/jsProgBar.svg"/>
-		    </li>
+			<img src="assets/jsProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `</li>
 		 </ul>
 		`
 	    );
+
+	    $("#skillCont ul li")[0].innerHTML += "";
+
 	    $("#skills ul li h3 a:eq(0)").addClass("navBarCurrent");
 	    $("#skills ul li h3 a:eq(0)").removeClass("navBarNotCurrent");
 	    currentSkillList = "front";
@@ -75,14 +82,13 @@ $(document).ready(function(){
 	    $("#skillCont").append(
 	        `<ul>
 		    <li class="skillBackOne">Python
-		    	<img src="assets/pythonProgBar.svg"/>
-		    </li>
-		    <li class="skillBackTwo">C++
-			<img src="assets/cPlusPlusProgBar.svg"/>
-		    </li>
+			<img src="assets/pythonProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `<li class="skillBackTwo">C++
+			<img src="assets/cPlusPlusProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `
 		    <li class="skillBackThree">Java
-			<img src="assets/javaProgBar.svg"/>
-		    </li>
+			<img src="assets/javaProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `</li>
 		 </ul>`
 	    );
 	    $("#skills ul li h3 a:eq(1)").addClass("navBarCurrent");
@@ -93,11 +99,10 @@ $(document).ready(function(){
 	    $("#skillCont").append(
 	        `<ul>
 		    <li class="skillOtherOne">SQL
-			<img src="assets/sqlProgBar.svg"/>
-		    </li>
-		    <li class="skillOtherTwo">Linux
-			<img src="assets/linuxProgBar.svg"/>
-		    </li>
+			<img src="assets/sqlProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `<li class="skillOtherTwo">Linux
+			<img src="assets/linuxProgBar.svg?v=` + Math.random() + '"/></li>' +
+		    `
 		 </ul>`
 	    );
 	    $("#skills ul li h3 a:eq(2)").addClass("navBarCurrent");
