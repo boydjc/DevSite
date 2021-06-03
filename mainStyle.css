@@ -168,7 +168,11 @@ body {
 @media screen and (max-width:768px) {
 
     #navBar a {
-        font-size: 1em;
+        font-size: 1.2em;
+    }
+
+    #homeLink {
+        margin-left: -1em;
     }
  
     #otherLinks {
