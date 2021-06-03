@@ -148,7 +148,12 @@ body {
     color: #FFFFFF;
 }
 
+/* desktop site */
 @media screen and (max-width:1366px) {
+
+    #navBar a {
+        font-size: 2em;
+    }
 
     #homeLink {
         margin-left: 5em;
@@ -158,11 +163,12 @@ body {
         margin-left: 53em;
     }
 }
-
+ 
+/* mobile site */
 @media screen and (max-width:768px) {
 
-    #homeLink {
-        margin-left: -1em;
+    #navBar a {
+        font-size: 0.5em;
     }
  
     #otherLinks {
