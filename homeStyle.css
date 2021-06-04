@@ -16,13 +16,12 @@
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
     #profilePicCont {
-        width: 10em;
+        width: 20em;
     }
 }
 
 #profilePicCont {
     border: 2px solid #AAAAAA;
-    width: 28em;
     height: 22em;
     animation-name: fadeIn;
     animation-duration: 1s;
