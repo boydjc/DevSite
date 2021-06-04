@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*border: 2px solid #FFFFFF;*/
+    border: 2px solid #FFFFFF;
+    width: 27.3em;
+    height: 31em;
 }
 
 /* desktop site */
@@ -22,7 +24,7 @@
 
 #profilePicCont {
     border: 2px solid #AAAAAA;
-    height: 22em;
+    height: 21em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-delay: 0.5s;
@@ -52,8 +54,9 @@
 }
 
 #disc {
-    /*border-right: 2px solid #AAAAAA;*/
+    border-right: 2px solid #AAAAAA;
     height: 10em;
+    width: 30em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: backwards;
@@ -62,12 +65,12 @@
 
 #disc ul {
     list-style-type: none;
+    margin-top: -0.2em;
 }
 
 #disc li {
     font-size: 2em;
     text-align: center;
-    margin-right: 1em;
     padding-bottom: 0.4em;
     color: #FFFFFF;
 }
@@ -97,7 +100,11 @@
     float: left;
     border-left: 2px solid #FFFFFF;
     border-right: 2px solid #FFFFFF;
-    height: 33em;
+    width: 27.3em;
+    height: 31em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #skills {
@@ -207,24 +214,20 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*border: 2px solid #FFDD00;*/
-    height: 33em;
-    width: 27em;
+
+    width: 27.3em;
+    height: 31em;
 }
 
 #projects {
     width: 27em;
-    height: 32.5em;
-    float: right;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   /* border-top: 2px solid #FFFFFF;*/
+    height: 31em;
 }
 
 #projectEleCont {
     overflow-y: auto;
-    height: 27.5em;
+    height: 26em;
+    width: 28em;
     margin-top: -1em;
 }
 
@@ -239,6 +242,6 @@
     color: #FFFFFF;
     text-align: center;
     width: 24em;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
