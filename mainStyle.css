@@ -169,12 +169,12 @@ body {
     }
 }
  
-/* mobile site */
+/* mobile site (tested on iPhone 10)*/
 @media screen and (max-width:768px) {
 
     #mainCont {
         border: 2px solid #FFFFFF;
-        width: 20em;
+        width: 22em;
         height: 80em;
     }
 
