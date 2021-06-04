@@ -163,6 +163,10 @@ body {
     #otherLinks {
         margin-left: 53em;
     }
+
+    #otherLinks a {
+        margin-right: 1.8em;
+    }
 }
  
 /* mobile site */
@@ -185,11 +189,11 @@ body {
     #otherLinks {
         margin-left: 5.8em;
     }
-}    
 
-#otherLinks a {
-    margin-right: 1.8em;
-}
+    #otherLinks a {
+        margin-right: 1.3em;
+    }
+}    
 
 #otherSiteLinks {
     /*border: 2px solid #FF0000;*/
