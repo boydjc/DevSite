@@ -16,7 +16,7 @@
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
     #profilePicCont {
-        width: 20em;
+        width: 25em;
     }
 }
 
