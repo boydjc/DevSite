@@ -173,9 +173,9 @@ body {
 @media screen and (max-width:768px) {
 
     #mainCont {
-    /*border: 2px solid #FFFFFF;*/
-    width: 45em;
-    height: 39em;
+        border: 2px solid #FFFFFF;
+        width: 40em;
+        height: 39em;
     }
 
     #navBar a {
