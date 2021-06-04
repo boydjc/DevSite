@@ -40,6 +40,9 @@ $(document).ready(function(){
     var currentSkillList = "front";
 
     $(document).on('click','#skills ul li a', function(event){	
+
+        event.preventDefault();
+
 	if(currentSkillList == "front"){
 	    $("#skills ul li h3 a:eq(0)").removeClass("navBarCurrent");
 	    $("#skills ul li h3 a:eq(0)").addClass("navBarNotCurrent");
