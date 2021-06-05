@@ -19,7 +19,7 @@
     }
 
     #profilePic {
-	margin-left: 1em;
+	margin-left: 6em;
     }
 }
 
@@ -31,6 +31,7 @@
 
     #profilePicCont h1 {
 	font-size: 5em;
+	text-align: center;
     }
 
     #profilePic {
