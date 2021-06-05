@@ -18,6 +18,9 @@
         margin-left: 2.3em;
     }
 
+    #profilePic {
+	margin-left: 1em;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -29,6 +32,10 @@
     #profilePicCont h1 {
         margin-left: 1.5em;
 	font-size: 2em;
+    }
+
+    #profilePic {
+	margin-left: 1em;
     }
 }
 
@@ -53,7 +60,6 @@
 }
 
 #profilePic {
-    margin-left: 6em;
     margin-top: -1.5em;
     border-radius: 11em;
     animation-name: fadeIn;
