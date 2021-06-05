@@ -50,10 +50,13 @@
 	width: 287px;
     }
 
+    #disc li {
+        margin-right: 1em;
+    }
 }
 
 #profilePicCont {
-    border: 2px solid #AA0000;
+    /*border: 2px solid #AA0000;*/
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-delay: 0.5s;
@@ -81,7 +84,7 @@
 }
 
 #disc {
-    border-right: 2px solid #AAAAAA;
+    border-right: 2px solid #0000AA;
     height: 10em;
     width: 30em;
     animation-name: fadeIn;
