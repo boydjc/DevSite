@@ -21,6 +21,11 @@
     #profilePic {
 	margin-left: 6em;
     }
+
+    #profilePicCont img {
+        height: 260;
+	width: 267;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -37,6 +42,12 @@
     #profilePic {
 	margin-left: 2.5em;
     }
+
+    #profilePicCont img {
+	height: 280;
+	width: 287;
+    }
+
 }
 
 #profilePicCont {
