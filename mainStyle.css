@@ -182,7 +182,7 @@ body {
     }
 
     #navBar {
-	top: 0;
+	top: 1em;
 	position: -webkit-sticky; /* Safari */
         position: sticky;
     }
