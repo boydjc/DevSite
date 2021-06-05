@@ -90,7 +90,6 @@ body {
     background-image: linear-gradient(#2c2c2c 91%, #AAAAAA);
     background-attachment: fixed;
     font-family: CormorantGaramond;
-    overflow-y: hidden;
 }
 
 /* used by the javascript to pause the main container animation
@@ -145,6 +144,10 @@ body {
 
 /* desktop site */
 @media screen and (max-width:1366px) {
+
+    body {
+        overflow-y: hidden;
+    }
 
     #mainCont {
         border: 2px solid #FFFFFF;
