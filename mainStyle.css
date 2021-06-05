@@ -181,6 +181,10 @@ body {
         height: 110em;
     }
 
+    #navBar {
+        position: sticky;
+    }
+
     #navBar a {
         font-size: 1.4em;
     }
