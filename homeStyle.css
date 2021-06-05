@@ -12,6 +12,7 @@
 @media screen and (max-width:1366px) {
     #profilePicCont {
         width: 28em;
+	height: 21em;
     }
 
     #profilePicCont h1 {
@@ -32,6 +33,7 @@
 @media screen and (max-width:768px) {
     #profilePicCont {
         width: 23.5em;
+	height: 22em;
     }
 
     #profilePicCont h1 {
@@ -52,7 +54,6 @@
 
 #profilePicCont {
     border: 2px solid #AA0000;
-    height: 21em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-delay: 0.5s;
