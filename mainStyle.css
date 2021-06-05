@@ -190,6 +190,7 @@ body {
 
     #navBar a {
         font-size: 1.4em;
+	margin-top: 1em;
     }
 
     #homeLink {
