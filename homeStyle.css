@@ -12,13 +12,22 @@
 @media screen and (max-width:1366px) {
     #profilePicCont {
         width: 28em;
-    } 
+    }
+
+    #profilePicCont h1 {
+        margin-left: 2.3em;
+    }
+
 }
 
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
     #profilePicCont {
         width: 25em;
+    }
+
+    #profilePicCont h1 {
+        margin-left: 0em;
     }
 }
 
@@ -35,7 +44,6 @@
     color: #FFFFFF;
     font-size: 3em;
     margin-top: -0.005em;
-    margin-left: 2.3em;
     animation-name: fadeIn;
     animation-duration: 0.7s;
     animation-delay: 0.5s;
