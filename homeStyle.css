@@ -50,6 +50,10 @@
 	width: 287px;
     }
 
+    #disc {
+        width: 26em;
+    }
+
     #disc li {
         margin-right: 1em;
     }
