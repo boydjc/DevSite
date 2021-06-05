@@ -27,7 +27,8 @@
     }
 
     #profilePicCont h1 {
-        margin-left: 0em;
+        margin-left: 1em;
+	font-size: 2em;
     }
 }
 
