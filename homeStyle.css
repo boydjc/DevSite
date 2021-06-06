@@ -60,6 +60,10 @@
      #rightCont {
         width: 27.3em;
     }
+
+    .projectElement p {
+        margin-left: 2em;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -119,6 +123,10 @@
 
     #rightCont {
         width: 24em;
+    }
+
+    .projectElement p {
+        margin-left: 0em;
     }
 }
 
@@ -330,6 +338,5 @@
     color: #FFFFFF;
     text-align: center;
     width: 24em;
-    margin-left: 2em;
 }
 
