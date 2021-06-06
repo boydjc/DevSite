@@ -170,6 +170,11 @@ body {
     #otherLinks a {
         margin-right: 1.8em;
     }
+
+    #copyRightInfo {
+        margin-left: 36em;
+    } 
+
 }
  
 /* mobile site (tested on iPhone 10)*/
@@ -204,6 +209,10 @@ body {
     #otherLinks a {
         margin-right: 1.3em;
     }
+
+    #copyRightInfo {
+        margin-left: 10em;
+    } 
 }    
 
 #otherSiteLinks {
@@ -220,7 +229,6 @@ body {
 #copyRightInfo {
     color: #FFFFFF;
     font-size: 1em;
-    margin-left: 36em;
     float: left;
     margin-top: -0.2em;
     animation-name: slideInBottom;
