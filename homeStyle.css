@@ -109,7 +109,14 @@
 
     #skills h2, #projects h2 {
 	text-align: left;
-	margin-left: 3.5em;
+    }
+
+    #skills h2 {
+        margin-left: 3.5em;
+    }
+
+    #project h2 {
+        margin-left: 4em;
     }
 
     #skills ul li {
