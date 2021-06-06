@@ -194,12 +194,7 @@ body {
     }
 
     #navBar {
-	top: 0em;
-	position: -webkit-sticky; /* Safari */
-        position: sticky;
 	background-color: #2c2c2c;
-	border: 2px solid #FFFFFF;
-	border-radius: 3em;
     }
 
     #navBar a {
