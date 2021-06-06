@@ -56,6 +56,10 @@
     #skillCont ul li {
         margin-left: 2em;
     }
+ 
+     #rightCont {
+        width: 27.3em;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -111,6 +115,10 @@
     #skillCont ul li {
         margin-left: 0em;
 	list-style-position: inside;
+    }
+
+    #rightCont {
+        width: 27.3em;
     }
 }
 
@@ -184,7 +192,7 @@
 
 #middleCont {
     float: left;
-    border: 2px solid #0000FF;
+    border: 2px solid #FFFFFF;
     height: 31em;
     display: flex;
     flex-direction: row;
@@ -291,12 +299,11 @@
 }
 
 #rightCont {
+    border: 2px solid #0000FF;
     float: left;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-    width: 27.3em;
     height: 31em;
 }
 
