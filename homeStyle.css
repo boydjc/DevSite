@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid #FFFFFF;
+    /*border: 2px solid #FFFFFF;*/
     height: 31em;
 }
 
@@ -217,7 +217,7 @@
 
 #middleCont {
     float: left;
-    border: 2px solid #FFFFFF;
+    /*border: 2px solid #FFFFFF;*/
     height: 31em;
     display: flex;
     flex-direction: row;
@@ -324,7 +324,7 @@
 }
 
 #rightCont {
-    border: 2px solid #0000FF;
+    /*border: 2px solid #0000FF;*/
     float: left;
     display: flex;
     flex-direction: row;
