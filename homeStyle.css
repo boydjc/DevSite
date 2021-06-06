@@ -94,6 +94,10 @@
 	text-align: left;
 	margin-left: 3.5em;
     }
+
+    #skills ul li {
+        margin-left: -1em;
+    } 
 }
 
 #profilePicCont {
@@ -215,7 +219,7 @@
 #skills ul li {
     display: inline-block;
     text-shadow: 3px 2px 2px #000000;
-    margin-right: 2em;
+    padding-right: 2em;
     margin-top: -1em;
     font-size: 1.2em;
 }
