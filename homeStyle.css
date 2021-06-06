@@ -53,6 +53,9 @@
         padding-right: 2em;
     }
 
+    #skillCont ul li {
+        margin-left: 2em;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -104,6 +107,10 @@
         margin-left: -2em;
 	padding-right: 4em;
     } 
+
+    #skillCont ul li {
+        margin-left: 0em;
+    }
 }
 
 #profilePicCont {
@@ -235,7 +242,6 @@
     padding-bottom: 2em;
     color: #FFFFFF;
     font-size: 1.2em;
-    margin-left: 2em;
 }
 
 #skillCont ul li:nth-child(1) {
