@@ -14,6 +14,10 @@
         width: 27.3em;
     }
 
+    #skills {
+        width: 27em;
+    }
+
     #profilePicCont {
         width: 28em;
 	height: 21em;
@@ -46,6 +50,10 @@
 @media screen and (max-width:768px) {
 
     #leftCont {
+        width: 24em;
+    }
+
+    #skills {
         width: 24em;
     }
 
@@ -158,8 +166,6 @@
 }
 
 #skills {
-    /*border: 2px solid #0000FF;*/
-    width: 27em;
     height: 32.5em;
     float: left;
 }
