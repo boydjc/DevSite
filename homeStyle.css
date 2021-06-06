@@ -48,6 +48,11 @@
     #skills h2, #projects h2 {
         text-align: center;
     }
+
+    #skills ul li {
+        padding-right: 2em;
+    }
+
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -97,6 +102,7 @@
 
     #skills ul li {
         margin-left: -2em;
+	padding-right: 3em;
     } 
 }
 
@@ -219,7 +225,6 @@
 #skills ul li {
     display: inline-block;
     text-shadow: 3px 2px 2px #000000;
-    padding-right: 2em;
     margin-top: -1em;
     font-size: 1.2em;
 }
