@@ -31,6 +31,10 @@
     #disc {
         width: 30em;
     }
+
+    #disc li {
+	font-size: 2em;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -59,6 +63,7 @@
     }
 
     #disc li {
+	font-size: 1.5em;
         margin-right: 1em;
     }
 }
@@ -105,8 +110,7 @@
     margin-top: -0.2em;
 }
 
-#disc li {
-    font-size: 2em;
+#disc li { 
     padding-bottom: 0.4em;
     color: #FFFFFF;
     text-align: center;
