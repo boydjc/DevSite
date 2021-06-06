@@ -63,6 +63,7 @@
 
     .projectElement p {
         margin-left: 2em;
+        width: 24em;
     }
 }
 
@@ -127,6 +128,7 @@
 
     .projectElement p {
         margin-left: 0em;
+        width: 20em;
     }
 }
 
@@ -337,6 +339,5 @@
 .projectElement p {
     color: #FFFFFF;
     text-align: center;
-    width: 24em;
 }
 
