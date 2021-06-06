@@ -4,12 +4,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     border: 2px solid #FFFFFF;
-    width: 27.3em;
     height: 31em;
 }
 
 /* desktop site */
 @media screen and (max-width:1366px) {
+
+    #leftCont {
+        width: 27.3em;
+    }
+
     #profilePicCont {
         width: 28em;
 	height: 21em;
@@ -40,6 +44,11 @@
 
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
+
+    #leftCont {
+        width: 25em;
+    }
+
     #profilePicCont {
         width: 23.5em;
 	height: 22em;
