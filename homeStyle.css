@@ -30,6 +30,7 @@
 
     #disc {
         width: 30em;
+	height: 10em;
     }
 
     #disc li {
@@ -60,6 +61,7 @@
 
     #disc {
         width: 24em;
+        height: 8em;
     }
 
     #disc li {
@@ -98,7 +100,6 @@
 
 #disc {
     border: 2px solid #0000AA;
-    height: 10em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: backwards;
