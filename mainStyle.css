@@ -180,6 +180,10 @@ body {
 /* mobile site (tested on iPhone 10)*/
 @media screen and (max-width:768px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     #mainCont {
         border: 2px solid #FFFFFF;
         width: 24em;
