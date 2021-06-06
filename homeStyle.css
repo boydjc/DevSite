@@ -44,6 +44,10 @@
     #disc li {
 	font-size: 2em;
     }
+
+    #skills ul li {
+        margin-right: 2em;
+    }
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -85,6 +89,11 @@
 	font-size: 1.7em;
         margin-right: 2.3em;
     }
+   
+    #skills ul li {
+        margin-right: 0em;
+    }
+
 }
 
 #profilePicCont {
@@ -206,7 +215,6 @@
 #skills ul li {
     display: inline-block;
     text-shadow: 3px 2px 2px #000000;
-    margin-right: 2em;
     margin-top: -1em;
     font-size: 1.2em;
 }
