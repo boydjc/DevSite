@@ -180,8 +180,12 @@ body {
 /* mobile site (tested on iPhone 10)*/
 @media screen and (max-width:768px) {
 
-    body {
+    html,body {
         overflow-x: hidden;
+    }
+
+    body {
+        position: relative;
     }
 
     #mainCont {
