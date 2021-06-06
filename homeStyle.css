@@ -31,11 +31,6 @@
     #disc {
         width: 30em;
     }
-
-    #disc li {
-        text-align: center;
-    }
-
 }
 
 /* mobile site (tested on iPhone 10) */
@@ -60,12 +55,11 @@
     }
 
     #disc {
-        width: 23em;
+        width: 24em;
     }
 
     #disc li {
         margin-right: 1em;
-	text-align: left;
     }
 }
 
@@ -115,6 +109,7 @@
     font-size: 2em;
     padding-bottom: 0.4em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 #discListOne {
