@@ -110,6 +110,7 @@
 
     #skillCont ul li {
         margin-left: 0em;
+	list-style-position: inside;
     }
 }
 
