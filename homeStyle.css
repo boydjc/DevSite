@@ -129,7 +129,7 @@
     } 
 
     #skillCont ul li {
-        margin-left: 0em;
+        margin-left: 1em;
 	list-style-position: inside;
     }
 
@@ -149,7 +149,6 @@
     #skillCont ul li img {
         width: 375px;
 	height: 35px;
-        margin-left: 3em;
     }
 }
 
