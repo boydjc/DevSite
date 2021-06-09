@@ -1,19 +1,35 @@
 #aboutPicCont {
-    /*border: 2px solid #0000FF;*/
-    width: 29em;
-    margin-top: 3em;
-    margin-left: 3em;
-    float: left;
+    border: 2px solid #0000FF;
     animation-name: slideInLeft;
     animation-duration: 1.5s;
     animation-delay: 0.3s;
     animation-fill-mode: backwards;
 }
 
-#aboutPicCont img {
+/* desktop site */
+@media screen and (max-width:1366px) {
+
+    #aboutPicCont {
+        /*border: 2px solid #0000FF;*/
+        width: 29em;
+        margin-top: 3em;
+        margin-left: 3em;
+	float: left;
+    }
+
+
+    #aboutPicCont img {
     -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    }
 }
+
+/* mobile site (tested on iPhone 10) */
+@media screen and (max-width:768px) {
+
+}
+
+
 
 #aboutWriteUp {
     color: #FFFFFF;
