@@ -19,14 +19,17 @@
 
 
     #aboutPicCont img {
-    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+        -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0%                                    0%);
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     }
 }
 
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
-
+    #aboutPicCont img {
+        -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 51% 100%, 0% 50%);
+	clip-path: poylgon(25% 0%, 75% 0%, 100% 50%, 51% 100%, 0% 50%);
+    }
 }
 
 
