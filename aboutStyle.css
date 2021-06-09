@@ -4,6 +4,7 @@
     animation-duration: 1.5s;
     animation-delay: 0.3s;
     animation-fill-mode: backwards;
+    float: left;
 }
 
 /* desktop site */
@@ -14,7 +15,6 @@
         width: 29em;
         margin-top: 3em;
         margin-left: 3em;
-	float: left;
     }
 
 
@@ -26,6 +26,11 @@
 
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
+
+    #aboutPicCont {
+        width: 20em;
+    }
+
     #aboutPicCont img {
         -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 51% 100%, 0% 50%);
 	clip-path: poylgon(25% 0%, 75% 0%, 100% 50%, 51% 100%, 0% 50%);
