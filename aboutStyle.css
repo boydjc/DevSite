@@ -34,7 +34,7 @@
 
     #aboutPicCont {
         width: 25em;
-	margin-left: -2em;
+	margin-left: -1em;
         animation-name: slideInTop;
         animation-duration: 1.5s;
         animation-delay: 0.3s;
