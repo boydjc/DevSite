@@ -19,6 +19,11 @@
 
 
     #aboutPicCont img {
+        height: 445px;
+	width: 461px;
+    }
+
+    #aboutPicCont img {
         -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0%                                    0%);
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     }
@@ -29,6 +34,11 @@
 
     #aboutPicCont {
         width: 20em;
+    }
+
+    #aboutPicCont img {
+        height: 345px;
+	width: 361px;
     }
 
     #aboutPicCont img {

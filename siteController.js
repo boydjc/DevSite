@@ -252,7 +252,7 @@ $(document).ready(function(){
     function changeToAbout() {
 	$("#mainCont").append(
 	`<div id="aboutPicCont">
-	    <img src="assets/joshCold.png" alt="josh cold" height=445 width=461>
+	    <img src="assets/joshCold.png" alt="josh cold">
 	 </div>
 	 <div id="aboutWriteUp">
 	     <p>My interest in programming began at age 11 with a trip to the bookstore one
