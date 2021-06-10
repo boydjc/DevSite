@@ -273,6 +273,10 @@
     text-shadow: 3px 2px 2px #000000;
     margin-top: -1em;
     font-size: 1.2em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
 }
 
 #skillCont ul li {
@@ -346,6 +350,10 @@
     overflow-y: auto;
     height: 26em;
     margin-top: -1em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
 }
 
 .projectElement h3 {

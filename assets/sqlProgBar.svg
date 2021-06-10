@@ -23,7 +23,7 @@
           fill="#000000" stroke="#000000" stroke-width="2"/>
 
     <rect x="2" y="24.5" height="6.5" ry="10" width="0" 
-          fill="#00C2A5" stroke="#000000"
+          fill="#00F5D8" stroke="#000000"
           stroke-width="0.02">
           <animate attributeName="width" from="0" to="150px" dur="1s" 
                    repeatCount="1" fill="freeze" restart="always" begin="1s"/>
