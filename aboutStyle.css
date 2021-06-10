@@ -1,9 +1,5 @@
 #aboutPicCont {
     border: 2px solid #0000FF;
-    animation-name: slideInLeft;
-    animation-duration: 1.5s;
-    animation-delay: 0.3s;
-    animation-fill-mode: backwards;
     float: left;
 }
 
@@ -15,6 +11,10 @@
         width: 29em;
         margin-top: 3em;
         margin-left: 3em;
+        animation-name: slideInLeft;
+        animation-duration: 1.5s;
+        animation-delay: 0.3s;
+        animation-fill-mode: backwards;
     }
 
 
@@ -33,7 +33,11 @@
 @media screen and (max-width:768px) {
 
     #aboutPicCont {
-        width: 20em;
+        width: 25em;
+        animation-name: slideInTop;
+        animation-duration: 1.5s;
+        animation-delay: 0.3s;
+        animation-fill-mode: backwards;
     }
 
     #aboutPicCont img {
