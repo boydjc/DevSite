@@ -1,6 +1,5 @@
 #aboutPicCont {
     border: 2px solid #0000FF;
-    float: left;
 }
 
 /* desktop site */
@@ -9,6 +8,7 @@
     #aboutPicCont {
         /*border: 2px solid #0000FF;*/
         width: 29em;
+	float: left;
         margin-top: 3em;
         margin-left: 3em;
         animation-name: slideInLeft;
