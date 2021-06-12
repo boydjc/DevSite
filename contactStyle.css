@@ -6,10 +6,11 @@
 
 form {
     margin-top: 3em;
-    margin-left: 35em;
+    margin-left: 30em;
 }
 
 #contactFormCont form label {
     color: #FFFFFF;
     font-size: 2em;
+    display: inline-block;
 }
