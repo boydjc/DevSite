@@ -299,4 +299,12 @@ $(document).ready(function(){
     function changeToContact() {
 	$("#otherLinks a:eq(2)").addClass("navBarCurrent");
     }
+
+
+
+    // what happens when the user clicks the submit button on submit content
+    $("form").submit(function(event){
+        event.preventDefault();
+	alert("form submited");
+    });
 });
