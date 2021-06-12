@@ -1,0 +1,15 @@
+#contactFormCont {
+    width: 83.5em;
+    height: 30em;
+    border: 2px solid #00FFFF;
+}
+
+form {
+    margin-top: 3em;
+    margin-left: 35em;
+}
+
+#contactFormCont form label {
+    color: #FFFFFF;
+    font-size: 2em;
+}

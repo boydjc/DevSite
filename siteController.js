@@ -18,7 +18,8 @@ $(document).ready(function(){
 		    removeContent();
 		    changeToAbout();
 		    currentPage = "About";
-	        }else if($(event.target).text() == "Contact") {
+	        }
+		else if($(event.target).text() == "Contact") {
 		    removeContent();
 		    changeToContact();
 		    currentPage = "Contact";
