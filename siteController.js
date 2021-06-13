@@ -298,6 +298,41 @@ $(document).ready(function(){
     // changes the page to the contact content
     function changeToContact() {
 	$("#otherLinks a:eq(2)").addClass("navBarCurrent");
+	
+	$("#mainCont").append(
+	    `<div id="contactFormCont">
+	        <form action="#">
+		    <label id="nameLabel" for="formName">Name</label>
+		    <br>
+		    <input type="text" id="formName" name="formName">
+		    <br>
+		    <br>
+		    <label id="emailLabel" for="formEmail">Email</label>
+		    <br>
+		    <input type="text" id="formEmail" name="formEmail">
+		    <br>
+		    <br>
+		    <label id="messageLabel" for="formMessage">Message</label>
+		    <br>
+		    <textarea name="formMessage" rows="10" cols="50"></textarea>
+		    <br>
+		    <br>
+		    <input type="reset" value="Clear Form">
+		    <input id="submit" type="submit" value="Submit">
+		</form>
+	    </div>
+	    <div id="footer">
+	        <div id="otherSiteLinks">
+		    <a href="https://www.github.com/boydjc">
+		        <img src="assets/githubIcon.png" alt="githubIcon.png" height=40 width=40>
+		    </a>
+		</div>
+		<div id="copyRightInfo">
+		    <p>Copyright &#169; Joshua Boyd 2021</p>
+		</div>
+	    </div>`
+	);
+	
     }
 
     $('form').submit(function(event){
