@@ -337,16 +337,23 @@ $(document).ready(function(){
     }
 
     $(document).on("submit", "form", function(event){
-	alert("Testing");
 	event.preventDefault();
+
+	var formSubmitted = false;
 
 	$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize(),
 	    success: function(){
-                alert("form submitted");
+		formSubmitted = true;
 	    }
 	});
+
+	if(formSubmitted) {
+	    alert("Success");
+	}else {
+            alert("Not Success");
+	}
     });
 });
