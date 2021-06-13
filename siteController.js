@@ -299,4 +299,17 @@ $(document).ready(function(){
     function changeToContact() {
 	$("#otherLinks a:eq(2)").addClass("navBarCurrent");
     }
+
+    $('form').submit(function(event){
+	event.preventDefault();
+
+	$.ajax({
+            url: 'https://send-client-email.herokuapp.com',
+	    type: 'post',
+	    data: $(this).serialize(),
+	    success: function(){
+                alert("form submitted");
+	    }
+	});
+    });
 });
