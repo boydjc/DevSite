@@ -131,6 +131,7 @@ $(document).ready(function(){
 	    $("#otherLinks a:eq(0)").removeClass("navBarCurrent");
 	    $("#otherLinks a:eq(0)").addClass("navBarNotCurrent");
 	}else if(currentPage == "Contact") {
+	    $("#contactFormCont").remove();
 	    $("#footer").remove();
             $("#otherLinks a:eq(2)").removeClass("navBarCurrent");
 	    $("#otherLinks a:eq(2)").addClass("navBarNotCurrent");
