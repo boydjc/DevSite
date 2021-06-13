@@ -336,7 +336,7 @@ $(document).ready(function(){
 	
     }
 
-    $(doucment).on("submit", "form", function(event){
+    $(document).on("submit", "form", function(event){
 	alert("Testing");
 	event.preventDefault();
 
