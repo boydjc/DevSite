@@ -344,16 +344,7 @@ $(document).ready(function(){
 	$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
-	    data: $(this).serialize(),
-	    success: function(){
-		formSubmitted = true;
-	    }
+	    data: $(this).serialize()
 	});
-
-	if(formSubmitted) {
-	    alert("Success");
-	}else {
-            alert("Not Success");
-	}
     });
 });
