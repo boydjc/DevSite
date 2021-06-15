@@ -31,8 +31,8 @@
 /* mobile site (tested on iPhone 10 screen) */
 @media screen and (max-width:768px) {
     #contactFormCont {
-        width: 20em;
-        height: 70em;
+        width: 25em;
+        height: 80em;
     }
 }
 
