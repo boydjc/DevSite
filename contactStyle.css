@@ -29,11 +29,13 @@
 }
 
 @media screen and (max-width:768px) {
+    width: 50em;
+    height: 30em;
 }
 
 
 #contactFormCont {
-    /*border: 2px solid #00FFFF;*/
+    border: 2px solid #00FFFF;
 }
 
 form {
