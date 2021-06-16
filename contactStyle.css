@@ -96,6 +96,10 @@ input[type=submit],input[type=reset] {
     font-size: 1em;
 }
 
+textarea {
+    resize: none;
+}
+
 #nameLabel,#emailLabel {
     /*border: 2px solid #00FFFF;*/
 }
