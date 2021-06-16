@@ -45,6 +45,10 @@
     }
 
     form label {
+        padding-bottom: 0.7em;
+    }
+
+    form input {
         padding-bottom: 1em;
     }
 
