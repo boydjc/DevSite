@@ -318,7 +318,7 @@ $(document).ready(function(){
 		    <textarea id="formMessage" name="formMessage" rows="8" cols="40"></textarea>
 		    <br>
 		    <br>
-		    <input type="reset" value="Clear Form">
+		    <input type="reset" value="Clear">
 		    <input id="submit" type="submit" value="Submit">
 		</form>
 	    </div>
@@ -336,6 +336,7 @@ $(document).ready(function(){
 	
     }
 
+    // When the contact form is submitted
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
 
