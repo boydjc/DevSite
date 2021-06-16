@@ -20,7 +20,7 @@
 
     #formEmail {
         width: 20em;
-	margin-left: 3.5em
+	margin-left: 1.5em
     }
 
     #nameLabel, #emailLabel {
@@ -28,7 +28,7 @@
     }
 
     #messageLabel {
-        margin-left: 4.3em;
+        margin-left: 2.3em;
     }
 }
 
