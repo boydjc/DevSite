@@ -11,7 +11,7 @@
     }
 
     form label {
-        padding-bottom: 0.4em;
+        margin-bottom: 0.4em;
     }
 
     #formName {
@@ -45,11 +45,11 @@
     }
 
     form label {
-        padding-bottom: 0.7em;
+        margin-bottom: 0.7em;
     }
 
     form input {
-        padding-bottom: 3em;
+        margin-bottom: 3em;
     }
 
     #formName {
