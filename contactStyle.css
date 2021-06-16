@@ -10,6 +10,10 @@
 	margin-left: 30em;
     }
 
+    form label {
+        padding-bottom: 0.4em;
+    }
+
     #formName {
         margin-left: 6.8em;
     }
@@ -40,6 +44,10 @@
 	margin-left: 0em;
     }
 
+    form label {
+        padding-left: 1em;
+    }
+
     #formName {
         margin-left: 10.5em;
     }
@@ -55,11 +63,11 @@
 
 
 #contactFormCont {
-    border: 2px solid #00FFFF;
+    /*border: 2px solid #00FFFF;*/
 }
 
 form {
-    border: 2px solid #0000FF;
+    /*border: 2px solid #0000FF;*/
 }
 
 #formEmail {
@@ -73,8 +81,7 @@ form {
 form label {
     color: #FFFFFF;
     font-size: 2em;
-    display: inline-block;
-    padding-bottom: 0.4em;
+    display: inline-block; 
 }
 
 input[type=submit],input[type=reset] {
