@@ -23,12 +23,16 @@
 	margin-left: 1.5em
     }
 
+    #formMessage {
+        margin-left: -1em;
+    }
+
     #nameLabel, #emailLabel {
         margin-left: 4.6em;
     }
 
     #messageLabel {
-        margin-left: 2.3em;
+        margin-left: 4.3em;
     }
 }
 
