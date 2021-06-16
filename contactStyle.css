@@ -31,7 +31,12 @@
         margin-left: -1em;
     }
 
-    #nameLabel, #emailLabel {
+    #nameLabel {
+        margin-left: 4.2em;
+    }
+
+
+    #emailLabel {
         margin-left: 4.6em;
     }
 
