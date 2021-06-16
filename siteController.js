@@ -315,7 +315,7 @@ $(document).ready(function(){
 		    <br>
 		    <label id="messageLabel" for="formMessage">Message</label>
 		    <br>
-		    <textarea id="formMessage" name="formMessage" rows="10" cols="50"></textarea>
+		    <textarea id="formMessage" name="formMessage" rows="8" cols="50"></textarea>
 		    <br>
 		    <br>
 		    <input type="reset" value="Clear Form">
