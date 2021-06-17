@@ -350,6 +350,7 @@ $(document).ready(function(){
 	$("form").addClass("formFadeOut");
 	setTimeout(function(){
             $("form").remove();
+	    alert("REMOVING FORM");
 	}, 1800);
     });
 });
