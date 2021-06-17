@@ -347,7 +347,5 @@ $(document).ready(function(){
 	    type: 'post',
 	    data: $(this).serialize()
 	});
-
-        $("form").removeClass(
     });
 });
