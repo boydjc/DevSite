@@ -340,17 +340,17 @@ $(document).ready(function(){
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
 
-	/*$.ajax({
+	$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize()
-	});*/
+	});
 	
 	$("form").removeClass("formFadeIn");
 	$("form").addClass("formFadeOut");
-	setTimeout(function(){
+	/*setTimeout(function(){
             $("form").remove();
 	    alert("REMOVING FORM");
-	}, 1800);
+	}, 1800);*/
     });
 });
