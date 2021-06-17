@@ -10,7 +10,7 @@
     animation-name: slideOutBottom;
     animation-duration: 1.5s;
     animation-delay: 0.3s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
 }
 
 /* desktop site */
