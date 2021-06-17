@@ -6,6 +6,13 @@
     animation-fill-mode: backwards;
 }
 
+.formFadeOut {
+    animation-name: slideOutBottom;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
 /* desktop site */
 @media screen and (max-width:1366px) {
     #contactFormCont {
