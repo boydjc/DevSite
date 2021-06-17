@@ -345,6 +345,7 @@ $(document).ready(function(){
 	    type: 'post',
 	    data: $(this).serialize()
 	});
+<<<<<<< HEAD
 	
 	$("form").removeClass("formFadeIn");
 	$("form").addClass("formFadeOut");
@@ -352,5 +353,7 @@ $(document).ready(function(){
             $("form").remove();
 	    alert("REMOVING FORM");
 	}, 1800);*/
+=======
+>>>>>>> parent of 0f163d6 (added code to remove fade in class from form and add fade out class)
     });
 });
