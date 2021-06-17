@@ -302,7 +302,7 @@ $(document).ready(function(){
 	
 	$("#mainCont").append(
 	    `<div id="contactFormCont">
-	        <form action="#">
+	        <form action="#" class="formFadeIn">
 		    <label id="nameLabel" for="formName">Name</label>
 		    <br>
 		    <input type="text" id="formName" name="formName">
@@ -347,5 +347,7 @@ $(document).ready(function(){
 	    type: 'post',
 	    data: $(this).serialize()
 	});
+
+        $("form").removeClass(
     });
 });

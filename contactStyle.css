@@ -1,3 +1,11 @@
+
+.formFadeIn {
+    animation-name: slideInBottom;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
 /* desktop site */
 @media screen and (max-width:1366px) {
     #contactFormCont {
@@ -8,10 +16,6 @@
     form {
         margin-top: 1em;
 	margin-left: 30em;
-	animation-name: slideInBottom;
-	animation-duration: 1.5s;
-	animation-delay: 0.3s;
-	animation-fill-mode: backwards;
     }
 
     form label {

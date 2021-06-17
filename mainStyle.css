@@ -59,7 +59,20 @@
     to {
 	transform: translate(0, 0);
 	opacity: 1;
-    }}
+    }
+}
+
+@keyframes slideOutBottom {
+    from {
+        transform: translate(0, 0);
+	opacity: 1;
+    }
+
+    to {
+	transform: translate(0, 2em);
+	opacity: 0;
+    }
+}
 
 /* End animations */
 
