@@ -1,29 +1,29 @@
 
 .formFadeIn {
     animation-name: slideInBottom;
-    animation-duration: 1.5s;
+    animation-duration: 1.3s;
     animation-delay: 0.3s;
     animation-fill-mode: backwards;
 }
 
 .formFadeOut {
     animation-name: slideOutBottom;
-    animation-duration: 1.5s;
+    animation-duration: 1.3s;
     animation-delay: 0.3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: backwards;
 }
 
 /* desktop site */
 @media screen and (max-width:1366px) {
     #contactFormCont {
         width: 83.5em;
-	height: 30em;
+	height: 31em;
     }
 
     form {
         margin-top: 1em;
 	margin-left: 30em;
-	opacity: 0;
+	width: 30em;
     }
 
     form label {
@@ -89,11 +89,11 @@
 
 
 #contactFormCont {
-    /*border: 2px solid #00FFFF;*/
+    border: 2px solid #00FFFF;
 }
 
 form {
-    /*border: 2px solid #0000FF;*/
+    border: 2px solid #0000FF;
 }
 
 #formEmail {

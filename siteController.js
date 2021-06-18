@@ -340,18 +340,18 @@ $(document).ready(function(){
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
 
+	/*
 	$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize()
-	});
+	});*/
 
 	
 	$("form").removeClass("formFadeIn");
 	$("form").addClass("formFadeOut");
-	/*setTimeout(function(){
+	setTimeout(function(){
             $("form").remove();
-	    alert("REMOVING FORM");
-	}, 1800);*/
+	}, 1600); // second parameter equal to how much time the fadeout animation is on the form
     });
 });

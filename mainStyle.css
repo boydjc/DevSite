@@ -226,7 +226,7 @@ body {
 }    
 
 #otherSiteLinks {
-    /*border: 2px solid #FF0000;*/
+    border: 2px solid #FF0000;
     height: 2.5em;
     margin-right: 2em;
     float: right;
@@ -237,6 +237,7 @@ body {
 }
 
 #copyRightInfo {
+    border: 2px solid #00FF00;
     color: #FFFFFF;
     font-size: 1em;
     float: left;
@@ -249,7 +250,7 @@ body {
 }
 
 #footer {
-    /*border: 2px solid #0000FF;*/
+    border: 2px solid #FF00FF;
     width: 100%;
     float: left;
 }
