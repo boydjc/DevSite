@@ -22,8 +22,8 @@
 
     form {
         margin-top: 1em;
-	margin-left: 30em;
-	width: 30em;
+	margin-left: 29.5em;
+	width: 24.5em;
     }
 
     form label {
@@ -31,24 +31,24 @@
     }
 
     #formName {
-        margin-left: 3.8em;
+        margin-left: 4.6em;
     }
 
     #formEmail {
         width: 20em;
-	margin-left: 0.5em
+	margin-left: 1.3em
     }
 
     #formMessage {
-        margin-left: -1em;
+        margin-left: 0em;
     }
 
     #nameLabel, #emailLabel {
-        margin-left: 4.6em;
+        margin-left: 4.9em;
     }
 
     #messageLabel {
-        margin-left: 4.3em;
+        margin-left: 4.5em;
     }
 }
 
@@ -111,7 +111,7 @@ form label {
 }
 
 input[type=submit],input[type=reset] {
-    margin-left: 2.5em;
+    margin-left: 3em;
     height: 2em;
     width: 8em;
     font-size: 1em;
