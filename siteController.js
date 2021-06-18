@@ -347,7 +347,7 @@ $(document).ready(function(){
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize()
-	});/*
+	});*/
 
 	
 	$("form").removeClass("formFadeIn");
