@@ -369,7 +369,7 @@ $(document).ready(function(){
 		$("#contactFormConfirm").addClass("formFadeIn");
 		contactConfirmAdded = true;
 	    }
-	}, 1300); // second parameter equal to how much time the fadeout animation is on the form
+	}, 1200); // second parameter equal to how much time the fadeout animation is on the form
     });
 
    // When the contact confirm back link is clicked 
