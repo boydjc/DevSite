@@ -336,6 +336,9 @@ $(document).ready(function(){
 	
     }
 
+
+    var contactConfirmAdded = false;
+
     // When the contact form is submitted
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
@@ -350,8 +353,28 @@ $(document).ready(function(){
 	
 	$("form").removeClass("formFadeIn");
 	$("form").addClass("formFadeOut");
+
 	setTimeout(function(){
             $("form").remove();
+	    if(!contactConfirmAdded){
+	        $("#contactFormCont").append(
+		    `
+		    <div id="#contactFormConfirm">
+                        <p>Thanks for sending!</p>
+		        <a href="#">Back</a>
+		    </div>
+		    `
+	        );
+		contactConfirmAdded = true;
+	    }
 	}, 1600); // second parameter equal to how much time the fadeout animation is on the form
+    });
+
+   // When the contact confirm back link is clicked 
+    $(document).on("click", "#contactFormCont div a", function(event){
+        event.preventDefault();
+	contactConfirmAdded = false;
+	removeContent();
+	changeToContact();
     });
 });
