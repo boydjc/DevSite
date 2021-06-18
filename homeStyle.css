@@ -349,11 +349,17 @@
 #projectEleCont {
     overflow-y: auto;
     height: 26em;
+    width: 29.5em;
     margin-top: -1em;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-delay: 0.2s;
     animation-fill-mode: backwards;
+}
+
+#projectEleCont div {
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: -0.5em;
 }
 
 .projectElement h3 {
@@ -363,8 +369,20 @@
     margin-left: 1em;
 }
 
+.projectElement h3 a {
+    color: #FFFFFF;
+    text-shadow: 3px 2px 2px #000000;
+    text-decoration: none;
+    transition: text-shadow 0.3s;
+}
+
+.projectElement h3 a:hover {
+    text-shadow: 0px 0px 10px #AAAAAA;
+}
+
 .projectElement p {
     color: #FFFFFF;
     text-align: center;
+    font-size: 1.1em;
 }
 

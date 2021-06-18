@@ -195,12 +195,18 @@ $(document).ready(function(){
 		     <h2>Projects</h2>
 		     <div id="projectEleCont">
 		         <div class="projectElement">
-		             <h3>Project Title</h3>
-			     <p>This is a description of a project that I made
-			        This is a description of a project that I made
-			        This is a descroption of a project that I made
-			        This ia a description of a project that I made
-			        This is a description of a project that I made
+		             <h3>
+			         <a href="https://github.com/boydjc/boydjc.github.io">
+				     Boydjc.github.io
+				 </a>
+			     </h3>
+			     <p>This website was written from scratch by myself.
+			     The frontend is HTML, CSS, and JavaScript. JQuery
+			     was used for DOM selection and manipulation.
+			     For backend the contact form reaches out to a Python
+			     script hosted on the cloud application platform
+			     Heroku for sending emails by utilizing Google's 
+			     Gmail API.
 			     </p>
 			 </div>
 			 <div class="projectElement">
