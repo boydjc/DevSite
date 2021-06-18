@@ -343,12 +343,11 @@ $(document).ready(function(){
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
 
-	/*
-	$.ajax({
+	/*$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize()
-	});*/
+	});/*
 
 	
 	$("form").removeClass("formFadeIn");
@@ -359,22 +358,30 @@ $(document).ready(function(){
 	    if(!contactConfirmAdded){
 	        $("#contactFormCont").append(
 		    `
-		    <div id="#contactFormConfirm">
-                        <p>Thanks for sending!</p>
+		    <div id="contactFormConfirm">
+                        <p>Thank you! You should hear a response from me within
+			the next 24 hours.</p>
 		        <a href="#">Back</a>
 		    </div>
-		    `
+		    `	
 	        );
+		
+		$("#contactFormConfirm").addClass("formFadeIn");
 		contactConfirmAdded = true;
 	    }
-	}, 1600); // second parameter equal to how much time the fadeout animation is on the form
+	}, 1300); // second parameter equal to how much time the fadeout animation is on the form
     });
 
    // When the contact confirm back link is clicked 
     $(document).on("click", "#contactFormCont div a", function(event){
         event.preventDefault();
-	contactConfirmAdded = false;
-	removeContent();
-	changeToContact();
+	$("#contactFormConfirm").removeClass("formFadeIn");
+	$("#contactFormConfirm").addClass("formFadeOut");
+	
+	setTimeout(function(){
+	    contactConfirmAdded = false;
+	    removeContent();
+	    changeToContact();
+	}, 1300);
     });
 });
