@@ -349,11 +349,11 @@ $(document).ready(function(){
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
 
-	/*$.ajax({
+	$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize()
-	});*/
+	});
 
 	
 	$("form").removeClass("formFadeIn");
