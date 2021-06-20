@@ -65,6 +65,10 @@
         width: 28em;
     }
 
+    #projectEleCont div {
+        margin-left: -0.5em;
+    }
+
     .projectElement p {
         margin-left: 2em;
         width: 24em;
@@ -139,8 +143,13 @@
     }
 
     #projectEleCont {
-        width: 20em;
+        width: 24em;
     }
+
+    #projectEleCont div {
+        margin-left: -1em;
+    }
+
 
     .projectElement p {
         margin-left: 1.5em;
@@ -360,7 +369,6 @@
 
 #projectEleCont div {
     border-bottom: 1px solid #FFFFFF;
-    margin-left: -0.5em;
 }
 
 .projectElement h3 {
