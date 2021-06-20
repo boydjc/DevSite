@@ -127,6 +127,7 @@
 
     #formMessage {
         margin-left: 0em;
+	width: 5em;
     }
 
     input[type=submit],input[type=reset] {
