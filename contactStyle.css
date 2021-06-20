@@ -82,6 +82,7 @@
         height: 23em;
 	width: 16em;
 	margin-left: 3em;
+	border: 2px solid #FFFFFF;
     }
 
     #contactFormConfirm p {
