@@ -130,6 +130,14 @@
 	width: 16em;
     }
 
+    #nameLabel, #emailLabel {
+        margin-left: 4.5em;
+    }
+
+    #messageLabel {
+        margin-left: 4.2em;
+    }
+
     input[type=submit],input[type=reset] {
         margin-top: 1em;
     }
