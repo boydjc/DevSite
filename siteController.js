@@ -348,12 +348,12 @@ $(document).ready(function(){
     // When the contact form is submitted
     $(document).on("submit", "form", function(event){
 	event.preventDefault();
-        /*
+        
 	$.ajax({
             url: 'https://send-client-email.herokuapp.com',
 	    type: 'post',
 	    data: $(this).serialize()
-	});*/
+	});
 
 	
 	$("form").removeClass("formFadeIn");
