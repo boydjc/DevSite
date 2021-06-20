@@ -24,7 +24,11 @@
         height: 13em;
 	width: 35em;
 	margin-left: 25em;
-    }  
+    } 
+
+    #contactFormConfirm p {
+	font-size: 2em;
+    }   
 
     #contactFormConfirm a {
 	margin-left: 20em;
@@ -80,6 +84,10 @@
 	margin-left: 3em;
     }
 
+    #contactFormConfirm p {
+	font-size: 4em;
+    } 
+
     #contactFormConfirm a {
 	margin-left: 5em;
     }
@@ -128,7 +136,6 @@
 
 #contactFormConfirm p {
         color: #FFFFFF;
-	font-size: 2em;
 	text-align: center;
 	text-shadow: 3px 2px 2px #000000;
 } 
