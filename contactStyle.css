@@ -87,12 +87,12 @@
         height: 23em;
 	width: 16em;
 	margin-top: 5em;
-	margin-left: 0em;
+	margin-left: 3em;
     }
 
     #contactFormConfirm p {
         color: #FFFFFF;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
 	text-shadow: 3px 2px 2px #000000;
     }  
