@@ -32,6 +32,15 @@
 	font-size: 2em;
 	text-align: center;
 	text-shadow: 3px 2px 2px #000000;
+    } 
+
+    #contactFormConfirm a {
+	color: #888888;
+	font-size: 1.5em;
+	margin-left: 20em;
+	text-shadow: 3px 2px 2px #000000;
+	text-decoration: none;
+	transition: text-shadow 0.2s;
     }  
 
     form {
@@ -76,7 +85,7 @@
     #contactFormConfirm {
 	border: 2px solid #FF0000;
         height: 13em;
-	width: 30em;
+	width: 25em;
 	margin-top: 5em;
 	margin-left: 0em;
     }
@@ -87,6 +96,15 @@
 	text-align: center;
 	text-shadow: 3px 2px 2px #000000;
     }  
+
+    #contactFormConfirm a {
+	color: #888888;
+	font-size: 1.5em;
+	margin-left: 5em;
+	text-shadow: 3px 2px 2px #000000;
+	text-decoration: none;
+	transition: text-shadow 0.2s;
+    }
 
     form {
         margin-top: 0em;
@@ -118,16 +136,6 @@
 
 #contactFormCont {
     /*border: 2px solid #00FFFF;*/
-}
-
-
-#contactFormConfirm a {
-	color: #888888;
-	font-size: 1.5em;
-	margin-left: 20em;
-	text-shadow: 3px 2px 2px #000000;
-	text-decoration: none;
-	transition: text-shadow 0.2s;
 }
 
 #contactFormConfirm a:hover {
