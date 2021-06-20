@@ -2,6 +2,12 @@ $(document).ready(function(){
 
     var currentPage = "Home";
 
+
+    $.ajax({
+        url: 'https://get-con-data.herokuapp.com',
+	type: 'post',
+    });
+
     $("#navBar a" ).click(function(event){
 		
 	if($(event.target).text() != "Resume"){
