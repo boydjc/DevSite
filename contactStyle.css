@@ -27,6 +27,13 @@
 	margin-left: 25em;
     }  
 
+    #contactFormConfirm p {
+        color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 3px 2px 2px #000000;
+    }  
+
     form {
         margin-top: 1em;
 	margin-left: 29.5em;
@@ -67,10 +74,18 @@
     }
 
     #contactFormConfirm {
+	border: 2px solid #FF0000;
         height: 13em;
 	width: 35em;
 	margin-top: 5em;
     }
+
+    #contactFormConfirm p {
+        color: #FFFFFF;
+	font-size: 1em;
+	text-align: center;
+	text-shadow: 3px 2px 2px #000000;
+    }  
 
     form {
         margin-top: 0em;
@@ -104,13 +119,6 @@
     /*border: 2px solid #00FFFF;*/
 }
 
-
-#contactFormConfirm p {
-        color: #FFFFFF;
-	font-size: 2em;
-	text-align: center;
-	text-shadow: 3px 2px 2px #000000;
-}
 
 #contactFormConfirm a {
 	color: #888888;
