@@ -31,6 +31,7 @@
     }   
 
     #contactFormConfirm a {
+	font-size: 1.5em;
 	margin-left: 20em;
     }  
 
@@ -90,6 +91,7 @@
     } 
 
     #contactFormConfirm a {
+        font-size: 2.5em;
 	margin-left: 5em;
     }
 
@@ -143,7 +145,6 @@
 
 #contactFormConfirm a {
 	color: #888888;
-	font-size: 1.5em;
 	text-shadow: 3px 2px 2px #000000;
 	text-decoration: none;
 	transition: text-shadow 0.2s;
