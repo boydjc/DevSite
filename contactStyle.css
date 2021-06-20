@@ -73,6 +73,11 @@
     #messageLabel {
         margin-left: 4.5em;
     }
+
+    input[type=submit],input[type=reset] {
+        margin-left: 3em;
+    }
+
 }
 
 /* mobile site (tested on iPhone 10 screen) */
@@ -139,6 +144,7 @@
     }
 
     input[type=submit],input[type=reset] {
+        margin-left: 2em;
         margin-top: 1em;
     }
 }
@@ -172,7 +178,6 @@ form label {
 }
 
 input[type=submit],input[type=reset] {
-    margin-left: 3em;
     height: 2em;
     width: 8em;
     font-size: 1em;
