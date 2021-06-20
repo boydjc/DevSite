@@ -126,7 +126,7 @@
     }
 
     #formMessage {
-        margin-left: 2em;
+        margin-left: 0em;
     }
 
     input[type=submit],input[type=reset] {
