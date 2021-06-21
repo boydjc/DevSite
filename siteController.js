@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 
     $.ajax({
-        url: 'https://get-con-data.herokuapp.com',
+        url: 'https://dev-site-analyzer.herokuapp.com',
 	type: 'post',
     });
 
