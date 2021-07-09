@@ -215,33 +215,6 @@ $(document).ready(function(){
 			     Gmail API.
 			     </p>
 			 </div>
-			 <div class="projectElement">
-		             <h3>Project Title</h3>
-			     <p>This is a description of a project that I made
-			        This is a description of a project that I made
-			        This is a descroption of a project that I made
-			        This ia a description of a project that I made
-			        This is a description of a project that I made
-			     </p>
-			 </div>
-			<div class="projectElement">
-		             <h3>Project Title</h3>
-			     <p>This is a description of a project that I made
-			        This is a description of a project that I made
-			        This is a descroption of a project that I made
-			        This ia a description of a project that I made
-			        This is a description of a project that I made
-			     </p>
-			 </div>
-			 <div class="projectElement">
-		             <h3>Project Title</h3>
-			     <p>This is a description of a project that I made
-			        This is a description of a project that I made
-			        This is a descroption of a project that I made
-			        This ia a description of a project that I made
-			        This is a description of a project that I made
-			     </p>
-			 </div>
 		     </div>
 		 </div>
 	     </div>
