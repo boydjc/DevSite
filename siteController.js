@@ -227,9 +227,10 @@ $(document).ready(function(){
 	`<div id="projectCont">
 	    <div class="projectEle" id="projectOne">
 	        <div class="projectMask">
+		    <a href="https://boydjc.github.io">
 		    <p class="projectDesc">
 		        <br>Personal Developer Site. Made using HTML, CSS, and JavaScript. JQuery was used for DOM selection and manipulation. Python supplies the backend for contact form.
-		    </p>
+		    </p></a>
 		</div>
 	    </div>
 	 </div>

@@ -22,8 +22,20 @@
     transition: opacity 0.3s;
 }
 
+.projectEle:nth-child(1) {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
 .projectMask:hover {
     opacity: 1;
+}
+
+.projectMask a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 #projectOne {
