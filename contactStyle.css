@@ -105,17 +105,17 @@
     }
 
     #formName {
-        margin-left: 4.8em;
+        margin-left: 4.0em;
     }
 
     #formEmail {
-        margin-left: 2.9em;
+        margin-left: 3em;
 	width: 15em;
     }
 
     #formMessage {
-        margin-left: 0em;
-	width: 16em;
+        margin-left: 1.2em;
+	width: 20em;
     }
 
     #nameLabel, #emailLabel {
