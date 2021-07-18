@@ -131,8 +131,7 @@ $(document).ready(function(){
 	    $("#homeLink a").removeClass("navBarCurrent");
 	    $("#homeLink a").addClass("navBarNotCurrent");
 	}else if(currentPage == "Projects") {
-	    $("#aboutPicCont").remove();
-	    $("#aboutWriteUp").remove();
+	    $("#projectCont").remove();
 	    $("#footer").remove();
 	    $("#otherLinks a:eq(0)").removeClass("navBarCurrent");
 	    $("#otherLinks a:eq(0)").addClass("navBarNotCurrent");
@@ -200,7 +199,7 @@ $(document).ready(function(){
 		 <div id="about">
 		     <h2>About</h2>
 		     <p>
-		     My interest in programming began at age 11 with a trip to the bookstore one day with my grandmother. While browsing the technology section, I stumbpled upon a book titled 'C++ For DUmmies'. I had no idea what a programming language was, but I had grown up playing computer games so the code in the book intrigued me. Shortly after convicing my grandmother to buy the book, I was writing my first "Hello World." program. Fast fowarding to the present, I now hold a Bachelor's Degree in Computer Science from the University of Maryland. I am also currently pursuing my graduate degree in Computer Science and Software Engineering at Auburn University. In particular, my research interests are Artificial Intelligence, Distributed Computing, and Cryptography. I also think that the human brain is just as extraordinary as any intelligent machine. Additionally, I find the philosophy of <a href="https://www.humanityplus.org/" class="hyperLinks" alt="humanityplus.org">Transumanism</a> fascinating and would love to someday contribute to the idea of bluring the line between man and machine. </p>
+		     My interest in programming began at age 11 with a trip to the bookstore one day with my grandmother. While browsing the technology section, I stumbpled upon a book titled 'C++ For Dummies'. I had no idea what a programming language was, but I had grown up playing computer games so the code in the book intrigued me. Shortly after convicing my grandmother to buy the book, I was writing my first "Hello World." program. Fast fowarding to the present, I now hold a Bachelor's Degree in Computer Science from the University of Maryland. I am also currently pursuing my graduate degree in Computer Science and Software Engineering at Auburn University. In particular, my research interests are Artificial Intelligence, Distributed Computing, and Cryptography. I also think that the human brain is just as extraordinary as any intelligent machine. Additionally, I find the philosophy of <a href="https://www.humanityplus.org/" class="hyperLinks" alt="humanityplus.org">Transumanism</a> fascinating and would love to someday contribute to the idea of bluring the line between man and machine. </p>
 		 <p>
 		 Want to collaborate on a project? Need an extra programmer for a particular task? Maybe you just want to say hi? Feel free to reach out and let me know you stopped by!</p>
 		 </div>
@@ -225,32 +224,14 @@ $(document).ready(function(){
     // changes the page to the about content
     function changeToProjects() {
 	$("#mainCont").append(
-	`<div id="aboutPicCont">
-	    <img src="assets/joshCold.png" alt="josh cold">
-	 </div>
-	 <div id="aboutWriteUp">
-	     <p>My interest in programming began at age 11 with a trip to the bookstore one
-	     day with my grandmother. While browsing
-	     the technology section, I stumbled upon a book titled 'C++ For 
-	     Dummies'. I had no idea what a programming language was, but I had 
-	     grown up playing computer games so the code in the book intrigued me.
-	     Shortly after convincing my grandmother to buy the book, I was writing
-	     my first "Hello World." program. Fast forwarding to the present,
-	     I now hold a Bachelor's Degree in Computer Science from the 
-	     University of Maryland. I am also currently pursuing my graduate 
-	     degree in Computer Science and Software Engineering at Auburn 
-	     University. In particular, my research interests are Artificial 
-	     Intelligence, Distributed Computing, and Cryptography. I also think
-	     that the human brain is just as extraordinary as any intelligent
-	     machine. Additionally, I find the philosophy of <a href="
-	     https://www.humanityplus.org/" class="hyperLinks" alt="
-	     humanityplus.org">Transhumanism</a> fascinating and would love to 
-	     someday contribute to the idea of bluring the line between man and
-	     machine.</p>
-
-	     <p>Want to collaborate on a project? Need an extra programmer for a 
-	     particular task? Maybe you just want to say hi? Feel free to reach 
-	     out and let me know you stopped by!</p>
+	`<div id="projectCont">
+	    <div class="projectEle" id="projectOne">
+	        <div class="projectMask">
+		    <p class="projectDesc">
+		        <br>Personal Developer Site. Made using HTML, CSS, and JavaScript. JQuery was used for DOM selection and manipulation. Python supplies the backend for contact form.
+		    </p>
+		</div>
+	    </div>
 	 </div>
 	 <div id="footer">
 	     <div id="otherSiteLinks">

@@ -1,0 +1,48 @@
+
+.projectEle {
+    border: 2px ridge #FFFFFF;
+    border-radius: 2em;
+    width: 14em;
+    height: 14em;
+    margin-top: 1em;
+    margin-left: 1.9em;
+    display: inline-block;
+}
+
+.projectMask {
+    background-color: #2c2c2c;
+    border-radius: 2em;
+    margin-top: -1em;
+    width: 10.7em;
+    height: 10.7em;
+    opacity: 0;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+.projectMask:hover {
+    opacity: 1;
+}
+
+#projectOne {
+    background-image: url("assets/devSite.png");
+}
+
+/* desktop site */
+@media screen and (max-width:1366px) {
+    #projectCont {
+	width: 83.4em;
+	height: 32em;
+    }
+}
+
+/* mobile site (tested on iPhone 10) */
+@media screen and (max-width:768px) {
+
+
+}
+
+
+
