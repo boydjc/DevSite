@@ -20,10 +20,10 @@ $(document).ready(function(){
 		    removeContent();
 		    changeToHome();
 		    currentPage = "Home";
-	        }else if($(event.target).text() == "About") {
+	        }else if($(event.target).text() == "Projects") {
 		    removeContent();
-		    changeToAbout();
-		    currentPage = "About";
+		    changeToProjects();
+		    currentPage = "Projects";
 	        }
 		else if($(event.target).text() == "Contact") {
 		    removeContent();
@@ -130,7 +130,7 @@ $(document).ready(function(){
 	    $("#footer").remove();
 	    $("#homeLink a").removeClass("navBarCurrent");
 	    $("#homeLink a").addClass("navBarNotCurrent");
-	}else if(currentPage == "About") {
+	}else if(currentPage == "Projects") {
 	    $("#aboutPicCont").remove();
 	    $("#aboutWriteUp").remove();
 	    $("#footer").remove();
@@ -197,25 +197,12 @@ $(document).ready(function(){
 		 </div>
 	     </div>
 	     <div id="rightCont">
-		 <div id="projects">
-		     <h2>Projects</h2>
-		     <div id="projectEleCont">
-		         <div class="projectElement">
-		             <h3>
-			         <a href="https://github.com/boydjc/boydjc.github.io">
-				     Boydjc.github.io
-				 </a>
-			     </h3>
-			     <p>This website was written from scratch by myself.
-			     The frontend is HTML, CSS, and JavaScript. JQuery
-			     was used for DOM selection and manipulation.
-			     For backend the contact form reaches out to a Python
-			     script hosted on the cloud application platform
-			     Heroku for sending emails by utilizing Google's 
-			     Gmail API.
-			     </p>
-			 </div>
-		     </div>
+		 <div id="about">
+		     <h2>About</h2>
+		     <p>
+		     My interest in programming began at age 11 with a trip to the bookstore one day with my grandmother. While browsing the technology section, I stumbpled upon a book titled 'C++ For DUmmies'. I had no idea what a programming language was, but I had grown up playing computer games so the code in the book intrigued me. Shortly after convicing my grandmother to buy the book, I was writing my first "Hello World." program. Fast fowarding to the present, I now hold a Bachelor's Degree in Computer Science from the University of Maryland. I am also currently pursuing my graduate degree in Computer Science and Software Engineering at Auburn University. In particular, my research interests are Artificial Intelligence, Distributed Computing, and Cryptography. I also think that the human brain is just as extraordinary as any intelligent machine. Additionally, I find the philosophy of <a href="https://www.humanityplus.org/" class="hyperLinks" alt="humanityplus.org">Transumanism</a> fascinating and would love to someday contribute to the idea of bluring the line between man and machine. </p>
+		 <p>
+		 Want to collaborate on a project? Need an extra programmer for a particular task? Maybe you just want to say hi? Feel free to reach out and let me know you stopped by!</p>
 		 </div>
 	     </div>
 	     <div id="footer">
@@ -236,7 +223,7 @@ $(document).ready(function(){
     }
 
     // changes the page to the about content
-    function changeToAbout() {
+    function changeToProjects() {
 	$("#mainCont").append(
 	`<div id="aboutPicCont">
 	    <img src="assets/joshCold.png" alt="josh cold">
