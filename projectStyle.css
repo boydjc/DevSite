@@ -75,7 +75,7 @@
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
     .projectEle {
-        clear: both;
+        clear: right;
         display: block;
     }
 
