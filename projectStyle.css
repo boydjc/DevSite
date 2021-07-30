@@ -12,7 +12,6 @@
     height: 14em;
     margin-top: 1em;
     display: inline-block;
-    position: absolute;
 }
 
 .projectMask {
@@ -38,7 +37,7 @@
 .projectEle:nth-child(2) {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 0.4s;
+    animation-delay: 0.3s;
     animation-fill-mode: backwards;
 }
 
@@ -61,6 +60,11 @@
 
 /* desktop site */
 @media screen and (max-width:1366px) {
+
+    .projectEle {
+        position: absolute;
+    }
+    
     .projectEle:nth-child(1) {
         margin-left: 1.9em;
     }
