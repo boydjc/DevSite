@@ -1,7 +1,5 @@
 
 #projectCont {
-    width: 83.4em;
-    height: 32em;
     border: 2px solid white;
 }
 
@@ -58,6 +56,11 @@
 
 /* desktop site */
 @media screen and (max-width:1366px) {
+
+    #projectCont {
+        width: 83.4em;
+        height: 32em;
+    }
 
     .projectEle {
         position: absolute;
