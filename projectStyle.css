@@ -76,8 +76,8 @@
 @media screen and (max-width:768px) {
     .projectEle {
         position: static;
-        margin-left: 12em;
-        margin-top: 1em;
+        margin-left: 0em;
+        margin-top: 0em;
     }
 }
 
