@@ -9,7 +9,6 @@
     border-radius: 2em;
     width: 14em;
     height: 14em;
-    display: inline-block;
 }
 
 .projectMask {
@@ -62,6 +61,7 @@
     .projectEle {
         position: absolute;
         margin-top: 1em;
+        display: inline-block;
     }
     
     .projectEle:nth-child(1) {
@@ -75,7 +75,7 @@
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
     .projectEle {
-        position: relative;
+        position: absolute;
     }
 
     .projectEle:nth-child(1) {
