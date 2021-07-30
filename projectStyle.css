@@ -2,6 +2,7 @@
 #projectCont {
     width: 83.4em;
     height: 32em;
+    border: 2px solid white;
 }
 
 .projectEle {
