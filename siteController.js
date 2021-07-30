@@ -227,13 +227,24 @@ $(document).ready(function(){
 	`<div id="projectCont">
 	    <div class="projectEle" id="projectOne">
 	        <div class="projectMask">
-		    <a href="https://boydjc.github.io">
-		    <p class="projectDesc">
-		        <br>Personal Developer Site. Made using HTML, CSS, and JavaScript. JQuery was used for DOM selection and manipulation. Python supplies the backend for contact form.
-		    </p></a>
-		</div>
+		        <a href="https://boydjc.github.io">
+		        <p>
+                    <br>
+		            Personal Developer Site. Made using HTML, CSS, and JavaScript. JQuery was used for DOM selection and manipulation. Python supplies the backend for contact form.
+		        </p></a>
+		    </div>
 	    </div>
-	 </div>
+        <div class="projectEle" id="projectTwo">
+	        <div class="projectMask">
+		        <a href="https://github.com/boydjc/HighwayRacer">
+		        <p>
+                    <br>
+                    <br>
+		            C++ 2D car game where the objective is to avoid other cars while speeding down the highway. Built using the SFML library.
+		        </p></a>
+		    </div>
+	    </div>
+     </div>
 	 <div id="footer">
 	     <div id="otherSiteLinks">
 	         <a href="https://www.github.com/boydjc">

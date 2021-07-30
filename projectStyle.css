@@ -12,6 +12,7 @@
     height: 14em;
     margin-top: 1em;
     display: inline-block;
+    position: absolute;
 }
 
 .projectMask {
@@ -34,6 +35,13 @@
     animation-fill-mode: backwards;
 }
 
+.projectEle:nth-child(2) {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
+}
+
 .projectMask:hover {
     opacity: 1;
 }
@@ -47,10 +55,17 @@
     background-image: url("assets/devSite.png");
 }
 
+#projectTwo {
+    background-image: url("assets/highwayRacer.png");
+}
+
 /* desktop site */
 @media screen and (max-width:1366px) {
-    .projectEle {
+    .projectEle:nth-child(1) {
         margin-left: 1.9em;
+    }
+    .projectEle:nth-child(2) {
+        margin-left: 17.5em;
     }
 }
 
