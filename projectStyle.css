@@ -80,7 +80,7 @@
 @media screen and (max-width:768px) {
 
     #projectCont {
-        width: 23.5em;
+        width: 22em;
         height: 40em;
     } 
 
@@ -89,7 +89,7 @@
     }
 
     .projectEle:nth-child(2) {
-        margin-top: 30em;
+        margin-top: 10em;
     }
 }
 
