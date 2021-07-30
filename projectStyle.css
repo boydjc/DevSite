@@ -82,6 +82,10 @@
     .projectEle {
         margin-left: 4em;
     }
+
+    .projectEle:nth-child(2) {
+        margin-top: 20em;
+    }
 }
 
 
