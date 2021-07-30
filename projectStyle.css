@@ -85,7 +85,7 @@
     } 
 
     .projectEle {
-       display: block;
+       display: inline;
     }
 
     .projectEle:nth-child(1) {
