@@ -61,9 +61,9 @@
 /* desktop site */
 @media screen and (max-width:1366px) {
 
-    .projectEle {
+    /*.projectEle {
         position: absolute;
-    }
+    }*/
     
     .projectEle:nth-child(1) {
         margin-left: 1.9em;
@@ -81,11 +81,7 @@
 
     .projectEle {
         margin-left: 4em;
-    }
-
-    .projectEle:nth-child(2) {
-        margin-top: 20em;
-    }
+    } 
 }
 
 
