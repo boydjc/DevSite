@@ -75,6 +75,12 @@
 
 /* mobile site (tested on iPhone 10) */
 @media screen and (max-width:768px) {
+
+    #projectCont {
+        width: 60em;
+        height: 40em;
+    }
+
     .projectEle {
         clear: right;
         display: block;
