@@ -86,7 +86,6 @@
 
     .projectEle {
        position: static;
-       float: left;
     }
 
     .projectEle:nth-child(1) {
