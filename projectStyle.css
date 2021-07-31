@@ -86,7 +86,6 @@
 
     .projectEle {
        position: static;
-       display: block;
        float: left;
     }
 }
