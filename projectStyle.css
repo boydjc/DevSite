@@ -85,7 +85,7 @@
     } 
 
     .projectEle {
-       display: inline;
+       display: block;
        float: left;
     }
 }
