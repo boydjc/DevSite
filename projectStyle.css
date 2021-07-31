@@ -88,6 +88,10 @@
        position: static;
        float: left;
     }
+
+    .projectEle:nth-child(1) {
+       margin-left: 2.5em;
+    }
 }
 
 
