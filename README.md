@@ -1,2 +1,2 @@
 # DevSite
-The code for my personnal software developer page
+The code for my personal software developer page
