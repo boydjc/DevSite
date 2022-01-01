@@ -211,7 +211,7 @@ $(document).ready(function(){
 		     </a>
 		 </div>
 		 <div id="copyRightInfo">
-		     <p>Copyright &#169; Joshua Boyd 2021</p>
+		     <p>Copyright &#169; Joshua Boyd 2022</p>
 		 </div>
 	     </div>`
 	);
@@ -252,7 +252,7 @@ $(document).ready(function(){
 	         </a>
 	     </div>
 	     <div id="copyRightInfo">
-	         <p>Copyright &#169; Joshua Boyd 2021</p>
+	         <p>Copyright &#169; Joshua Boyd 2022</p>
 	     </div>
 	 </div>`
 
@@ -294,7 +294,7 @@ $(document).ready(function(){
 		    </a>
 		</div>
 		<div id="copyRightInfo">
-		    <p>Copyright &#169; Joshua Boyd 2021</p>
+		    <p>Copyright &#169; Joshua Boyd 2022</p>
 		</div>
 	    </div>`
 	);
