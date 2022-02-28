@@ -1,0 +1,180 @@
+
+.formFadeIn {
+    animation-name: slideInBottom;
+    animation-duration: 1.1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+.formFadeOut {
+    animation-name: slideOutBottom;
+    animation-duration: 1.1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+/* desktop site */
+@media screen and (max-width:1366px) {
+    #contactFormCont {
+        width: 83.5em;
+	height: 31em;
+    }
+
+    #contactFormConfirm {
+        height: 13em;
+	width: 35em;
+	margin-left: 25em;
+    } 
+
+    #contactFormConfirm p {
+	font-size: 2em;
+    }   
+
+    #contactFormConfirm a {
+	font-size: 1.5em;
+	margin-left: 20em;
+    }  
+
+    form {
+        margin-top: 1em;
+	margin-left: 29.5em;
+	width: 24.5em;
+    }
+
+    form label {
+        margin-bottom: 0.4em;
+    }
+
+    #formName {
+        margin-left: 4.6em;
+    }
+
+    #formEmail {
+        width: 20em;
+	margin-left: 1.3em
+    }
+
+    #formMessage {
+        margin-left: 0em;
+    }
+
+    #nameLabel, #emailLabel {
+        margin-left: 4.9em;
+    }
+
+    #messageLabel {
+        margin-left: 4.5em;
+    }
+
+    input[type=submit],input[type=reset] {
+        margin-left: 3em;
+    }
+
+}
+
+/* mobile site (tested on iPhone 10 screen) */
+@media screen and (max-width:768px) {
+    #contactFormCont {
+        width: 22.5em;
+        height: 90em;
+    }
+
+    #contactFormConfirm {
+        height: 28em;
+	width: 21em;
+	margin-left: 0.5em;
+    }
+
+    #contactFormConfirm p {
+	font-size: 3em;
+    } 
+
+    #contactFormConfirm a {
+        font-size: 2em;
+	margin-left: 4.5em;
+    }
+
+    form {
+        margin-top: 0em;
+	margin-left: 0em;
+    }
+
+    form label {
+	margin-top: 1em;
+        margin-bottom: 0.7em;
+    }
+
+    #formName {
+        margin-left: 4.0em;
+    }
+
+    #formEmail {
+        margin-left: 3em;
+	width: 15em;
+    }
+
+    #formMessage {
+        margin-left: 1.2em;
+	width: 20em;
+    }
+
+    #nameLabel, #emailLabel {
+        margin-left: 4.5em;
+    }
+
+    #messageLabel {
+        margin-left: 4.2em;
+    }
+
+    input[type=submit],input[type=reset] {
+        margin-left: 2.3em;
+        margin-top: 1em;
+    }
+}
+
+#contactFormConfirm {
+	margin-top: 5em;
+}
+
+#contactFormConfirm p {
+        color: #FFFFFF;
+	text-align: center;
+	text-shadow: 3px 2px 2px #000000;
+} 
+
+#contactFormConfirm a {
+	color: #888888;
+	text-shadow: 3px 2px 2px #000000;
+	text-decoration: none;
+	transition: text-shadow 0.2s;
+}  
+
+#contactFormConfirm a:hover {
+        text-shadow: 0px 0px 8px #45A29E;
+	color: #FFFFFF;
+}
+
+form label {
+    color: #FFFFFF;
+    font-size: 2em;
+    display: inline-block; 
+}
+
+input[type=submit],input[type=reset] {
+    height: 2em;
+    width: 8em;
+    font-size: 1em;
+}
+
+form input {
+    font-size: 1.05em;
+}
+
+form textarea {
+    font-size: 1.3em;
+}
+
+textarea {
+    resize: none;
+}
+

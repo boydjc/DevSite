@@ -1,0 +1,256 @@
+/*Animations*/
+
+@keyframes shrinkExpand {
+    from {
+        transform: scale(1);
+	border: 2px solid #FFFFFF;
+	border-radius: 0em;
+    }
+
+    to   {
+	transform: scale(0);
+	border: 0px solid #FFFFFF;
+	border-radius: 15em;
+    }
+
+}
+
+@keyframes enlarge {
+    from { transform: scale(1); }
+    to { transform: scale(2); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+}
+
+@keyframes slideInTop {
+    from {
+        transform: translate(0, -2em);
+	opacity: 0;	
+    }
+
+    to {
+        transform: translate(0, 0);
+	opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translate(-3em, 0);
+	opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+	opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    from {
+	transform: translate(0, 2em);
+	opacity: 0;
+    }
+
+    to {
+	transform: translate(0, 0);
+	opacity: 1;
+    }
+}
+
+@keyframes slideOutBottom {
+    from {
+        transform: translate(0, 0);
+	opacity: 1;
+    }
+
+    to {
+	transform: translate(0, 2em);
+	opacity: 0;
+    }
+}
+
+/* End animations */
+
+
+@font-face {
+    font-family: CormorantGaramond;
+    src: url(assets/CormorantGaramond-Regular.ttf);
+}
+
+.hyperLinks {
+    color: #FFFFFF;
+    transition: color 0.5s;
+}
+
+.hyperLinks:hover {
+    color: #FF0000;
+}
+
+body {
+    background-color; #000000;
+    background-image: linear-gradient(#2c2c2c 91%, #AAAAAA);
+    background-attachment: fixed;
+    font-family: CormorantGaramond;
+}
+
+/* used by the javascript to pause the main container animation
+ * so we can load new content */
+.pauseAnimation {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.mainContAnim {
+    animation-name: shrinkExpand;
+    animation-duration: 0.4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    transform-origin: 50% 50%;
+}
+
+
+#navBar {
+    height: 4em;
+}
+
+#navBar div {
+    margin-top: 1em;
+}
+
+#navBar a {
+    font-size: 2em;
+    text-decoration: none;
+    float: left;
+}
+
+#navBar a:hover {
+    text-shadow: 0px 0px 10px #45A29E;
+    color: #FFFFFF;
+}
+
+.navBarNotCurrent {
+    text-shadow: 3px 2px 2px #000000;
+    transition: text-shadow 0.2s;
+    color: #888888;
+}
+
+.navBarCurrent {
+    text-shadow: 0px 0px 10px #45A29E;
+    color: #FFFFFF;
+}
+
+/* desktop site */
+@media screen and (max-width:1366px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
+    #mainCont {
+        /*border: 2px solid #FFFFFF;*/
+        width: 83.5em;
+        height: 39em;
+    }
+
+    #navBar {
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+    #navBar a {
+        font-size: 2em;
+    }
+
+    #homeLink {
+        margin-left: 9em;
+    }
+
+    #otherLinks {
+        margin-left: 53em;
+    }
+
+    #otherLinks a {
+        margin-right: 1.8em;
+    }
+
+    #copyRightInfo {
+        margin-left: 36em;
+    } 
+
+}
+ 
+/* mobile site (tested on iPhone 10)*/
+@media screen and (max-width:768px) {
+
+    html,body {
+        overflow-x: hidden;
+    }
+
+    #mainCont {
+        /*border: 2px solid #FFFFFF;*/
+        width: 24em;
+        height: 102em;
+    }
+
+    #navBar {
+	background-color: #2c2c2c;
+    }
+
+    #navBar a {
+        font-size: 1.4em;
+	margin-top: 0.5em;
+    }
+
+    #homeLink {
+        margin-left: 0.6em;
+    }
+ 
+    #otherLinks {
+        margin-left: 5.2em;
+    }
+
+    #otherLinks a {
+        margin-right: 1.3em;
+    }
+
+    #copyRightInfo {
+        margin-left: 5em;
+    } 
+}    
+
+#otherSiteLinks {
+    /*border: 2px solid #FF0000;*/
+    height: 2.5em;
+    margin-right: 2em;
+    float: right;
+    animation-name: slideInBottom;
+    animation-duration: 1s;
+    animation-delay: 1.7s;
+    animation-fill-mode: backwards;
+}
+
+#copyRightInfo {
+    /*border: 2px solid #00FF00;*/
+    color: #FFFFFF;
+    font-size: 1em;
+    float: left;
+    margin-top: -0.2em;
+    animation-name: slideInBottom;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+    text-shadow: 3px 2px 2px #000000;
+}
+
+#footer {
+    /*border: 2px solid #FF00FF;*/
+    width: 100%;
+    float: left;
+}
