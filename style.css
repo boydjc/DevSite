@@ -1,9 +1,79 @@
 
 /* Potential Color Scheme
 
-	FFFC31 - Yellow RYB
-	3AA7A3 - Verdigris
-	657ED4 - Glaucouc
-	03191E - Rich Black FOGRA 29
-	FFFFFF - White
+	3C3A40 - Jet
+	B7FDFE - Celeste
+	EA9010 - Carrot Orange
+	E3D3E4 - Languid Lavender
+	508991 - Steel Teal
+	3BC14A - Dark Pastel Green
+	FFFD82 - Canary
+	16023D - Russian Violet
 */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+
+body {
+	background-color: #3C3A40;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}	
+
+#navBar {
+	border: 1px dashed red;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#logoCont {
+	border: 1px solid white;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+#navLinkCont {
+	border: 1px dashed yellow;
+	flex: 6;
+	display: flex;
+	justify-content: right;
+	font-size: 3rem;
+}
+
+#navLinks {
+	display: flex;
+	gap: 5rem;
+	padding: 2rem;
+}
+
+#navLinkCont a {
+	text-decoration: none;
+}
+
+#profilePanel {
+	border-bottom: 2px dotted yellow;
+}
+
+#aboutPanel {
+	border-bottom: 1px solid white;
+}	
+
+#skillsPanel {
+	border-bottom: 2px dashed magenta;
+}
+
+#projectPanel {
+	border-bottom: 1px dotted green;
+}
+
+#footer {
+}
+
