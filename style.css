@@ -21,11 +21,10 @@
 body {
 	background-color: #3C3A40;
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 4fr;
 }	
 
 #navBar {
-	border: 1px dashed red;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -33,7 +32,6 @@ body {
 }
 
 #logoCont {
-	border: 1px solid white;
 	flex: 1;
 	display: flex;
 	justify-content: center;
@@ -41,7 +39,6 @@ body {
 }
 
 #navLinkCont {
-	border: 1px dashed yellow;
 	flex: 6;
 	display: flex;
 	justify-content: right;
@@ -51,7 +48,7 @@ body {
 #navLinks {
 	display: flex;
 	gap: 5rem;
-	padding: 2rem;
+	padding: 3rem;
 }
 
 #navLinkCont a {
@@ -59,11 +56,58 @@ body {
 }
 
 #profilePanel {
-	border-bottom: 2px dotted yellow;
+	border: 2px dotted yellow;
+	display: flex;
+	flex-wrap: wrap;
 }
 
+#profilePicCont {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#profilePicCont img {
+	border-radius: 40px;
+	box-shadow: -1px 10px 20px 2px #000;
+}
+
+#headlineNameCont {
+	border: 2px dashed orange;
+	flex: 1;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#nameCont {
+	border: 2px solid blue;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#nameCont p {
+	font-size: 80px;
+}
+
+#headlineCont {
+	border: 2px dotted white;
+	flex: 2;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+#headlineCont p {
+	font-size: 40px;
+}
+
+
 #aboutPanel {
-	border-bottom: 1px solid white;
 }	
 
 #skillsPanel {
