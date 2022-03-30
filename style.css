@@ -20,57 +20,54 @@
 
 body {
 	display: grid;
-	grid-template-columns: 1fr 12fr 1fr;
+	grid-template-columns: 1fr 10fr 1fr;
 }
 
 .sideSkirt {
 	background-image: url('assets/circuit-board.svg');
-	background-color: #000;
+	background-color: #16023D;
+	flex: 1;
 }
 
 #mainCont {
-	background-color: #3C3A40;
+	background-color: #16023D;
 	display: grid;
-	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 4fr;
-	box-shadow: 0px 0px 3px 3px #000;
+	grid-template-rows: 1.5fr 4fr 4fr 4fr 4fr 0.5fr;
+	/*border-right: 1px solid white;
+	border-left: 1px solid white;*/
+	box-shadow: 0px 0px 4px 3px #000;
 	z-index: 1;
+	flex: 30;
 }	
 
 #navBar {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	flex-flow: row wrap;
 }
 
 #logoCont {
 	flex: 1;
 	display: flex;
 	justify-content: center;
-	padding: 1rem;
+	align-items: center;
 }
 
 #navLinkCont {
-	flex: 6;
+	flex: 3;
 	display: flex;
-	justify-content: right;
-	font-size: 3rem;
-}
-
-#navLinks {
-	display: flex;
-	gap: 5rem;
-	padding: 3rem;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 3.5rem;
 }
 
 #navLinkCont a {
 	text-decoration: none;
+	text-align: center;
 }
 
 #profilePanel {
-	border: 2px dotted yellow;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
 }
 
 #profilePicCont {
@@ -86,14 +83,12 @@ body {
 }
 
 #headlineNameCont {
-	border: 2px dashed orange;
 	flex: 1;
 	display: flex;
 	flex-flow: column nowrap;
 }
 
 #nameCont {
-	border: 2px solid blue;
 	flex: 1;
 	display: flex;
 	align-items: center;
@@ -105,7 +100,6 @@ body {
 }
 
 #headlineCont {
-	border: 2px dotted white;
 	flex: 2;
 	display: flex;
 	flex-flow: column nowrap;
