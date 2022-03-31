@@ -19,30 +19,23 @@
 }
 
 body {
-	display: grid;
-	grid-template-columns: 1fr 10fr 1fr;
-}
-
-.sideSkirt {
 	background-image: url('assets/circuit-board.svg');
-	background-color: #16023D;
-	flex: 1;
+	background-color: #3C3A40;
 }
 
 #mainCont {
-	background-color: #16023D;
+	background-color: rgba(60, 58, 64, 0.9);
 	display: grid;
-	grid-template-rows: 1.5fr 4fr 4fr 4fr 4fr 0.5fr;
-	/*border-right: 1px solid white;
-	border-left: 1px solid white;*/
+	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 0.5fr;
 	box-shadow: 0px 0px 4px 3px #000;
-	z-index: 1;
-	flex: 30;
 }	
 
 #navBar {
 	display: flex;
 	flex-flow: row wrap;
+	border-bottom: 1px solid #FFF;
+	padding: 20px;
+	gap: 50px;
 }
 
 #logoCont {
@@ -58,6 +51,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	font-size: 3.5rem;
+	gap: 50px;
 }
 
 #navLinkCont a {
@@ -68,6 +62,7 @@ body {
 #profilePanel {
 	display: flex;
 	flex-wrap: wrap-reverse;
+	padding: 10px;
 }
 
 #profilePicCont {
@@ -86,6 +81,11 @@ body {
 	flex: 1;
 	display: flex;
 	flex-flow: column nowrap;
+	align-items: center;
+}
+
+#headlineNameCont hr {
+	width: 75%;
 }
 
 #nameCont {
@@ -93,10 +93,11 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
-#nameCont p {
-	font-size: 80px;
+#nameCont h1 {
+	font-size: 5rem;
 }
 
 #headlineCont {
