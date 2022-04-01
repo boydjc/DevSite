@@ -26,32 +26,32 @@ body {
 #mainCont {
 	background-color: rgba(60, 58, 64, 0.9);
 	display: grid;
-	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 0.5fr;
-	box-shadow: 0px 0px 4px 3px #000;
+	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 0.5fr;	
 }	
 
 #navBar {
 	display: flex;
 	flex-flow: row wrap;
 	border-bottom: 1px solid #FFF;
-	padding: 20px;
-	gap: 50px;
+	justify-content: space-between;
+	padding-left: 90px;
+	padding-right: 90px;
 }
 
 #logoCont {
-	flex: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid yellow;
 }
 
 #navLinkCont {
-	flex: 3;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 3.5rem;
-	gap: 50px;
+	font-size: 2.8rem;
+	border: 2px dashed cyan;
+	gap: 80px;
 }
 
 #navLinkCont a {
@@ -62,14 +62,16 @@ body {
 #profilePanel {
 	display: flex;
 	flex-wrap: wrap-reverse;
-	padding: 10px;
+	padding: 50px;
+	justify-content: space-around;
+	gap: 50px;
 }
 
 #profilePicCont {
-	flex: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 
 #profilePicCont img {
@@ -78,18 +80,18 @@ body {
 }
 
 #headlineNameCont {
-	flex: 1;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	justify-content: center;
+	gap: 40px;
 }
 
 #headlineNameCont hr {
-	width: 75%;
+	width: 100%;	
 }
 
 #nameCont {
-	flex: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -101,11 +103,11 @@ body {
 }
 
 #headlineCont {
-	flex: 2;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	gap: 40px;
 }
 
