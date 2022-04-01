@@ -21,37 +21,28 @@
 body {
 	background-image: url('assets/circuit-board.svg');
 	background-color: #3C3A40;
-}
-
-#mainCont {
-	background-color: rgba(60, 58, 64, 0.9);
 	display: grid;
-	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 0.5fr;	
-}	
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 4fr 4fr 4fr 4fr 0.5fr;
+	padding: 30px;
+}
 
 #navBar {
 	display: flex;
 	flex-flow: row wrap;
-	border-bottom: 1px solid #FFF;
-	justify-content: space-between;
-	padding-left: 90px;
-	padding-right: 90px;
+	justify-content: space-around;
+	align-items: center;
+	gap: 4rem;
 }
 
 #logoCont {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid yellow;
 }
 
 #navLinkCont {
+	font-size: 300%;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	font-size: 2.8rem;
-	border: 2px dashed cyan;
-	gap: 80px;
+	gap: 10rem;
 }
 
 #navLinkCont a {
@@ -112,7 +103,7 @@ body {
 }
 
 #headlineCont p {
-	font-size: 40px;
+	font-size: 2.5rem;
 }
 
 
