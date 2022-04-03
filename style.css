@@ -189,8 +189,70 @@ body > div {
 
 #projectPanel {
 	padding: 3rem;
+	color: #FFF;
+	display: grid;
+	grid-template-rows: 0.5fr 4fr;
 }
 
+.projectSlideshowContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.myProjects {
+	display: none;
+	grid-template-rows: 4fr 1fr 1.5fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.prev, .next {
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 3.5rem;
+	transition: 0.6s ease;
+	user-select: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.projectTitle {
+	color: #FFF;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.projectDesc {
+	color: #FFF;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+#dotContainer {
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+}
+
+.active {
+	background-color: #717171;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
 #footer {
 	display: flex;
 	justify-content: center;
