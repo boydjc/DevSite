@@ -204,9 +204,14 @@ body > div {
 
 .myProjects {
 	display: none;
-	grid-template-rows: 4fr 1fr 1.5fr;
+	grid-template-rows: 4fr 0.7fr 1.5fr;
 	justify-items: center;
 	align-items: center;
+}
+
+.myProjects a {
+	text-decoration: none;
+	color: #11BCFA; 
 }
 
 .prev, .next {
