@@ -19,6 +19,6 @@ function openSkill(e, skillName) {
 	}
 
 	// Show the current tab, and add an "active" class to the bottom that opened the tab
-	document.getElementById(skillName).style.display = "block";
+	document.getElementById(skillName).style.display = "flex";
 	e.currentTarget.className += " active";
 }
