@@ -22,7 +22,7 @@ body {
 	background-color: #3C3A40;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 0.5fr 1fr 0.6fr 1fr 0.05fr;
+	grid-template-rows: 0.6fr 1fr 0.6fr 1fr 0.05fr;
 	padding: 2rem;
 	gap: 1.5rem;
 }
@@ -35,7 +35,7 @@ body > div {
 
 #profilePanel {
 	display: grid;
-	grid-template-rows: 1fr 6fr;
+	grid-template-rows: 1fr 6fr 0.5fr;
 	color: #FFF;
 	padding-top: 30px;
 }
@@ -89,12 +89,20 @@ body > div {
 	color: #11BCFA;
 }
 
+#secondaryLinksCont {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 15px;
+}
+
 #aboutPanel {
 	display: grid;
 	grid-template-rows: 1fr 8fr 0.5fr;
 	justify-content: center;
 	align-items: center;
-	padding: 3rem 3rem 0 3rem;
+	padding: 3rem 3rem 3rem 3rem;
 	color: #FFF;
 }
 
