@@ -126,7 +126,7 @@ body > div {
 	border: 1px solid #FFF;
 	font-size: 3rem;
 	padding: 10px 32px;
-	background-color: #3C3A40;
+	background-color: rgba(60, 58, 64, 0.5);
 	color: #11BCFA;
 	border-radius: 10px;
 }
@@ -140,13 +140,13 @@ body > div {
 }
 
 .skillBox {
-	border: 1px solid yellow;
 	display: grid;
 	grid-template-rows: 3fr 1fr;
 	justify-items: center;
 	align-items: center;
 	height: 250px;
 	width: 250px;
+	font-size: 1.8rem;;
 }
 
 #skillsPanel {
@@ -166,7 +166,7 @@ body > div {
 
 /* skill tab buttons */
 .skillTabs button {
-	background-color: #3C3A40;
+	background-color: rgba(60, 58, 64, 0.5);
 	float: left;
 	border: none;
 	outline: none;
@@ -180,13 +180,11 @@ body > div {
 }
 
 .skillTabs button:hover {
-	background-color: #11BCFA;
-	color: #3C3A40;
+	background-color: rgba(17, 188, 250, 0.5);
 }
 
 .skillTabs button.active {
-	background-color: #11BCFA;
-	color: #3C3A40;
+	background-color: rgba(17, 188, 250, 0.5);
 }
 
 #projectPanel {
