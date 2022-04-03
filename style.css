@@ -22,7 +22,7 @@ body {
 	background-color: #3C3A40;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 0.5fr 1fr 1fr 1fr 0.1fr;
+	grid-template-rows: 0.5fr 1fr 0.6fr 1fr 0.05fr;
 	padding: 2rem;
 	gap: 1.5rem;
 }
@@ -132,20 +132,33 @@ body > div {
 }
 
 .skillContent {
-	display: none;
-	padding: 6px 12px;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	overflow-y: auto;
+	gap: 40px;
+	padding: 60px;
+}
+
+.skillBox {
+	border: 1px solid yellow;
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	justify-items: center;
+	align-items: center;
+	height: 250px;
+	width: 250px;
 }
 
 #skillsPanel {
 	padding: 3rem;
 	display: grid;
-	grid-template-rows: 1fr 10fr;
+	grid-template-rows: 0.4fr 25px 3fr;
+	gap: 30px;
 	color: #FFF;
 }
 
 /* skill tabs */
 .skillTabs {
-	overflow: hidden;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
@@ -163,7 +176,7 @@ body > div {
 	font-size: 1.7rem;
 	border: 2px solid #FFF;
 	border-radius: 10px;
-	color: #11BCFA;
+	color: #FFF;
 }
 
 .skillTabs button:hover {
@@ -181,5 +194,10 @@ body > div {
 }
 
 #footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	font-size: 1.2rem;
 }
 
