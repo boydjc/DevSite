@@ -54,6 +54,4 @@ function showProjectSlides(n) {
 	}
 
 	slides[projectSlideIndex-1].style.display = "grid";
-	dots[projectSlideIndex-1].className += " active";
-
 }
