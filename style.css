@@ -193,12 +193,19 @@ body > div {
 
 #aboutContent a {
 	text-decoration: none;
-	border: 1px solid #FFF;
+	border: 2px solid #FFF;
 	font-size: 3rem;
 	padding: 10px 32px;
 	background-color: rgba(60, 58, 64, 0.5);
-	color: #11BCFA;
+	color: rgb(17, 188, 250);
 	border-radius: 10px;
+	transition: 0.3s;
+}
+
+#aboutContent a:hover {
+	background-color: rgba(17, 188, 250, 0.5);
+	color: #FFF;
+	box-shadow: 0px 4px 10px #000;
 }
 
 .skillContent {
@@ -216,7 +223,23 @@ body > div {
 	align-items: center;
 	height: 250px;
 	width: 250px;
-	font-size: 1.8rem;;
+	font-size: 1.8rem;
+	opacity: 0;
+	animation-name: fadeUp;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 #skillsPanel {
@@ -277,6 +300,10 @@ body > div {
 	grid-template-rows: 4fr 0.7fr 1.5fr;
 	justify-items: center;
 	align-items: center;
+	animation-name: fadeUp;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
 }
 
 .myProjects a {
@@ -289,12 +316,16 @@ body > div {
 	color: white;
 	font-weight: bold;
 	font-size: 3.5rem;
-	transition: 0.6s ease;
+	transition: 0.3s ease;
 	user-select: none;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.prev:hover, .next:hover {
+	color: #11BCFA;
 }
 
 .projectTitle {

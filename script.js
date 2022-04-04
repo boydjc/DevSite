@@ -55,3 +55,21 @@ function showProjectSlides(n) {
 
 	slides[projectSlideIndex-1].style.display = "grid";
 }
+
+
+// add a different animation delay to the skills display
+
+function addSkillAnimDelay() {
+	skillContents = document.getElementsByClassName("skillContent");
+	
+	for(let i=0; i<skillContents.length; i++) {
+		delayAmount = 0;
+		skills = skillContents[i].getElementsByClassName("skillBox");
+		for(let a=0; a<skills.length; a++) {
+			skills[a].style['animation-delay'] = delayAmount + 's';
+			delayAmount += 0.3;
+		}
+	}
+}
+
+addSkillAnimDelay();
