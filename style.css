@@ -1,20 +1,33 @@
 
-/* Potential Color Scheme
+/* Color Scheme
 
-	3C3A40 - Jet
-	B7FDFE - Celeste
-	EA9010 - Carrot Orange
-	E3D3E4 - Languid Lavender
-	508991 - Steel Teal
-	3BC14A - Dark Pastel Green
-	FFFD82 - Canary
-	16023D - Russian Violet
+	#00000 - Black
+	#FFFFF - White
+	#11BCFA - Capri
+	#717171 - Sonic Silver
+	#3C3A40 - Jet
 */
 
+:root {
+	--base-color-one: #000000;
+	--base-color-two: #FFFFFF;
+
+	--dark-theme-color-one: #11BCFA;
+	--dark-theme-color-two: #717171;
+	--dark-theme-color-three: #3C3A40;
+
+	--light-theme-color-one: #EE4305;
+	--light-theme-color-two: #8E8E8E;
+	--light-theme-color-three: #C3C5BF;
+}
 
 * {
 	margin: 0;
 	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -49,7 +62,19 @@ body > div {
 }
 
 #headlineNameCont hr {
-	width: 475px;	
+	width: 575px;
+	animation-name: hrLineGrow;
+	animation-duration: 1.5s;
+}
+
+@keyframes hrLineGrow {
+	from {
+		width: 0px;
+	}
+
+	to {
+		width: 575px;
+	}
 }
 
 #headlineCont {
@@ -74,6 +99,21 @@ body > div {
 
 #nameCont h1 {
 	font-size: 6rem;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	animation-delay: 0.2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 #navBar {
@@ -247,25 +287,10 @@ body > div {
 	font-size: 1.8rem;
 }
 
-#dotContainer {
-	text-align: center;
-	justify-self: center;
-	align-self: center;
-}
-
 .active {
 	background-color: #717171;
 }
 
-.fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
-}
 #footer {
 	display: flex;
 	justify-content: center;
