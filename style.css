@@ -8,6 +8,11 @@
 	#3C3A40 - Jet
 */
 
+@font-face {
+	font-family: SpaceGrotesk;
+	src: url('assets/CormorantGaramond-Regular.ttf');
+}
+
 :root {
 	--base-color-one: #000000;
 	--base-color-two: #FFFFFF;
@@ -24,6 +29,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: SpaceGrotesk;
 }
 
 html {
@@ -187,7 +193,7 @@ body > div {
 }	
 
 #aboutContent p {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	text-align: center;
 }
 
