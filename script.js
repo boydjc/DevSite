@@ -73,3 +73,19 @@ function addSkillAnimDelay() {
 }
 
 addSkillAnimDelay();
+
+
+/*  add event listener to theme images
+	that will change global css colors 
+	to set a light or dark mode */
+let themeIconDiv = document.querySelector('#secondaryLinksCont div');
+
+themeIconDiv.addEventListener('click', (e) => {
+	themeIcon = themeIconDiv.querySelector("img");
+	if(themeIcon.getAttribute("src") === "assets/sun.svg") {
+
+		themeIcon.src = "assets/moon.svg";
+	}else if(themeIcon.getAttribute("src") === "assets/moon.svg") {
+		themeIcon.src = "assets/sun.svg";
+	}
+});

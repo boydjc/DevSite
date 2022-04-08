@@ -17,13 +17,16 @@
 	--base-color-one: #000000;
 	--base-color-two: #FFFFFF;
 
-	--dark-theme-color-one: #11BCFA;
-	--dark-theme-color-two: #717171;
-	--dark-theme-color-three: #3C3A40;
+	--theme-color-one: rgb(17, 188, 250);
+	--theme-color-one-trans: rgba(17, 188, 250, 0.5);
+	--theme-color-two: rgb(113, 113, 133);
+	--theme-color-three: rgb(60, 58, 64);
+	--theme-color-three-trans: rgba(60, 58, 64, 0.5);
+	--theme-color-four: rgba(17, 188, 250, 0.5);
 
-	--light-theme-color-one: #EE4305;
-	--light-theme-color-two: #8E8E8E;
-	--light-theme-color-three: #C3C5BF;
+	--light-theme-color-one: rgb(238, 67, 5);
+	--light-theme-color-two: rgb(142, 142, 142);
+	--light-theme-color-three: rgb(195, 197, 191);
 }
 
 * {
@@ -38,7 +41,7 @@ html {
 
 body {
 	background-image: url('assets/circuit-board.svg');
-	background-color: #3C3A40;
+	background-color: var(--theme-color-three);
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.6fr 1fr 0.6fr 1fr 0.05fr;
@@ -55,7 +58,7 @@ body > div {
 #profilePanel {
 	display: grid;
 	grid-template-rows: 1fr 6fr 0.5fr;
-	color: #FFF;
+	color: var(--base-color-two);
 	padding-top: 30px;
 }
 
@@ -154,15 +157,22 @@ body > div {
 #navBar a {
 	text-decoration: none;
 	text-align: center;
-	color: #11BCFA;
+	color: var(--theme-color-one);
 }
 
 #secondaryLinksCont {
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: flex-end;
-	align-items: flex-end;
+	justify-content: space-between;
+	align-items: center;
 	padding: 15px;
+	border: 2px dashed purple;
+}
+
+#secondaryLinksCont div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #aboutPanel {
@@ -171,7 +181,7 @@ body > div {
 	justify-content: center;
 	align-items: center;
 	padding: 3rem 3rem 3rem 3rem;
-	color: #FFF;
+	color: var(--base-color-two);
 }
 
 .sectionLabel {
@@ -188,7 +198,7 @@ body > div {
 }
 
 #aboutContent img {
-	border: 2px solid white;
+	border: 2px solid var(--base-color-two);
 	border-radius: 10px;
 }	
 
@@ -199,19 +209,19 @@ body > div {
 
 #aboutContent a {
 	text-decoration: none;
-	border: 2px solid #FFF;
+	border: 2px solid var(--base-color-two);
 	font-size: 3rem;
 	padding: 10px 32px;
-	background-color: rgba(60, 58, 64, 0.5);
+	background-color: var(--theme-color-three-trans);
 	color: rgb(17, 188, 250);
 	border-radius: 10px;
 	transition: 0.3s;
 }
 
 #aboutContent a:hover {
-	background-color: rgba(17, 188, 250, 0.5);
-	color: #FFF;
-	box-shadow: 0px 4px 10px #000;
+	background-color: var(--theme-color-four);
+	color: var(--base-color-two);
+	box-shadow: 0px 4px 10px var(--base-color-one);
 }
 
 .skillContent {
@@ -253,7 +263,7 @@ body > div {
 	display: grid;
 	grid-template-rows: 0.4fr 25px 3fr;
 	gap: 30px;
-	color: #FFF;
+	color: var(--base-color-two);
 }
 
 /* skill tabs */
@@ -265,7 +275,7 @@ body > div {
 
 /* skill tab buttons */
 .skillTabs button {
-	background-color: rgba(60, 58, 64, 0.5);
+	background-color: var(--theme-color-three-trans);
 	float: left;
 	border: none;
 	outline: none;
@@ -273,22 +283,22 @@ body > div {
 	padding: 14px 16px;
 	transition: 0.3s;
 	font-size: 1.7rem;
-	border: 2px solid #FFF;
+	border: 2px solid var(--base-color-two);
 	border-radius: 10px;
-	color: #FFF;
+	color: var(--base-color-two);
 }
 
 .skillTabs button:hover {
-	background-color: rgba(17, 188, 250, 0.5);
+	background-color: var(--theme-color-one-trans);
 }
 
 .skillTabs button.active {
-	background-color: rgba(17, 188, 250, 0.5);
+	background-color: var(--theme-color-one-trans);
 }
 
 #projectPanel {
 	padding: 3rem;
-	color: #FFF;
+	color: var(--base-color-two);
 	display: grid;
 	grid-template-rows: 0.5fr 4fr;
 }
@@ -314,12 +324,12 @@ body > div {
 
 .myProjects a {
 	text-decoration: none;
-	color: #11BCFA; 
+	color: var(--theme-color-one); 
 }
 
 .prev, .next {
 	cursor: pointer;
-	color: white;
+	color: var(--base-color-two);
 	font-weight: bold;
 	font-size: 3.5rem;
 	transition: 0.3s ease;
@@ -331,30 +341,30 @@ body > div {
 }
 
 .prev:hover, .next:hover {
-	color: #11BCFA;
+	color: var(--theme-color-one);
 }
 
 .projectTitle {
-	color: #FFF;
+	color: var(--theme-color-one);
 	text-align: center;
 	font-size: 2.5rem;
 }
 
 .projectDesc {
-	color: #FFF;
+	color: var(--base-color-two);
 	text-align: center;
 	font-size: 1.8rem;
 }
 
 .active {
-	background-color: #717171;
+	background-color: var(--theme-color-two);
 }
 
 #footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #FFF;
+	color: var(--base-color-two);
 	font-size: 1.2rem;
 }
 
