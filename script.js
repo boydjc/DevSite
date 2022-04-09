@@ -82,10 +82,36 @@ let themeIconDiv = document.querySelector('#secondaryLinksCont div');
 
 themeIconDiv.addEventListener('click', (e) => {
 	themeIcon = themeIconDiv.querySelector("img");
+
+	let root = document.querySelector(':root');
+
 	if(themeIcon.getAttribute("src") === "assets/sun.svg") {
 
+		/* dark mode */
+		
+		root.style.setProperty('--theme-color-one', 'rgb(17, 188, 250)');
+		root.style.setProperty('--theme-color-one-trans', 'rgba(17, 188, 250, 0.5)');
+		root.style.setProperty('--theme-color-two', 'rgb(113, 113, 113)');
+		root.style.setProperty('--theme-color-three', 'rgb(60, 58, 64)');
+		root.style.setProperty('--theme-color-three-trans', 'rgba(60, 58, 64, 0.5)');
+		root.style.setProperty('--theme-color-four', 'rgba(17, 188, 250, 0.5)');
+
+		document.body.style.setProperty('background-image', 'url("assets/circuit-board-dark.svg")');
+	
 		themeIcon.src = "assets/moon.svg";
 	}else if(themeIcon.getAttribute("src") === "assets/moon.svg") {
+		
+		/* light mode */
+
+		root.style.setProperty('--theme-color-one', 'rgb(2, 1, 34)');
+		root.style.setProperty('--theme-color-one-trans', 'rgba(2, 1, 34, 0.5)');
+		root.style.setProperty('--theme-color-two', 'rgb(142, 142, 142)');
+		root.style.setProperty('--theme-color-three', 'rgb(195, 197, 191)');
+		root.style.setProperty('--theme-color-three-trans', 'rgba(195, 197, 191, 0.5)');
+		root.style.setProperty('--theme-color-four', 'rgba(236, 255, 92, 0.5)');
+		
+		document.body.style.setProperty('background-image', 'url("assets/circuit-board-light.svg")');
+
 		themeIcon.src = "assets/sun.svg";
 	}
 });
