@@ -24,8 +24,7 @@
 	--theme-color-three-trans: rgba(60, 58, 64, 0.5);
 	--theme-color-four: rgba(17, 188, 250, 0.5);
 
-	--light-theme-color-one: rgb(238, 67, 5);
-	--light-theme-color-two: rgb(142, 142, 142);
+
 	--light-theme-color-three: rgb(195, 197, 191);
 }
 
@@ -40,7 +39,7 @@ html {
 }
 
 body {
-	background-image: url('assets/circuit-board.svg');
+	background-image: url('assets/circuit-board-dark.svg');
 	background-color: var(--theme-color-three);
 	display: grid;
 	grid-template-columns: 1fr;
@@ -74,6 +73,7 @@ body > div {
 	width: 575px;
 	animation-name: hrLineGrow;
 	animation-duration: 1.5s;
+	color: var(--theme-color-one);
 }
 
 @keyframes hrLineGrow {
@@ -166,13 +166,13 @@ body > div {
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px;
-	border: 2px dashed purple;
 }
 
 #secondaryLinksCont div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 
 #aboutPanel {
@@ -213,7 +213,7 @@ body > div {
 	font-size: 3rem;
 	padding: 10px 32px;
 	background-color: var(--theme-color-three-trans);
-	color: rgb(17, 188, 250);
+	color: var(--theme-color-four);
 	border-radius: 10px;
 	transition: 0.3s;
 }
