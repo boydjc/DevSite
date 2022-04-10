@@ -73,7 +73,7 @@ body > div {
 	width: 575px;
 	animation-name: hrLineGrow;
 	animation-duration: 1.5s;
-	color: var(--theme-color-one);
+	border-color: var(--theme-color-one);
 }
 
 @keyframes hrLineGrow {
@@ -158,6 +158,7 @@ body > div {
 	text-decoration: none;
 	text-align: center;
 	color: var(--theme-color-one);
+	font-weight: bold;
 }
 
 #secondaryLinksCont {
@@ -203,7 +204,7 @@ body > div {
 }	
 
 #aboutContent p {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	text-align: center;
 }
 
@@ -239,7 +240,7 @@ body > div {
 	align-items: center;
 	height: 250px;
 	width: 250px;
-	font-size: 1.8rem;
+	font-size: 2.3rem;
 	opacity: 0;
 	animation-name: fadeUp;
 	animation-duration: 1s;
@@ -282,7 +283,7 @@ body > div {
 	cursor: pointer;
 	padding: 14px 16px;
 	transition: 0.3s;
-	font-size: 1.7rem;
+	font-size: 2.4rem;
 	border: 2px solid var(--base-color-two);
 	border-radius: 10px;
 	color: var(--base-color-two);
@@ -347,13 +348,13 @@ body > div {
 .projectTitle {
 	color: var(--theme-color-one);
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 }
 
 .projectDesc {
 	color: var(--base-color-two);
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 2.3rem;
 }
 
 .active {
@@ -365,6 +366,6 @@ body > div {
 	justify-content: center;
 	align-items: center;
 	color: var(--base-color-two);
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 }
 
