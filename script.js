@@ -85,6 +85,8 @@ themeIconDiv.addEventListener('click', (e) => {
 
 	let root = document.querySelector(':root');
 
+	let githubIcon = document.querySelector('#secondaryLinksCont a img');
+
 	if(themeIcon.getAttribute("src") === "assets/sun.svg") {
 
 		/* dark mode */
@@ -98,6 +100,7 @@ themeIconDiv.addEventListener('click', (e) => {
 
 		document.body.style.setProperty('background-image', 'url("assets/circuit-board-dark.svg")');
 	
+		githubIcon.src = "assets/githubIcon.svg";
 		themeIcon.src = "assets/moon.svg";
 	}else if(themeIcon.getAttribute("src") === "assets/moon.svg") {
 		
@@ -112,6 +115,7 @@ themeIconDiv.addEventListener('click', (e) => {
 		
 		document.body.style.setProperty('background-image', 'url("assets/circuit-board-light.svg")');
 
+		githubIcon.src = "assets/githubIcon-light.svg";
 		themeIcon.src = "assets/sun.svg";
 	}
 });
