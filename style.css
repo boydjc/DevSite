@@ -70,7 +70,7 @@ body > div {
 }
 
 #headlineNameCont hr {
-	width: 575px;
+	width: 675px;
 	animation-name: hrLineGrow;
 	animation-duration: 1.5s;
 	border-color: var(--theme-color-one);
@@ -82,7 +82,7 @@ body > div {
 	}
 
 	to {
-		width: 575px;
+		width: 675px;
 	}
 }
 
@@ -96,7 +96,7 @@ body > div {
 }
 
 #headlineCont p {
-	font-size: 2.7rem;
+	font-size: 3.2rem;
 	opacity: 0;
 }
 
@@ -129,7 +129,7 @@ body > div {
 }
 
 #nameCont h1 {
-	font-size: 6rem;
+	font-size: 8rem;
 	opacity: 0;
 	animation-name: fadeIn;
 	animation-duration: 2s;
@@ -151,7 +151,7 @@ body > div {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	align-items: center;
-	font-size: 320%;
+	font-size: 370%;
 }
 
 #navBar a {
@@ -186,7 +186,7 @@ body > div {
 }
 
 .sectionLabel {
-	font-size: 4.5rem;
+	font-size: 6rem;
 	align-self: flex-start;
 }
 
@@ -204,7 +204,7 @@ body > div {
 }	
 
 #aboutContent p {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	text-align: center;
 }
 
