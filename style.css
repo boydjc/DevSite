@@ -70,7 +70,7 @@ body > div {
 }
 
 #headlineNameCont hr {
-	width: 675px;
+	width: 800px;
 	animation-name: hrLineGrow;
 	animation-duration: 1.5s;
 	border-color: var(--theme-color-one);
@@ -82,7 +82,7 @@ body > div {
 	}
 
 	to {
-		width: 675px;
+		width: 800px;
 	}
 }
 
