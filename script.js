@@ -1,4 +1,8 @@
 
+window.scrollTo({
+	top: 50,
+	behavior: 'smooth'
+});
 
 // click on the default skill
 document.getElementById("defaultSkill").click();
