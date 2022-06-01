@@ -161,6 +161,11 @@ body > div {
 	font-weight: bold;
 }
 
+#navBar a:hover {
+	color:  var(--base-color-two);
+	transition:  0.9s ease;
+}
+
 #secondaryLinksCont {
 	display: flex;
 	flex-flow: row nowrap;
