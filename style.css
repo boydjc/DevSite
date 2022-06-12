@@ -264,6 +264,17 @@ body > div {
 	}
 }
 
+.fadeUpClass {
+	animation-name: fadeUp;
+	animation-duration: 1s;
+	animation-delay: 0.2s;
+	animation-fill-mode: forwards;
+}
+
+.divContent {
+	opacity: 0;
+}
+
 #skillsPanel {
 	padding: 3rem;
 	display: grid;
