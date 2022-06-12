@@ -123,3 +123,30 @@ themeIconDiv.addEventListener('click', (e) => {
 		themeIcon.src = "assets/sun.svg";
 	}
 });
+
+
+// set up IntersectionObserver to watch content elements and display when in viewport
+let interObOptions = {
+	root: null,
+	rootMargin: "0px",
+	threshold: 0.75
+}
+
+let observer = new IntersectionObserver((entries, observer) => {
+	entries.forEach(entry => {
+		if(entry.isIntersecting) {
+			if(!(entry.target.classList.contains("fadeUpClass"))) {
+				entry.target.classList.add("fadeUpClass");
+			}
+		}
+	});
+}, interObOptions);
+
+const divContent = document.getElementsByClassName("divContent");
+
+for(let i=0; i<divContent.length; i++) {
+	observer.observe(divContent[i]);
+}
+	
+
+
